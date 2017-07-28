@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Birt Charts Provider
+Bundle-SymbolicName: de.toem.impulse.charts.birt;singleton:=true
+Bundle-Version: 1.9.0
+Bundle-Activator: de.toem.impulse.charts.birt.ImpulseBirtCharts
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.swt,
+ org.eclipse.jface,
+ org.eclipse.birt,
+ org.eclipse.birt.chart.ui,
+ org.eclipse.birt.chart.ui.extension,
+ org.eclipse.birt.chart.examples.core,
+ com.ibm.icu,
+ de.toem.eclipse.toolkits.editor;bundle-version="[1.9.0,1.9.0]",
+ de.toem.eclipse.toolkits.general;bundle-version="[1.9.0,1.9.0]",
+ de.toem.basics.general;bundle-version="[1.9.0,1.9.0]",
+ de.toem.impulse.base;bundle-version="[1.9.0,1.9.0]",
+ de.toem.pattern.general;bundle-version="[1.9.0,1.9.0]",
+ de.toem.eclipse.hooks;bundle-version="[1.9.0,1.9.0]",
+ de.toem.eclipse.derived;bundle-version="[1.9.0,1.9.0]"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6

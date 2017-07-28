@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+<extension
+         point="org.eclipse.jdt.debug.breakpointListeners">
+      <breakpointListener
+            class="de.toem.impulse.ports.jdt.JavaBreakpointNotifier"
+            id="de.toem.impulse.ports.breakpointListener"
+            filter="*">
+      </breakpointListener>
+   </extension>
+<extension
+      point="de.toem.pattern.general.cell">
+   <cell
+         class="de.toem.impulse.ports.jdt.watchpoint.WatchpointTracer"
+         icon16="icons/cell16/755871-glasses-clock.png"
+         id="port.record.jdt.watchpoint"
+         label="Watch-/Breakpoint Tracer">
+   </cell>
+</extension>
+<extension
+      point="de.toem.pattern.general.instancer">
+   <instancer
+         class="de.toem.impulse.ports.jdt.watchpoint.WatchpointTracerInstancer"
+         description="Watch-/Breakpoint Tracer"
+         id="de.toem.impulse.instancer.port.record.jdt.watchpoint"
+         label="Watch-/Breakpoint Tracer">
+   </instancer>
+</extension>
+<extension
+      point="de.toem.eclipse.toolkits.editor.dialog">
+   <dialog
+         cellTypes="port.record.jdt.watchpoint"
+         class="de.toem.impulse.ports.jdt.watchpoint.WatchpointTracerDialog"
+         id="de.toem.impulse.dialog.port.record.jdt.watchpoint"
+         label="Watch-/Breakpoint Tracer">
+   </dialog>
+</extension>
+<extension
+      point="de.toem.eclipse.toolkits.general.images">
+   <images
+         id="de.toem.impulse.ports.jdt"
+         image="icons/6003-coffee_cup.gif">
+   </images>
+</extension>
+
+</plugin>

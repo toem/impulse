@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<document coverType="" cellType="wallet" version="2">
+    <cell name="New Wallet" type="wallet" hunt="141536747265263001">
+        <cell name="toem hierarchy" type="configuration.record" hunt="141536747265263004">
+            <cell name="A" type="configuration.cursor" hunt="141536747265263005">
+                <fd name="color">180</fd>
+            </cell>
+            <cell name="Integer1" type="configuration.samples" hunt="141536747265263006">
+                <fd name="samples">\Signals\Integer1@141536747265262964</fd>
+                <fd name="color">6334743</fd>
+                <fd name="style">2</fd>
+                <fd name="vectorValueFormat">-1</fd>
+                <fd name="eventValueFormat">-1</fd>
+                <fd name="columnValueFormat">-1</fd>
+                <fd name="description">An integer</fd>
+            </cell>
+            <cell name="Integer2" type="configuration.samples" hunt="141536747265263007">
+                <fd name="samples">\Signals\Integer2@141536747265262965</fd>
+                <fd name="color">6334743</fd>
+                <fd name="style">2</fd>
+                <fd name="vectorValueFormat">-1</fd>
+                <fd name="eventValueFormat">-1</fd>
+                <fd name="columnValueFormat">-1</fd>
+                <fd name="description">A big integer</fd>
+            </cell>
+            <cell name="Event1" type="configuration.samples" hunt="141536747265263008">
+                <fd name="samples">\Signals\Event1@141536747265262962</fd>
+                <fd name="color">20719</fd>
+                <fd name="style">3</fd>
+                <fd name="vectorValueFormat">-1</fd>
+                <fd name="eventValueFormat">-1</fd>
+                <fd name="columnValueFormat">-1</fd>
+                <fd name="description">Simple events</fd>
+            </cell>
+            <cell name="Event2" type="configuration.samples" hunt="141536747265263009">
+                <fd name="samples">\Signals\Event2@141536747265262963</fd>
+                <fd name="color">20719</fd>
+                <fd name="style">3</fd>
+                <fd name="vectorValueFormat">-1</fd>
+                <fd name="eventValueFormat">-1</fd>
+                <fd name="columnValueFormat">-1</fd>
+                <fd name="description">Enum events with ints</fd>
+            </cell>
+            <cell name="Event3" type="configuration.samples" hunt="141536747265263010">
+                <fd name="samples">\Signals\Event3@141536747265262966</fd>
+                <fd name="color">20719</fd>
+                <fd name="style">3</fd>
+                <fd name="vectorValueFormat">-1</fd>
+                <fd name="eventValueFormat">-1</fd>
+                <fd name="columnValueFormat">-1</fd>
+                <fd name="description">Enum events with strings</fd>
+            </cell>
+        </cell>
+        <cell name="toem flat" type="configuration.record" hunt="141536747265263011">
+            <cell name="A" type="configuration.cursor" hunt="141536747265263012">
+                <fd name="color">180</fd>
+            </cell>
+            <cell name="Signals" type="configuration.folder" hunt="141536747265263013">
+                <cell name="Integer1" type="configuration.samples" hunt="141536747265263014">
+                    <fd name="samples">\Signals\Integer1@141536747265262964</fd>
+                    <fd name="color">6334743</fd>
+                    <fd name="style">2</fd>
+                    <fd name="vectorValueFormat">-1</fd>
+                    <fd name="eventValueFormat">-1</fd>
+                    <fd name="columnValueFormat">-1</fd>
+                    <fd name="description">An integer</fd>
+                </cell>
+                <cell name="Integer2" type="configuration.samples" hunt="141536747265263015">
+                    <fd name="samples">\Signals\Integer2@141536747265262965</fd>
+                    <fd name="color">6334743</fd>
+                    <fd name="style">2</fd>
+                    <fd name="vectorValueFormat">-1</fd>
+                    <fd name="eventValueFormat">-1</fd>
+                    <fd name="columnValueFormat">-1</fd>
+                    <fd name="description">A big integer</fd>
+                </cell>
+                <cell name="Event1" type="configuration.samples" hunt="141536747265263016">
+                    <fd name="samples">\Signals\Event1@141536747265262962</fd>
+                    <fd name="color">20719</fd>
+                    <fd name="style">3</fd>
+                    <fd name="vectorValueFormat">-1</fd>
+                    <fd name="eventValueFormat">-1</fd>
+                    <fd name="columnValueFormat">-1</fd>
+                    <fd name="description">Simple events</fd>
+                </cell>
+                <cell name="Event2" type="configuration.samples" hunt="141536747265263017">
+                    <fd name="samples">\Signals\Event2@141536747265262963</fd>
+                    <fd name="color">20719</fd>
+                    <fd name="style">3</fd>
+                    <fd name="vectorValueFormat">-1</fd>
+                    <fd name="eventValueFormat">-1</fd>
+                    <fd name="columnValueFormat">-1</fd>
+                    <fd name="description">Enum events with ints</fd>
+                </cell>
+                <cell name="Event3" type="configuration.samples" hunt="141536747265263018">
+                    <fd name="samples">\Signals\Event3@141536747265262966</fd>
+                    <fd name="color">20719</fd>
+                    <fd name="style">3</fd>
+                    <fd name="vectorValueFormat">-1</fd>
+                    <fd name="eventValueFormat">-1</fd>
+                    <fd name="columnValueFormat">-1</fd>
+                    <fd name="description">Enum events with strings</fd>
+                </cell>
+            </cell>
+        </cell>
+    </cell>
+</document>

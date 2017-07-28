@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Panel" id="1" x="214" y="43" width="199" height="129" measuredWidth="199" measuredHeight="129"/>
+  <widgets xsi:type="model:TextArea" id="2" x="216" y="260" width="199" height="221" measuredWidth="199" measuredHeight="221">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="4" x="224" y="43" width="113" text="trace object &lt;0>" measuredWidth="113" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="5" x="224" y="270" width="177" height="25" text="head 0 entry" measuredWidth="177" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="6" x="224" y="298" width="177" height="25" text="signal definition entry" measuredWidth="177" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="7" x="224" y="332" width="177" height="25" text="open sequence entry" measuredWidth="177" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="8" x="224" y="364" width="177" height="25" text="sample entry" measuredWidth="177" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="9" x="224" y="400" width="177" height="53" text="sample entry" measuredWidth="177" measuredHeight="53">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="11" x="302" y="181" width="8" height="64" text="entries" measuredWidth="8" measuredHeight="64" left="false" right="true"/>
+  <widgets xsi:type="model:Arrow" id="12" x="302" y="-22" width="8" height="56" text="Core 0 API" measuredWidth="8" measuredHeight="56" left="false" right="true"/>
+  <widgets xsi:type="model:Tree" id="24" x="320" y="43" width="95" height="129" text="Root&#xA;-Scope&#xA;--Signal One&#xA;--Signal Two&#xA;-Scope2&#xA;--Signal One&#xA;--Signal Two" measuredWidth="95" measuredHeight="129">
+    <items x="0" y="5" width="95" height="20" text="Root"/>
+    <items x="0" y="25" width="95" height="20" text="-Scope"/>
+    <items x="0" y="45" width="95" height="20" text="--Signal One"/>
+    <items x="0" y="65" width="95" height="20" text="--Signal Two"/>
+    <items x="0" y="85" width="95" height="20" text="-Scope2"/>
+    <items x="0" y="105" width="95" height="20" text="--Signal One"/>
+    <items x="0" y="125" width="95" height="20" text="--Signal Two"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="26" x="269" y="-110" width="68" height="75" measuredWidth="68" measuredHeight="75" icon="cube (large)"/>
+  <widgets xsi:type="model:Panel" id="27" x="448" y="43" width="199" height="129" measuredWidth="199" measuredHeight="129"/>
+  <widgets xsi:type="model:TextArea" id="28" x="450" y="260" width="199" height="221" measuredWidth="199" measuredHeight="221">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="29" x="458" y="43" width="113" text="trace object &lt;0>" measuredWidth="113" measuredHeight="21">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="30" x="458" y="270" width="177" height="25" text="head 1 entry" measuredWidth="177" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="31" x="458" y="298" width="177" height="25" text="signal definition entry" measuredWidth="177" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="32" x="458" y="332" width="177" height="25" text="open sequence entry" measuredWidth="177" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="33" x="458" y="364" width="177" height="25" text="sample entry" measuredWidth="177" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="34" x="458" y="400" width="177" height="53" text="sample entry" measuredWidth="177" measuredHeight="53">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="35" x="536" y="181" width="8" height="64" text="entries" measuredWidth="8" measuredHeight="64" left="false" right="true"/>
+  <widgets xsi:type="model:Arrow" id="36" x="536" y="-22" width="8" height="56" text="Core 1 API" measuredWidth="8" measuredHeight="56" left="false" right="true"/>
+  <widgets xsi:type="model:Tree" id="37" x="554" y="43" width="95" height="129" text="Root&#xA;-Scope&#xA;--Signal One&#xA;--Signal Two&#xA;-Scope2&#xA;--Signal One&#xA;--Signal Two" measuredWidth="95" measuredHeight="129">
+    <items x="0" y="5" width="95" height="20" text="Root"/>
+    <items x="0" y="25" width="95" height="20" text="-Scope"/>
+    <items x="0" y="45" width="95" height="20" text="--Signal One"/>
+    <items x="0" y="65" width="95" height="20" text="--Signal Two"/>
+    <items x="0" y="85" width="95" height="20" text="-Scope2"/>
+    <items x="0" y="105" width="95" height="20" text="--Signal One"/>
+    <items x="0" y="125" width="95" height="20" text="--Signal Two"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="38" x="503" y="-110" width="68" height="75" measuredWidth="68" measuredHeight="75" icon="cube (large)"/>
+  <widgets xsi:type="model:Icon" id="39" x="384" y="562" width="96" height="88" measuredWidth="96" measuredHeight="88" icon="circled-plus (large)"/>
+  <widgets xsi:type="model:Arrow" id="40" x="352" y="507" width="42" height="56" measuredWidth="42" measuredHeight="56" left="false" right="true"/>
+  <widgets xsi:type="model:Arrow" id="42" x="466" y="507" width="54" height="56" measuredWidth="54" measuredHeight="56" direction="bottom"/>
+  <widgets xsi:type="model:Arrow" id="43" x="432" y="675" width="8" height="48" measuredWidth="8" measuredHeight="48" direction="bottom"/>
+  <widgets xsi:type="model:Icon" id="45" x="375" y="744" width="105" height="105" measuredWidth="105" measuredHeight="105" foreground="#6aa84f" icon="save (large)"/>
+  <widgets xsi:type="model:Text" id="46" x="554" y="556" width="307" height="28" text="Option 1: Concat trace output 1+2&#xA;&#xA;" measuredWidth="307" measuredHeight="28">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="47" x="602" y="616" text="head0" measuredWidth="45" measuredHeight="21" background="#fff2cc">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="48" x="646" y="616" width="243" text="all entries trace0" measuredWidth="243" measuredHeight="21" background="#fff2cc">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="49" x="884" y="616" text="head1" measuredWidth="45" measuredHeight="21" background="#d9ead3">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="50" x="928" y="616" width="243" text="all entries trace 0" measuredWidth="243" measuredHeight="21" background="#d9ead3">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="51" x="602" y="702" text="head0" measuredWidth="45" measuredHeight="21" background="#fff2cc">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="52" x="646" y="702" width="91" text="entry chunk" measuredWidth="91" measuredHeight="21" background="#fff2cc">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="53" x="732" y="702" text="head1" measuredWidth="45" measuredHeight="21" background="#d9ead3">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="54" x="776" y="702" width="96" text="entry chunk" measuredWidth="96" measuredHeight="21" background="#d9ead3">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="55" x="874" y="702" text="trace0" measuredWidth="47" measuredHeight="21" background="#ffd966">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="56" x="918" y="702" width="91" text="entry chunk" measuredWidth="91" measuredHeight="21" background="#fff2cc">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="57" x="1004" y="702" text="trace1" measuredWidth="47" measuredHeight="21" background="#b6d7a8">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="58" x="1048" y="702" width="96" text="entry chunk" measuredWidth="96" measuredHeight="21" background="#d9ead3">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="61" x="554" y="656" width="307" height="32" text="Option 2: Use trace entries&#xA;" measuredWidth="307" measuredHeight="32">
+    <font size="15px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

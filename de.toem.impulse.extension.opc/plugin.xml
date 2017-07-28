@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="de.toem.pattern.general.cell">
+      <cell
+            class="de.toem.impulse.extension.opc.ua.OpcUaAdapter"
+            icon16="icons/cell16/opc.jpg"
+            id="port.record.opc.ua"
+            label="OPC UA">
+      </cell>
+      <cell
+            class="de.toem.impulse.extension.opc.ua.OpcUaNode"
+            id="opc.ua.node"
+            label="Opc Ua Node">
+      </cell>
+   </extension>
+   <extension
+         point="de.toem.pattern.general.instancer">
+      <instancer
+            class="de.toem.impulse.extension.opc.ua.OpcUaAdapterInstancer"
+            description="Add new OPC UA Port"
+            id="de.toem.impulse.instancer.port.record.opc.ua"
+            label="OPC UA">
+      </instancer>
+   </extension>
+   <extension
+         point="de.toem.eclipse.toolkits.editor.dialog">
+      <dialog
+            cellTypes="port.record.opc.ua"
+            class="de.toem.impulse.extension.opc.ua.OpcUaAdapterDialog"
+            id="de.toem.impulse.dialog.port.record.opc.ua"
+            label="OPC UA">
+      </dialog>
+      <dialog
+            cellTypes="opc.ua.node"
+            class="de.toem.impulse.extension.opc.ua.OpcUaNodeDialog"
+            id="de.toem.impulse.dialog.port.record.opc.ua.node"
+            label="OPC UA Node">
+      </dialog>
+     
+   </extension>
+   <extension
+         point="de.toem.eclipse.toolkits.general.images">
+      <images
+            id="opc.ua.node.variable.16"
+            image="icons/cell16/tag_blue.png">
+      </images>
+      <images
+            id="opc.ua.node.object.16"
+            image="icons/cell16/bricks.png">
+      </images>
+   </extension>
+
+</plugin>
