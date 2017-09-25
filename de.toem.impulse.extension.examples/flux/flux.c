@@ -20,6 +20,9 @@ extern "C"
 #endif
 #include "flux.h"
 
+#ifndef FLX_ENDIANESS
+#define FLX_ENDIANESS  1 /* little*/
+#endif
 // ######################################################################################################################
 
 const flxbyte FLX_VERSION = 4;
@@ -555,9 +558,8 @@ static flxbint _intwrite(void* value, flxbyte size, flxbool signd, flxbyte szDf,
 	flxbptr vbytes = (flxbptr) value;
 	flxsint n = 1;
 	flxuint rsize = size;
-	flxbool little = ((char*) &n)[0] == 1;
 
-	if (little) {
+#if FLX_ENDIANESS == 1 /*little*/
 		signd &= size > 0 && (vbytes[size - 1] & 0x80) != 0;
 		for (n = size - 1; n >= 0; n--) {
 			if (!signd && !vbytes[n] && (n == 0 || (vbytes[n - 1] & 0x80) == 0))
@@ -577,7 +579,7 @@ static flxbint _intwrite(void* value, flxbyte size, flxbool signd, flxbyte szDf,
 		for (n = 0; n < rsize; n++) {
 			bytes[pos + written++] = vbytes[n];
 		}
-	} else {
+#else
 		signd &= (vbytes[0] & 0x80) != 0;
 		for (n = 0; n < size; n++) {
 			if (!signd && !vbytes[n]
@@ -598,7 +600,7 @@ static flxbint _intwrite(void* value, flxbyte size, flxbool signd, flxbyte szDf,
 		for (n = size - 1; n >= size - rsize; n--) {
 			bytes[pos + written++] = vbytes[n];
 		}
-	}
+#endif
 	return written;
 }
 
@@ -640,7 +642,6 @@ static flxbint _floatwrite(void* value, flxbyte size, flxbyte szDf,
 	flxbint written = 0;
 	flxbptr vbytes = (flxbptr) value;
 	flxsint n = 1;
-	flxbool little = ((char*) &n)[0] == 1;
 
 	if (size != 4 && size != 8)
 		return 0;
@@ -650,14 +651,15 @@ static flxbint _floatwrite(void* value, flxbyte size, flxbyte szDf,
 					_pluswrite(szDf ? ((size << 4) | (szDf & 0x0f)) : size,
 							bytes, pos) :
 					0;
-	if (little)
+#if FLX_ENDIANESS == 1 /*little*/
 		for (n = 0; n < size; n++) {
 			bytes[pos + written++] = vbytes[n];
 		}
-	else
+#else
 		for (n = size - 1; n >= 0; n--) {
 			bytes[pos + written++] = vbytes[n];
 		}
+#endif
 	return written;
 }
 
@@ -1046,6 +1048,23 @@ flxresult flxWriteHeadEntry(flxBuffer buffer, flxtext format4, flxid traceId,
 	}
 	return FLX_ERROR_BUFFER_NOT_AVAIL;
 }
+
+flxresult flxWriteSwitchEntry(flxBuffer buffer, flxid traceId) {
+
+// request buffer
+	flxbint request = 2 + REQ1(flxid);
+	flxbptr bytes = 0;
+	flxbint written = 0;
+
+	if (buffer->access(FLX_BUFFER_REQUEST, buffer, &request, &bytes) == FLX_OK) {
+		bytes[written++] = 0;
+		bytes[written++] = FLX_ENTRY_SWTH;
+		written += _pluswrite(traceId, bytes, written);
+		return buffer->access(FLX_BUFFER_COMMIT, buffer, &written, 0);
+	}
+	return FLX_ERROR_BUFFER_NOT_AVAIL;
+}
+
 #ifdef FLX_COMPRESS
 
 flxresult flxWritePackEntry(flxBuffer buffer, flxbyte mode, flxbptr value,
@@ -1916,15 +1935,20 @@ flxresult flxAddHead(flxTrace trace, flxtext name, flxtext description) {
 	if (!trace->buffer)
 		return FLX_ERROR_NO_BUFFER;
 	return flxWriteHeadEntry(trace->buffer, "flux", trace->id, name,
-			description, trace->mode, trace->maxItemId, trace->maxEntrySize);
+			description, FLX_MODE_HEAD_NORMAL, trace->maxItemId, trace->maxEntrySize);
 }
-
+flxresult flxAddModeHead(flxTrace trace, flxtext name, flxtext description, flxbyte mode) {
+	if (!trace->buffer)
+		return FLX_ERROR_NO_BUFFER;
+	return flxWriteHeadEntry(trace->buffer, "flux", trace->id, name,
+			description, mode, trace->maxItemId, trace->maxEntrySize);
+}
 flxresult flxAddHeadDerived(flxTrace trace, flxtext format4, flxtext name,
 		flxtext description) {
 	if (!trace->buffer)
 		return FLX_ERROR_NO_BUFFER;
 	return flxWriteHeadEntry(trace->buffer, format4, trace->id, name,
-			description, trace->mode, trace->maxItemId, trace->maxEntrySize);
+			description, FLX_MODE_HEAD_NORMAL, trace->maxItemId, trace->maxEntrySize);
 }
 
 flxresult flxAddSections(flxTrace trace, flxuint noOfSections) {

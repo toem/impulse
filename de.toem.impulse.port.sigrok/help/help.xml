@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contexts>
+  <context id="sigrok_dialog">
+    <description>The sigrok project provides a software set that enables various aquisition device types, such as logic analyzers, MSOs, oscilloscopes, multimeters, LCR meters, sound level meters, thermometers, hygrometers, anemometers, light meters, Energy meters, DAQs, dataloggers, function generators, RF receivers, spectrum analyzers, power supplies and GPIB interfaces. </description>
+    <topic href="http://toem.de/index.php/projects/impulse/articles/36-using-the-sigrok-adapter" label="Using the new Sigrok Adapter" />
+    <topic href="http://toem.de/index.php/projects/impulse/manual/40-5-intro-ports" label="06 Ports" />
+  </context>
+  <context id="sigrok_preferences">
+    <description>The sigrok project provides a software set that enables various aquisition device types, such as logic analyzers, MSOs, oscilloscopes, multimeters, LCR meters, sound level meters, thermometers, hygrometers, anemometers, light meters, Energy meters, DAQs, dataloggers, function generators, RF receivers, spectrum analyzers, power supplies and GPIB interfaces. </description>
+    <topic href="http://toem.de/index.php/projects/impulse/articles/36-using-the-sigrok-adapter" label="Using the new Sigrok Adapter" />
+    <topic href="http://toem.de/index.php/projects/impulse/manual/40-5-intro-ports" label="06 Ports" />
+  </context>
+</contexts> 

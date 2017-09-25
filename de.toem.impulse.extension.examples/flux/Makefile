@@ -1,5 +1,5 @@
 
-DIRS = example01 example02 example03 example04 example05 example06 example07 example08 example10 example11 example12 example20 example21 example22 example30
+DIRS = example01 example02 example03 example04 example05 example06 example07 example08 example10 example11 example12 example20 example21 example22 example30 example31
 BUILD = $(DIRS)
 TRACE = $(DIRS)
 all:

@@ -74,6 +74,9 @@ typedef long flxsdelta; // domain signed delta
 // Error codes
 // ######################################################################################################################
 
+#define FLX_MODE_HEAD_NORMAL 0x00  /* Normal mode */
+#define FLX_MODE_HEAD_SYNC   0x01  /* Sync mode - may ignore all further definitions and open */
+
 #define FLX_OK  0
 #define FLX_ERROR_BUFFER_UNKNOWN_COMMAND -1
 #define FLX_ERROR_BUFFER_OVERFLOW  -1
@@ -337,6 +340,17 @@ typedef struct flxMemberValueStruct {
  * @return Returns FLX_OK is succeeded, or FLX_ERROR_ in the error case
  */
 flxresult flxAddHead(flxTrace trace, flxtext name, flxtext description);
+
+/**
+ * Writes a head entry. The head entry contains information data about the trace and is also used as file identification.
+ * @param trace : The trace object
+ * @param name : The name of the item
+ * @param description : Descriptive text for this item or 0
+ * @param mode : Mode parameter 0:normal 1: sync
+ * @return Returns FLX_OK is succeeded, or FLX_ERROR_ in the error case
+ */
+flxresult flxAddModeHead(flxTrace trace, flxtext name, flxtext description, flxbyte mode);
+
 /**
  * Writes a head entry for a derived format. The head entry contains information data about the trace and is also used as file identification.
  * @param trace : The trace object

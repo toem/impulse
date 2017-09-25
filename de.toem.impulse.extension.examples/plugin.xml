@@ -236,7 +236,7 @@
       </cell>
       <cell
             class="de.toem.impulse.charts.examples.ExampleSimpleChart"
-            icon16="icons/cell16/8002-profile_graph.gif"
+            icon16="icons/cell16/chart_pie.png"
             id="chart.example.simple"
             label="Example Chart - Simple">
       </cell>
@@ -338,5 +338,42 @@
             label="Example Shortest Event ">
       </disclosure>
    </extension>
-
+	<extension
+      point="org.eclipse.pde.ui.pluginContent">
+      <wizard
+            name="impulse reader"
+            icon="icons/cell16/multiple.gif"
+            class="de.toem.impulse.serializer.wizard.NewReaderWizard"
+            id="de.toem.impulse.extension.wizard.reader">
+         <description>
+This wizards helps you to create a new reader.
+         </description>
+      </wizard>
+	</extension>
+	   <extension
+         point="org.eclipse.pde.ui.templates">
+      <template
+            contributingId="de.toem.pattern.general.serializer"
+            name="impulse reader"
+            class="de.toem.impulse.serializer.wizard.NewReaderTemplate"
+            id="de.toem.impulse.extension.template.reader">
+      </template>
+	</extension>
+	<extension
+         point="org.eclipse.pde.ui.newExtension">
+      <category
+            name="impulse extensions"
+            id="de.toem.impulse.extension.wizard">
+      </category>
+      <wizard
+            name="impulse reader"
+            template="de.toem.impulse.extension.template.reader"
+            icon="icons/cell16/multiple.gif"
+            category="de.toem.impulse.extension.wizard"
+            id="de.toem.impulse.extension.new.reader">
+         <description>
+This wizards helps you to create a new reader.
+         </description>
+      </wizard>      
+	</extension>
 </plugin>

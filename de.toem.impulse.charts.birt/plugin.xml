@@ -5,28 +5,28 @@
        point="de.toem.pattern.general.cell">
     <cell
           class="de.toem.impulse.charts.birt.bar.BarChart"
-          icon16="icons/cell16/8002-profile_graph.gif"
+          icon16="icons/cell16/chart_bar.png"
           id="chart.birt.bar"
           label="Bar Chart (Birt)">
     </cell>
     <cell
           class="de.toem.impulse.charts.birt.pie.PieChart"
-          icon16="icons/cell16/8002-profile_graph.gif"
+          icon16="icons/cell16/chart_pie.png"
           id="chart.birt.pie"
           label="Pie Chart (Birt)">
     </cell>
     <cell
           class="de.toem.impulse.charts.birt.line.LineChart"
-          icon16="icons/cell16/8002-profile_graph.gif"
+          icon16="icons/cell16/chart_curve.png"
           id="chart.birt.line"
           label="Line Chart (Birt)">
     </cell>    
     <cell
           class="de.toem.impulse.charts.birt.radar.RadarChart"
-          icon16="icons/cell16/8002-profile_graph.gif"
+          icon16="icons/cell16/radar.png"
           id="chart.birt.radar"
           label="Radar Chart (Birt)">
-    </cell>      
+    </cell>   
   </extension>
  <extension
        point="de.toem.pattern.general.instancer">

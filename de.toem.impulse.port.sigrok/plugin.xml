@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+<extension
+         point="de.toem.pattern.general.cell">
+      <cell
+            class="de.toem.impulse.ports.sigrok.SigrokAdapter"
+            icon16="icons/cell16/sigrok.png"
+            id="port.record.sigrok"
+            label="Sigrok">
+      </cell>
+   </extension>
+   <extension
+         point="de.toem.pattern.general.instancer">
+      <instancer
+            class="de.toem.impulse.ports.sigrok.SigrokAdapterInstancer"
+            description="Add new  Sigrok Adapter"
+            id="de.toem.impulse.instancer.port.sigrok"
+            label="Sigrok Adapter">
+      </instancer>
+   </extension>
+   <extension
+         point="de.toem.eclipse.toolkits.editor.dialog">
+      <dialog
+            cellTypes="port.record.sigrok"
+            class="de.toem.impulse.ports.sigrok.SigrokAdapterDialog"
+            id="de.toem.impulse.dialog.port.sigrok"
+            label="Sigrok">
+      </dialog>
+   </extension>
+   <extension
+         point="org.eclipse.core.contenttype.contentTypes">
+      <content-type
+            base-type="de.toem.impulse.contentType.record"
+            file-extensions="sr"
+            id="de.toem.impulse.contentType.sr"
+            name="SR Record"
+            priority="normal">
+         <describer
+               class="de.toem.impulse.serializer.RecordContentDescriber"
+               plugin="de.toem.impulse.base">
+            <parameter
+                  name="contentType"
+                  value="de.toem.impulse.contentType.sr">
+            </parameter>
+         </describer>
+      </content-type>
+   </extension>
+   <extension
+         point="de.toem.pattern.general.serializer">
+      <serializer
+            contentType="de.toem.impulse.contentType.sr"
+            defaultConfiguration="false"
+            description="SR (sigrok-cli)"
+            id="de.toem.impulse.serializer.converter.sr"
+            label="Sigrok (SR)"
+            reader="de.toem.impulse.serializer.sr.SrReader">
+      </serializer>
+   </extension>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            category="de.toem.impulse.preferencePage.native"
+            class="de.toem.impulse.ports.sigrok.preferences.PreferencePage"
+            id="de.toem.impulse.preferencePage.native.sigrok"
+            name="Sigrok Native">
+      </page>
+   </extension>
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer
+            class="de.toem.impulse.ports.sigrok.preferences.PreferenceInitializer">
+      </initializer>
+   </extension>
+
+   <extension
+         point="org.eclipse.help.contexts">
+      <contexts
+            file="help/help.xml"
+            plugin="de.toem.impulse.port.sigrok">
+      </contexts>
+   </extension>
+</plugin>

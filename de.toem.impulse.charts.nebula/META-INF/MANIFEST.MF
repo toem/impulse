@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Nebula Charts Provider
 Bundle-SymbolicName: de.toem.impulse.charts.nebula;singleton:=true
-Bundle-Version: 1.9.0
+Bundle-Version: 1.8.18
 Bundle-Activator: de.toem.impulse.charts.nebula.ImpulseNebulaCharts
 Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.swt,
@@ -10,13 +10,13 @@ Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.draw2d,
  org.eclipse.ui.workbench,
  org.eclipse.ui.console,
- de.toem.eclipse.toolkits.editor;bundle-version="[1.9.0,1.9.0]",
- de.toem.eclipse.toolkits.general;bundle-version="[1.9.0,1.9.0]",
- de.toem.basics.general;bundle-version="[1.9.0,1.9.0]",
- de.toem.impulse.base;bundle-version="[1.9.0,1.9.0]",
- de.toem.pattern.general;bundle-version="[1.9.0,1.9.0]",
- de.toem.eclipse.hooks;bundle-version="[1.9.0,1.9.0]",
- de.toem.eclipse.derived;bundle-version="[1.9.0,1.9.0]"
+ de.toem.eclipse.toolkits.editor;bundle-version="[1.8.18,1.8.18]",
+ de.toem.eclipse.toolkits.general;bundle-version="[1.8.18,1.8.18]",
+ de.toem.basics.general;bundle-version="[1.8.18,1.8.18]",
+ de.toem.impulse.base;bundle-version="[1.8.18,1.8.18]",
+ de.toem.pattern.general;bundle-version="[1.8.18,1.8.18]",
+ de.toem.eclipse.hooks;bundle-version="[1.8.18,1.8.18]",
+ de.toem.eclipse.derived;bundle-version="[1.8.18,1.8.18]"
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ClassPath: .

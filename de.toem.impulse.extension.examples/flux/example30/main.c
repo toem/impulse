@@ -21,6 +21,9 @@ extern "C"
 #define MAX_ITEM_ID 2 // maximum id of scope/signal
 #define MAX_ENTRY_SIZE 4096
 
+flxTrace trace;
+flxBuffer buffer;
+
 flxresult initBuffer(flxbyte command, void* buffer,
 		struct flxTraceStruct *trace) {
 
@@ -47,7 +50,7 @@ int main() {
 			initBuffer);
 
 	// trace
-	flxTrace trace = flxCreateTrace(0, MAX_ITEM_ID, MAX_ENTRY_SIZE, memoryTrace,
+	trace = flxCreateTrace(0, MAX_ITEM_ID, MAX_ENTRY_SIZE, memoryTrace,
 			traceSize, buffer);
 
 	if (trace != 0) {
@@ -79,6 +82,9 @@ int main() {
 			// float - same time - use domain=0; isDelta=1
 			fVal = sin(n / 1000.0);
 			flxWriteFloatAt(trace, 2, 0, 0, 1, &fVal, sizeof(float));
+
+			// int *p=0;
+			// *p=34;
 		}
 
 		// close

@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Jdt extension for impulse
 Bundle-SymbolicName: de.toem.impulse.extension.jdt;singleton:=true
-Bundle-Version: 1.9.0
+Bundle-Version: 1.8.18
 Bundle-Activator: de.toem.impulse.ports.jdt.JdtPorts
 Bundle-Vendor: toem
 Require-Bundle: org.eclipse.core.runtime,
@@ -12,11 +12,11 @@ Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.debug.core,
  org.eclipse.jdt.core,
  org.eclipse.jdt.debug,
- de.toem.basics.general;bundle-version="[1.9.0,1.9.0]",
- de.toem.eclipse.toolkits.editor;bundle-version="[1.9.0,1.9.0]",
- de.toem.eclipse.toolkits.general;bundle-version="[1.9.0,1.9.0]",
- de.toem.impulse.base;bundle-version="[1.9.0,1.9.0]",
- de.toem.pattern.general;bundle-version="[1.9.0,1.9.0]",
- de.toem.eclipse.hooks;bundle-version="[1.9.0,1.9.0]"
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+ de.toem.basics.general;bundle-version="[1.8.18,1.8.18]",
+ de.toem.eclipse.toolkits.editor;bundle-version="[1.8.18,1.8.18]",
+ de.toem.eclipse.toolkits.general;bundle-version="[1.8.18,1.8.18]",
+ de.toem.impulse.base;bundle-version="[1.8.18,1.8.18]",
+ de.toem.pattern.general;bundle-version="[1.8.18,1.8.18]",
+ de.toem.eclipse.hooks;bundle-version="[1.8.18,1.8.18]"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ActivationPolicy: lazy

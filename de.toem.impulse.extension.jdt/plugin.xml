@@ -13,7 +13,7 @@
       point="de.toem.pattern.general.cell">
    <cell
          class="de.toem.impulse.ports.jdt.watchpoint.WatchpointTracer"
-         icon16="icons/cell16/755871-glasses-clock.png"
+         icon16="icons/cell16/time_go.png"
          id="port.record.jdt.watchpoint"
          label="Watch-/Breakpoint Tracer">
    </cell>
@@ -40,7 +40,7 @@
       point="de.toem.eclipse.toolkits.general.images">
    <images
          id="de.toem.impulse.ports.jdt"
-         image="icons/6003-coffee_cup.gif">
+         image="icons/cup.png">
    </images>
 </extension>
 

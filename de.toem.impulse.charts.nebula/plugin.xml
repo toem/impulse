@@ -5,19 +5,19 @@
        point="de.toem.pattern.general.cell">
     <cell
           class="de.toem.impulse.charts.nebula.xy.XyChart"
-          icon16="icons/cell16/8002-profile_graph.gif"
+          icon16="icons/cell16/chart_line.png"
           id="chart.nebula.xy"
           label="Xy Chart (Nebula)">
     </cell>
     <cell
           class="de.toem.impulse.charts.nebula.intensity.IntensityChart"
-          icon16="icons/cell16/8002-profile_graph.gif"
+          icon16="icons/cell16/rainbow.png"
           id="chart.nebula.intensity"
           label="Intensity Chart (Nebula)">
     </cell>    
     <cell
           class="de.toem.impulse.charts.nebula.eye.EyeChart"
-          icon16="icons/cell16/8002-profile_graph.gif"
+          icon16="icons/cell16/eye.png"
           id="chart.nebula.eye"
           label="Eye Chart (Nebula)">
     </cell>    
