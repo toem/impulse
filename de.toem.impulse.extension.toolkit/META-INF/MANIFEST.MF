@@ -1,0 +1,716 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: impulse Examples Extension
+Bundle-SymbolicName: de.toem.impulse.extension.toolkit;singleton:=true
+Bundle-Version: 2.2.2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.swt,org.eclipse.jfa
+ ce,org.eclipse.ui,org.eclipse.pde.ui,org.eclipse.pde.ui.templates,org.e
+ clipse.core.resources,de.toem.basics.general;bundle-version="[2.2.2,2.2
+ .2]",de.toem.pattern.general;bundle-version="[2.2.2,2.2.2]",de.toem.ecl
+ ipse.toolkits.general;bundle-version="[2.2.2,2.2.2]",de.toem.eclipse.to
+ olkits.ui;bundle-version="[2.2.2,2.2.2]",de.toem.impulse.base;bundle-ve
+ rsion="[2.2.2,2.2.2]"
+Bundle-Vendor: toem.de
+Bundle-Activator: de.toem.impulse.extension.toolkit.ImpulseToolkitExtens
+ ion
+Bundle-ActivationPolicy: lazy
+Bundle-Localization: i18n/i18n
+
+Name: plugin.xml
+SHA-256-Digest: v4j46Tn/q+w4v99Dqn0QRc/XJ4y1fEF2sc4UwBOcIy8=
+
+Name: flux/example22/macosx-x86_64/example
+SHA-256-Digest: 9B66TAU7hPOs/8bK1/M2OxijGbRaSneK6MTXIoxwxDU=
+
+Name: src/de/toem/impulse/extension/toolkit/serializer/examples/ExampleS
+ treamReader.java
+SHA-256-Digest: v1LxQ3qwEGUoev5nPCItURsk/unS6gMo0+OO8CK0qyQ=
+
+Name: de/toem/impulse/extension/toolkit/ports/scope/ExampleScopeAdapter.
+ class
+SHA-256-Digest: OPalVOkW+SnfdaATtYNAX7fhUxTXjvN3yc3vH5l4/e8=
+
+Name: src/de/toem/impulse/extension/toolkit/serializer/wizard/NewReaderW
+ izard.java
+SHA-256-Digest: Se2hfZbfvONJ+8Bc7ND7sQilGiHg2QNER1nLWOeeTJk=
+
+Name: flux/example12/example
+SHA-256-Digest: 6UycRvq5xl7r42hXei+kTIMGrylU8KSuvcKX1Rurm1I=
+
+Name: src/de/toem/impulse/extension/toolkit/ports/highspeed/ExampleHighs
+ peedAdapterInstancer.java
+SHA-256-Digest: iyAECbU3EmDXSteYR/oU5RjntTP7kzKzbeyNNqxvO8U=
+
+Name: input.gif
+SHA-256-Digest: iDsG9YeRiG6bdg/tsrYs9z7EVIFp9FYUu/f6NCUlPZo=
+
+Name: samples/toem.float.example
+SHA-256-Digest: MBpp8SxlBTLH2GFxNDvbTBSPfPZo2EyY9RYsohMV5rI=
+
+Name: i18n/i18n.properties
+SHA-256-Digest: JEknoEFIYCKLSQmNgcImn4nsrhoxKkdnYcba0uFXlgI=
+
+Name: flux/Makefile.release
+SHA-256-Digest: EYSM9PaXSakAbZQ/DFSn5AHhLPNy9liU1NuFUNe5ky8=
+
+Name: de/toem/impulse/extension/toolkit/charts/ExampleSimpleChart.class
+SHA-256-Digest: gSqe4TjloeH9OZb/1hYDAhkfKIiFM/toYPQfmmfDxFU=
+
+Name: flux/example06/Makefile
+SHA-256-Digest: 8c5DWY4cMHonwdxxjz4J+d2nuy5rL44jCDDO2YC05no=
+
+Name: de/toem/impulse/extension/toolkit/ports/scope/ExampleScopeAdapterD
+ ialog$1.class
+SHA-256-Digest: ZAy73SBZiYrUxeQGPKl2rukBFVMQGKbdms2cYpjUB/0=
+
+Name: .settings/language.settings.xml
+SHA-256-Digest: SHQpaYMTRdTDA3gfodggTC7Y1Sw/rTllOhvTJVyGQVs=
+
+Name: flux/example22/win32-x86_64/example.exe
+SHA-256-Digest: CocViZjECvpHKt/UIfr5G7rV369F8JPhRzgGI/z4hXU=
+
+Name: flux/example20/macosx-x86/example
+SHA-256-Digest: UXwCBaKziBTja9LpGTBd8EKnWfNeyYNl3NGSJU6hYdg=
+
+Name: flux/example22/linux-x86_64/example
+SHA-256-Digest: OA5v5RXRYtEtAdaXW81g4AU/JbEtOfkvMOtANYYxA0M=
+
+Name: src/de/toem/impulse/extension/toolkit/ports/flux/ExampleFluxInstan
+ cer.java
+SHA-256-Digest: w/S6a8/GNDKeJV8dOj9lFvzCe+tn59td7jN4ktNK04U=
+
+Name: src/de/toem/impulse/extension/toolkit/ports/scope/ExampleScopeAdap
+ ter.java
+SHA-256-Digest: h6FnOQS+aedxyMjqKqzklmjivGO1VnXP/ZeThROqrLA=
+
+Name: flux/example20/macosx-x86_64/example
+SHA-256-Digest: d9Q1+P1xZIQk9F0FvOgVfMc4E4g/kP43pLfcsSOsgdI=
+
+Name: de/toem/impulse/extension/toolkit/core/CreateRecordAndOpenViewer.c
+ lass
+SHA-256-Digest: eHL4/AkRrg3m6QkkCqY5UYvgtlJj1R0UlfJ8RlymQzk=
+
+Name: flux/example30/example
+SHA-256-Digest: UTfqiD46Hi75jNAzFoQYzu3PQtdTa7vUikF6MfqaPqg=
+
+Name: flux/example30/main.c
+SHA-256-Digest: 7VHXC8ad2NbG0pSCyI8bwniTi6FmhRawG9tvydNwQPs=
+
+Name: flux/example21/main.c
+SHA-256-Digest: Rekr9uriLBtcSWRixvI/ZhIxe26Od9hj7WaDNhDp2SA=
+
+Name: samples/toem.fluxdb.example
+SHA-256-Digest: MBpp8SxlBTLH2GFxNDvbTBSPfPZo2EyY9RYsohMV5rI=
+
+Name: flux/example06/example
+SHA-256-Digest: LRZwEvDfkNhh2frUpeSoiJehj/IRnt3AJL/5kuaomzQ=
+
+Name: flux/example21/linux-x86_64/example
+SHA-256-Digest: DyY/JjUXpSq+Z7OWUlsihNh6A+6x5WeGnxX4d5JZiDQ=
+
+Name: de/toem/impulse/extension/toolkit/serializer/wizard/NewReaderTempl
+ ate.class
+SHA-256-Digest: bhgTU12BJz+OUObB3uYCvpYyRNtMZ7rPBZkyieC8jq8=
+
+Name: flux/example2x/out
+SHA-256-Digest: akKWjF9oFHvbO2VajXqCsMGUEMNo8au2lXFWyEFiSjo=
+
+Name: src/de/toem/impulse/extension/toolkit/charts/ExampleSimpleChartIns
+ tancer.java
+SHA-256-Digest: rBNdTXvjClEY+r+0ihxhkj7j+zBiNpT1VdsZTgDIOA8=
+
+Name: src/de/toem/impulse/extension/toolkit/serializer/examples/flux/Exa
+ mpleFluxDatabaseReader.java
+SHA-256-Digest: ORNXZZXdvKlTfSvRF1XbBSrMgq6KSY/9n82Ek1k+6vQ=
+
+Name: src/de/toem/impulse/extension/toolkit/ports/flux/ExampleFluxAdapte
+ r.java
+SHA-256-Digest: 5RRv67pwYDmD83sJXqXrX3s5k/8GCkURB+TxZPzN7/g=
+
+Name: flux/example01/Makefile
+SHA-256-Digest: VXYT/fhM4wYFrTqww3dXh4at2tO6NbadWO11Trm6DxU=
+
+Name: flux/example21/win32-x86/example.exe
+SHA-256-Digest: 57hkHJCWOQffHqoGwwbD2t2W67IjRbXiVJpwGnHSDA4=
+
+Name: flux/example04/Makefile
+SHA-256-Digest: 8c5DWY4cMHonwdxxjz4J+d2nuy5rL44jCDDO2YC05no=
+
+Name: de/toem/impulse/extension/toolkit/i18n/I18n.class
+SHA-256-Digest: JhQGPAUf/psqKVaGRPRMfB/PfRXpbxbLwAz4N769b50=
+
+Name: src/de/toem/impulse/extension/toolkit/serializer/examples/ExampleI
+ ntegerReader.java
+SHA-256-Digest: spY3LiTUzFCaxZGYwEE9E+V4rDiqWUP6BY3odAPrVec=
+
+Name: flux/example08/main.c
+SHA-256-Digest: UbOJgZBGtH9DhReyDmljtzD8AKJAFIpat+7wy50c4+o=
+
+Name: flux/examplesxx/example3.c
+SHA-256-Digest: AdJYPb53gHpJ1ZBz3fjhDLfb1e6ywzlsSpk0YN9tD6k=
+
+Name: flux/example03/example
+SHA-256-Digest: ee0+dBg3rAO87llD3rEN8Lk278jieEZ6aqoGuh87NEM=
+
+Name: samples/toem.flux.example
+SHA-256-Digest: MBpp8SxlBTLH2GFxNDvbTBSPfPZo2EyY9RYsohMV5rI=
+
+Name: flux/flux.html
+SHA-256-Digest: fEPbP/1fH0MlcJyIR6HAYvmEhtTO2a+th7/fYlft75U=
+
+Name: src/de/toem/impulse/extension/toolkit/ports/scope/ExampleScopeAdap
+ terDialog.java
+SHA-256-Digest: yWj9EnlWZ8NDOHi3ZgnFob+t+a/34naeYyONUAOFs78=
+
+Name: src/de/toem/impulse/extension/toolkit/core/CreateRecordAndOpenView
+ er.java
+SHA-256-Digest: IStvCbN29Zghfs4U34mFAY+P33yPJJQK5NCbo/yqtTk=
+
+Name: flux/example2y/linux-x86/example
+SHA-256-Digest: N7WM+qFnRfgFk8yA7BmQ10kdWHpQw4+wbTn51tg8ZD4=
+
+Name: samples/toem.gant.example
+SHA-256-Digest: MBpp8SxlBTLH2GFxNDvbTBSPfPZo2EyY9RYsohMV5rI=
+
+Name: .settings/org.eclipse.jdt.core.prefs
+SHA-256-Digest: mmztIFXASHV64A+ZxbLJedDgMVLo6uc3IbAs5ihSpZw=
+
+Name: input2.gif
+SHA-256-Digest: dKf47lpjCfjGoyPoBHfAfoy3CzKzr6DtohOGa5SVZPk=
+
+Name: .cproject
+SHA-256-Digest: XsYcCh5yHruP0+KjF4RfUZxvkXxHVoFPjqrvEQMdZYA=
+
+Name: samples/toem.logic.example
+SHA-256-Digest: MBpp8SxlBTLH2GFxNDvbTBSPfPZo2EyY9RYsohMV5rI=
+
+Name: de/toem/impulse/extension/toolkit/serializer/examples/ExampleStrea
+ mReader.class
+SHA-256-Digest: MvxEZSFjEzh+HvpWhl5Jkcamziokgrt8bIzvNZ6N+Wc=
+
+Name: flux/example04/main.c
+SHA-256-Digest: J/nLngwul7YquEt+XyzR/SX0Wm4FxrWMtZIkQ1tmXzc=
+
+Name: de/toem/impulse/extension/toolkit/ports/highspeed/ExampleHighspeed
+ Adapter.class
+SHA-256-Digest: AM+LSilXDm+x7Fy06/tpljSYAFxtPUJ9A3qhfKX1gdc=
+
+Name: de/toem/impulse/extension/toolkit/ports/highspeed/ExampleHighspeed
+ Adapter$ExampleInput$Model.class
+SHA-256-Digest: 6re9Dvf9X1CPFNZhGZoILxSSS13dLGnr5YFPu/7YTCU=
+
+Name: de/toem/impulse/extension/toolkit/serializer/examples/ExampleStruc
+ tReader.class
+SHA-256-Digest: RpOXR0yuSiam+cX+iwdCH0oD7BT2Fj39ta43QVIUaE0=
+
+Name: src/de/toem/impulse/extension/toolkit/serializer/examples/ExampleE
+ ventReader.java
+SHA-256-Digest: icV4e5coP4/VQOJsOyluMk+21ovqSrwbLYarMrOooAw=
+
+Name: src/de/toem/impulse/extension/toolkit/serializer/examples/ExampleG
+ anttReader.java
+SHA-256-Digest: Q6yRcfUfm4rkK3GmZPZWDSzNTJd2S9cvmBeP9fvI0Y8=
+
+Name: flux/example03/Makefile
+SHA-256-Digest: 8c5DWY4cMHonwdxxjz4J+d2nuy5rL44jCDDO2YC05no=
+
+Name: flux/example12/Makefile
+SHA-256-Digest: SehSUY5p5UUGlMwvwdmMm+WHjEkkLvc8q2uW0gMqFn0=
+
+Name: de/toem/impulse/extension/toolkit/ports/flux/ExampleFluxControlIns
+ tancer.class
+SHA-256-Digest: bMdz+VdHrguOchyif8EwtZBg1pRLHeKvsYVpDGf0x/E=
+
+Name: src/de/toem/impulse/extension/toolkit/serializer/examples/ExampleF
+ loatReader.java
+SHA-256-Digest: k/kX5FP7yDicN8vPbM1ZrDxQW5v7/sUR3gQLomyBscA=
+
+Name: flux/example2y/main.c
+SHA-256-Digest: HOFBDP24/0zOUu35EidF1ZnR/HPqYUV4QaRB0DrLtsQ=
+
+Name: flux/example01/example
+SHA-256-Digest: EzB6pTCc87RSGW+ID7HHg2xjALnHSoxSjz6LHeSFgpQ=
+
+Name: flux/example2y/win32-x86/example.exe
+SHA-256-Digest: zVwtD0th3owpIELyoelJd25WgEOB3VaVnBo/NRm8wrY=
+
+Name: integer.walML
+SHA-256-Digest: 3QhGlpSUGUXdtVyswJMNSw1lLQLVBP5y5JwXbO7QQvw=
+
+Name: flux/example07/main.c
+SHA-256-Digest: CF9ARJFgb5eXIBufYG0Z42aS6pC60IQ7cn2IbtbPJjM=
+
+Name: de/toem/impulse/extension/toolkit/other/CreateConfiguration.class
+SHA-256-Digest: 2WWbOOTkUBYc+yHRKAxEVCj19a5uYvLhFXbMn411YUA=
+
+Name: de/toem/impulse/extension/toolkit/ports/scope/ExampleScopeAdapterD
+ ialog$1$1.class
+SHA-256-Digest: eWUI+EzHS74RpdWrjZd60Bh3Z1UTP2H4L12NlEz4OK0=
+
+Name: flux/example05/main.c
+SHA-256-Digest: puW2LElMFiiIHQLzq3aXepJrJ5wNyqaxeCiOGY5jDBA=
+
+Name: flux/example04/example
+SHA-256-Digest: f9qgiFbKeDlGc1qAqbeHA7O/SZs1nLZWNQrHaDy/4tU=
+
+Name: de/toem/impulse/extension/toolkit/serializer/examples/flux/Example
+ FluxDatabaseReader.class
+SHA-256-Digest: BpHCR8DR62M25H+Jil23fJYfbh3uVPrsHe1/Q2yI1YU=
+
+Name: de/toem/impulse/extension/toolkit/ports/highspeed/ExampleHighspeed
+ AdapterInstancer.class
+SHA-256-Digest: hPPPd+lh/gTxmYizhaPBpWxiocPtWOblPi1KFKwjmIY=
+
+Name: flux/example31/Makefile
+SHA-256-Digest: VXYT/fhM4wYFrTqww3dXh4at2tO6NbadWO11Trm6DxU=
+
+Name: icons/objects/multiple.gif
+SHA-256-Digest: d1mIMlYfmdlDpQpb0UCb601yddznRJzpA1hAkFrtEpc=
+
+Name: flux/example10/main.c
+SHA-256-Digest: UkO+CUwA0in1bnaq/c8KcGeoFKzT/3L3wskre3SrYBk=
+
+Name: src/de/toem/impulse/extension/toolkit/ImpulseToolkitExtension.java
+SHA-256-Digest: D4Z+DGDWV3W+H8cwgGFD5pyYiayHI0y52U+tC+xtieA=
+
+Name: de/toem/impulse/extension/toolkit/charts/ExampleSimpleChartInstanc
+ er.class
+SHA-256-Digest: cClrOCB4sm7Q5c9tTfHx8FkYmjFtuGZQRaSkws09e0c=
+
+Name: src/de/toem/impulse/extension/toolkit/serializer/examples/ExampleS
+ tructReader.java
+SHA-256-Digest: Twj9c6z+MXTU/g6WnWQ0eeXHI6BAMudRxftYh6rWArU=
+
+Name: flux/example07/Makefile
+SHA-256-Digest: 8c5DWY4cMHonwdxxjz4J+d2nuy5rL44jCDDO2YC05no=
+
+Name: flux/example20/win32-x86/example.exe
+SHA-256-Digest: x27bs6oyYIO+N6JtjOEgUnvX57QJ6FO4CJ0tN9aUOFs=
+
+Name: de/toem/impulse/extension/toolkit/ports/scope/ExampleScopeAdapter$
+ ExampleInput$Model.class
+SHA-256-Digest: uIuolwdw6o+imrBEBnvCeYuoaz/X+IWDCPGknW93kEE=
+
+Name: src/de/toem/impulse/extension/toolkit/i18n/i18n.properties
+SHA-256-Digest: WInbmUUScjN0UBsiW7fPBXMlGCM+avDP6PvbHaljMMI=
+
+Name: de/toem/impulse/extension/toolkit/ports/analog/ExampleAnalogAdapte
+ rInstancer.class
+SHA-256-Digest: cIa6CpGqR5DpXJzsixNqYtDpYHjBAAu7ybN1tlYCHQ8=
+
+Name: de/toem/impulse/extension/toolkit/serializer/examples/ExampleInteg
+ erReader.class
+SHA-256-Digest: jl8vJgkIv5Hcbi2BZi8HyzahbM7MGy5v97A+TBzh1V0=
+
+Name: de/toem/impulse/extension/toolkit/core/CreateRecordAndOpenViewer$1
+ .class
+SHA-256-Digest: H7a2KW4TscYLVmOKWI6EvTYlHngGEdGhVki6mufDbJk=
+
+Name: flux/example31/example
+SHA-256-Digest: fRsFUAUBiIsR02LJcKzOY48E5BkVBeKULIboeP5ki7A=
+
+Name: flux/example20/linux-x86/example
+SHA-256-Digest: OOPUL+bWg2uEd0NB9ycj2ov42GL7Ym3rzSCN4kLm7Oc=
+
+Name: de/toem/impulse/extension/toolkit/serializer/examples/ExampleGantt
+ Reader.class
+SHA-256-Digest: VAUnSFyjcB5YyHiwZ2zDyYhRZrEyrrWyx4Sgu9RsmDQ=
+
+Name: flux/example22/Makefile
+SHA-256-Digest: LA8I3ww7t/RSXLQJlnXFgCYmUxwH9hFA7sk6DtTL8Jk=
+
+Name: de/toem/impulse/extension/toolkit/charts/ExampleSimpleChart$1.clas
+ s
+SHA-256-Digest: f9yd+rZlsJeXvbSCa2LNn/LlNiReivJ6MBDZ+mZjvU8=
+
+Name: de/toem/impulse/extension/toolkit/ports/highspeed/ExampleHighspeed
+ Adapter$ExampleInput.class
+SHA-256-Digest: U46vmTowyVOh0zGxH1AynocfpKPg6Y3uuki6+tvGc9g=
+
+Name: de/toem/impulse/extension/toolkit/ports/scope/ExampleScopeAdapterD
+ ialog.class
+SHA-256-Digest: 6voT5OJaS2L5DPIftGXi2+jfK07W7Hz7jG9YPh5svqo=
+
+Name: templates/reader/java/$className$.java
+SHA-256-Digest: LPO63Xvde5fnpexv7y30d2xhqIaGatgyXmdc0A+zg7A=
+
+Name: flux/example2y/Makefile
+SHA-256-Digest: OgVDwIqQfiHm7gsIo5/svZf8wgPTpllyUNoBX3Djcs8=
+
+Name: de/toem/impulse/extension/toolkit/ports/flux/ExampleFluxAdapter.cl
+ ass
+SHA-256-Digest: oDonPBsE57wOKyK5LhO1o5/rKCZuvBzFuSS/lqm418Q=
+
+Name: icons/objects/chart_pie.png
+SHA-256-Digest: xL6M8izt/iLKWgaRZAxHrlMIq6ZeuZScJGtTvMhgcLw=
+
+Name: flux/example02/main.c
+SHA-256-Digest: TM82mdUwfRcZJjpR/KQIl/IIyhc7Z4SbvlXnzpQDG/U=
+
+Name: flux/example10/example
+SHA-256-Digest: E2QVJGmQqDCuBpCr0ZEsIwtqiTy3YYF/xPGrz+Wf3kc=
+
+Name: src/de/toem/impulse/extension/toolkit/ports/analog/ExampleAnalogAd
+ apter.java
+SHA-256-Digest: Wy6YcPEcssYS6B10yVcviB7T2mMa2OUWKUbGcJVyzOE=
+
+Name: src/de/toem/impulse/extension/toolkit/ports/highspeed/ExampleHighs
+ peedAdapter.java
+SHA-256-Digest: 5EQuG2VONT1+KjdohGRD7ZN9nFexplH+RIyl2KBxmSM=
+
+Name: flux/Makefile
+SHA-256-Digest: vylt6epnPrqrbPewiX8lwMQX7InzoeSUHeym4m0ePRg=
+
+Name: samples/toem.event.example
+SHA-256-Digest: MBpp8SxlBTLH2GFxNDvbTBSPfPZo2EyY9RYsohMV5rI=
+
+Name: de/toem/impulse/extension/toolkit/ports/analog/ExampleAnalogAdapte
+ r$ExampleInput$Model.class
+SHA-256-Digest: 3yydaOwJTl+kiaVr11ENamOIbLeo/GGn4IpI7SQ5rMw=
+
+Name: about_files/bsd2.txt
+SHA-256-Digest: R3ZJqz4fSq0r5vzLg/+GVrNZ3O988oM4J5kb/E+Won4=
+
+Name: icons/objects/chart_curve.png
+SHA-256-Digest: jYYR9uEZ5OzlJOwrgcFbDulVgGRkRpXt1lU9CdX3S9E=
+
+Name: build.properties
+SHA-256-Digest: K0NHgy1MbpSUiYPM8fAjQ6NJ3OHi20EJPI+kPu9KV8M=
+
+Name: de/toem/impulse/extension/toolkit/producer/ExampleFloatDiff.class
+SHA-256-Digest: 6yiBQwZSYRBh57IbvNPzTfINWao4Mxw3R/b/16PLh9Y=
+
+Name: de/toem/impulse/extension/toolkit/ports/analog/ExampleAnalogAdapte
+ rDialog$1$1.class
+SHA-256-Digest: cjilZdCKj/FAabJ4+RxSZim8hscttcJMfaOtulebDDU=
+
+Name: de/toem/impulse/extension/toolkit/ports/flux/ExampleFluxControlAda
+ pter$FluxInput$1.class
+SHA-256-Digest: mMgQZJ44gMRvoF5KsFZxGCfPdXSFMZBmLk3cRId3qaA=
+
+Name: .settings/org.eclipse.cdt.codan.core.prefs
+SHA-256-Digest: lUKRrU+wMRm1J4uySNE72m0VWGcd0MOoLFgqdFO201g=
+
+Name: flux/example02/example
+SHA-256-Digest: dzgQJPfX9e1KT++RsAxbrsT2qrB5hCeVyipffXdCYwA=
+
+Name: de/toem/impulse/extension/toolkit/serializer/examples/ExampleLogic
+ Reader.class
+SHA-256-Digest: eEgFztHahfAlSgAW3LUFSUvaQPNdoMvB0TQ4Kmkpz/E=
+
+Name: de/toem/impulse/extension/toolkit/ports/analog/ExampleAnalogAdapte
+ rDialog$1.class
+SHA-256-Digest: HXeHCUtiz8VJJiTJeUEItRr2Wk/LSoxvlBihC3MXLwo=
+
+Name: flux/example2x/slave.c
+SHA-256-Digest: gdU1YTG71Q1XWH4zK9dF4FkKafxNmfHdAonWEASlDO0=
+
+Name: src/de/toem/impulse/extension/toolkit/ports/highspeed/ExampleHighs
+ peedAdapterDialog.java
+SHA-256-Digest: +ew8J+t5g9csS5TLjP8nY9m0kimKdoZew79GSgAGqJU=
+
+Name: .project
+SHA-256-Digest: I+BBHPmxvwgUbn4v16/be2GCW22ViPrjA2dDF1evKug=
+
+Name: de/toem/impulse/extension/toolkit/ports/scope/ExampleScopeAdapterI
+ nstancer.class
+SHA-256-Digest: E+b5ZxlplDRbupENXS9eecBntY3Vk9gopAA8BnF0gQ4=
+
+Name: flux/example21/macosx-x86_64/example
+SHA-256-Digest: dznLU0a2WRSK9QUH5AFH3gfQNsmXIhGGZduBC2xnBxA=
+
+Name: src/de/toem/impulse/extension/toolkit/serializer/examples/flux/Exa
+ mpleFluxConverterReader.java
+SHA-256-Digest: QRSKf17ns72/rM59ruRAQ0PZbrH98NtQ3roYHrYkVOw=
+
+Name: de/toem/impulse/extension/toolkit/core/CreateRecordAndOpenViewer$1
+ $1.class
+SHA-256-Digest: QnX9No20b1AZVd3Xcfn3YeP0MH1M9nAqi+ByjjeoSiE=
+
+Name: flux/example11/example
+SHA-256-Digest: 9lZSYWI6AYr2cIhQ5Ge0ScHIc7Wiw3vGdniYqfV/7xs=
+
+Name: src/de/toem/impulse/extension/toolkit/serializer/examples/ExampleB
+ inaryReader.java
+SHA-256-Digest: BMjJeN5iX9K10BBGj35LnUbqgck8XON85uccZlcb3cM=
+
+Name: de/toem/impulse/extension/toolkit/serializer/wizard/NewReaderWizar
+ d.class
+SHA-256-Digest: VgJIvIGiikpdA/22si5tghKOw/dPI7A8PUlsbHcBUdk=
+
+Name: src/de/toem/impulse/extension/toolkit/charts/ExampleSimpleChart.ja
+ va
+SHA-256-Digest: LO9KUmlKiaZZAxzIeDUjGqvV1/w1Y8B4+EY3y2F3VKs=
+
+Name: src/de/toem/impulse/extension/toolkit/ports/scope/ExampleScopeAdap
+ terInstancer.java
+SHA-256-Digest: 5slZWQjATzslDCd7dRd5WKghTQ3mpTGsPJEWUQdQ3z8=
+
+Name: flux/example10/Makefile
+SHA-256-Digest: SehSUY5p5UUGlMwvwdmMm+WHjEkkLvc8q2uW0gMqFn0=
+
+Name: about_files/epl.txt
+SHA-256-Digest: AtQbxPQidIqxdsEwqPI6VXNLvv45eQYyLYXy/UPH9zo=
+
+Name: de/toem/impulse/extension/toolkit/ports/flux/ExampleFluxAdapter$Fl
+ uxInput.class
+SHA-256-Digest: SQA4LKepII7TuEH9FBFcGXZMnZfQuB3Zm4WUCUEXmnY=
+
+Name: src/de/toem/impulse/extension/toolkit/other/CreateConfiguration.ja
+ va
+SHA-256-Digest: FDkNZ3NBdsUQDUV9FzFbqmqC+VTBIcpfWUu0VI84TVo=
+
+Name: de/toem/impulse/extension/toolkit/core/CreateRecordAndOpenViewer$1
+ $2.class
+SHA-256-Digest: cvdb0JxZcyWeyn7cnDW/OuieYUli+hjg6/Gl81CMsdU=
+
+Name: flux/example21/win32-x86_64/example.exe
+SHA-256-Digest: Lm9ppZck49UZAqiSkkjtnrkIk1XSjmmInCCgWjtxLUM=
+
+Name: flux/example2x/Makefile
+SHA-256-Digest: 1rfF5No+3OmJsqmmVjmUzvR497C3JGyMArl8tUsn/iA=
+
+Name: de/toem/impulse/extension/toolkit/ports/highspeed/ExampleHighspeed
+ Adapter$ExampleInput$1.class
+SHA-256-Digest: 2cWH5t/k4PZn8KCkOJnnDbwYMc633WV3umbnW17XmRc=
+
+Name: flux/example20/win32-x86_64/example.exe
+SHA-256-Digest: +8RNr9qWPonwnGfMYQWPkwX9IP2GmBkszG+8yJFLo5k=
+
+Name: flux/lz4.c
+SHA-256-Digest: dLq9LWd9FMcHsNuxemtyCUZ1+38jiO0cInCCG4WuhrA=
+
+Name: de/toem/impulse/extension/toolkit/ports/highspeed/ExampleHighspeed
+ AdapterDialog$1.class
+SHA-256-Digest: E/NVrV4I0wGDuNZS3yIWEhWvlGJw2Ot7YQiS+l0VvSE=
+
+Name: de/toem/impulse/extension/toolkit/i18n/i18n.properties
+SHA-256-Digest: WInbmUUScjN0UBsiW7fPBXMlGCM+avDP6PvbHaljMMI=
+
+Name: de/toem/impulse/extension/toolkit/ports/scope/ExampleScopeAdapter$
+ ExampleInput.class
+SHA-256-Digest: xd4y2GsnMVDnKff9EWqql8AhHKPX0fkGPjtvsZ0H+hk=
+
+Name: flux/example22/main.c
+SHA-256-Digest: GPWhepUhj00dH58JfHHBaU4o5WxQgokQQ/HJ+FqaXug=
+
+Name: flux/example2y/linux-x86_64/example
+SHA-256-Digest: SzwChAf0ycljIABzj9UwNFDWi2ZD/ODGEhMLF330lXw=
+
+Name: de/toem/impulse/extension/toolkit/ports/flux/ExampleFluxControlAda
+ pter.class
+SHA-256-Digest: Ess2/AKQYhDA+OYSVoweiglzgCFd3ti+PJOtXpXW15I=
+
+Name: flux/example2x/master.c
+SHA-256-Digest: MHtob4hD3Ig9T4nn4HLwD0mcLTPIyrWv4WyyS2mVJkE=
+
+Name: flux/lz4.h
+SHA-256-Digest: el97vXO+AG4dgCNfmk3tRaGH+gXtetkyZ2bcysshH18=
+
+Name: src/de/toem/impulse/extension/toolkit/serializer/examples/ExampleL
+ ogicReader.java
+SHA-256-Digest: AgW4nfKWak7ouUcpQr77idlw8IfrkPMt4D9Ytf5Pp/g=
+
+Name: flux/example11/main.c
+SHA-256-Digest: s/HyqsyUvdYF/4oAcfL9yt20ibR5PTo7VXNKTLYVO1Q=
+
+Name: src/de/toem/impulse/extension/toolkit/i18n/I18n.java
+SHA-256-Digest: 7kn37rSkLl9K6JwedZA6XH0OB0G0iS6ArxmzuAd72m4=
+
+Name: src/de/toem/impulse/extension/toolkit/disclosure/ExampleShortestEv
+ entDisclosure.java
+SHA-256-Digest: FxXq7A6iPt4E+kTP9fEw5oDzZqsG773MCKRDpzaO30w=
+
+Name: src/de/toem/impulse/extension/toolkit/ports/analog/ExampleAnalogAd
+ apterDialog.java
+SHA-256-Digest: /GBJOXHhFIet9R/GPXFiULly1+WZXSkcVCuROD2Mf4E=
+
+Name: flux/example07/example
+SHA-256-Digest: HDUKl/XOa71NAEDKFU2C2ss4Sch3TCO3wPwzSFJNpT8=
+
+Name: flux/example21/linux-x86/example
+SHA-256-Digest: WrCdMNusqYu0x6cn4Wv73C6jEpfTqAJ7Yb+w8biK6KM=
+
+Name: src/de/toem/impulse/extension/toolkit/ports/flux/ExampleFluxContro
+ lAdapter.java
+SHA-256-Digest: BuOD4jL5fzHL2u5wdkqKyf4D+v1IdLfnsPpIsBCGV4U=
+
+Name: flux/example21/Makefile
+SHA-256-Digest: LA8I3ww7t/RSXLQJlnXFgCYmUxwH9hFA7sk6DtTL8Jk=
+
+Name: src/de/toem/impulse/extension/toolkit/ports/flux/ExampleFluxContro
+ lInstancer.java
+SHA-256-Digest: wc0+Rpc2Vt7vZugOR/5sEw1E64yWqoEKkHxQTqoD7uw=
+
+Name: .classpath
+SHA-256-Digest: c2z0MrjHz+t6+r+XXT3QtUsrUTXT5rNeKg7iZsE3CIg=
+
+Name: flux/example30/Makefile
+SHA-256-Digest: VXYT/fhM4wYFrTqww3dXh4at2tO6NbadWO11Trm6DxU=
+
+Name: src/de/toem/impulse/extension/toolkit/ports/analog/ExampleAnalogAd
+ apterInstancer.java
+SHA-256-Digest: t7+eqh0BpRR8CJatSJ+dmMqrb1e2sK3z61LenNaR6JA=
+
+Name: de/toem/impulse/extension/toolkit/serializer/examples/ExampleBinar
+ yReader.class
+SHA-256-Digest: W6aUQiGVmZSxyrcQrQYxH98Qeyoxzanvi9cSEQN55Ws=
+
+Name: flux/example22/macosx-x86/example
+SHA-256-Digest: N+6NkEwyunksp26FcL0sRNvSDhav56p/ug+4xziMJP0=
+
+Name: de/toem/impulse/extension/toolkit/ports/analog/ExampleAnalogAdapte
+ rDialog.class
+SHA-256-Digest: UJGSL+98Yi967Ska6yWB3QPsVa2fSaM/rVBwYDbLahs=
+
+Name: de/toem/impulse/extension/toolkit/ports/flux/ExampleFluxInstancer.
+ class
+SHA-256-Digest: JAVSN47xjwlsmNwI/RS93tRXSfg44jwsfjfGdWDharI=
+
+Name: flux/example08/Makefile
+SHA-256-Digest: 8c5DWY4cMHonwdxxjz4J+d2nuy5rL44jCDDO2YC05no=
+
+Name: flux/example02/Makefile
+SHA-256-Digest: SXzEfZH4gOGMlP/EOqgmWnxuVLzSEfhY7Or9FM4F5eY=
+
+Name: flux/example12/main.c
+SHA-256-Digest: 9f+koOP7hn8ToN+VsKuOvoAGM1AQtosByUPUx5SPjv4=
+
+Name: de/toem/impulse/extension/toolkit/serializer/wizard/NewReaderTempl
+ ate$1.class
+SHA-256-Digest: Ygnweo9J8rFboZTgYMz55WPp1eupKuGXa350CIAesG4=
+
+Name: flux/example01/main.c
+SHA-256-Digest: ySJ7i/pRU1djBQZy9+YO1dJReTbkrQ3QZ2Fe9fne8P4=
+
+Name: flux/fastlz.c
+SHA-256-Digest: MfYEAQ0pPt2XNvFz/Yfha+wJAh+BHxYoJDtCnE2NpZ4=
+
+Name: de/toem/impulse/extension/toolkit/ports/flux/ExampleFluxControlAda
+ pter$FluxInput.class
+SHA-256-Digest: Op886fDIyTF+60l9hnZ218aNZG0RYDYNCuImNPppQxc=
+
+Name: flux/example22/linux-x86/example
+SHA-256-Digest: sfaZ77kW39XZ50eNP3iHz74xJE/c3bgaBZOsbVeJWTY=
+
+Name: flux/fastlz.h
+SHA-256-Digest: I+Wx9imoGs/MeuGhloPuuujV2KBPPAANk1EXhWqmcRM=
+
+Name: flux/example03/main.c
+SHA-256-Digest: aug/WGtOB0MCpKubCz3qQHOBq0F9ZvYmfM4rkxT9lCQ=
+
+Name: flux/example08/example
+SHA-256-Digest: yfNGeQLDl+Xn/Re2whe+Jok6Wnxph2aG8CHBQyE/rKI=
+
+Name: flux/example20/Makefile
+SHA-256-Digest: LA8I3ww7t/RSXLQJlnXFgCYmUxwH9hFA7sk6DtTL8Jk=
+
+Name: src/de/toem/impulse/extension/toolkit/serializer/wizard/NewReaderT
+ emplate.java
+SHA-256-Digest: B0qHeShOmNqOJQEp0odgeRcx2aJ5u1g3nJ8xYZuZwBU=
+
+Name: samples/toem.integer.example
+SHA-256-Digest: MBpp8SxlBTLH2GFxNDvbTBSPfPZo2EyY9RYsohMV5rI=
+
+Name: de/toem/impulse/extension/toolkit/ports/flux/ExampleFluxControlAda
+ pter$FluxInput$2.class
+SHA-256-Digest: TKZYU3Z4z3341r4Kj0o1VYeeZ1JkOVfxItxWhWXI/9I=
+
+Name: flux/example2y/win32-x86_64/example.exe
+SHA-256-Digest: xdS2In/B1cJMw8fqMqsTc1xRhscNOsNx1NsXgl4yKkU=
+
+Name: icons/extension.png
+SHA-256-Digest: 4EijmtsuZv8pUxtoyKDpmuEOqXKcXa1B9lGypVVqXNo=
+
+Name: flux/example20/linux-x86_64/example
+SHA-256-Digest: xQzAwRPxG7wkPWq83K4tRbP75jY7HvA2Rw4fnF1ZY3I=
+
+Name: de/toem/impulse/extension/toolkit/ports/analog/ExampleAnalogAdapte
+ r.class
+SHA-256-Digest: AfLTz4UNmsWeZTcPIAma1GNfXmrDmQBYyqCr1BqV5YA=
+
+Name: de/toem/impulse/extension/toolkit/serializer/examples/ExampleFloat
+ Reader.class
+SHA-256-Digest: tK+TEK7L7xKDJKJr74YdRXOUglkp89OzpuaoNmAxZ7s=
+
+Name: icons/extension@2x.png
+SHA-256-Digest: n6agEnw+iwmqLc4KmhqXXWji6ug1+oA05g83/YexiWA=
+
+Name: de/toem/impulse/extension/toolkit/ports/highspeed/ExampleHighspeed
+ AdapterDialog$1$1.class
+SHA-256-Digest: cbjakRlmtzWfPTP6uQVACOhqc0BRbN4+L3oElIjfb2g=
+
+Name: flux/example22/win32-x86/example.exe
+SHA-256-Digest: yN1laXoSFyX4BkqvNKtd1IjiWbopEhWUAXybYuysrHs=
+
+Name: de/toem/impulse/extension/toolkit/serializer/examples/flux/Example
+ FluxConverterReader.class
+SHA-256-Digest: jm9xEVTuXyt31Glfjt2hhvgtP7wsP/qEf5/eHsRY9zM=
+
+Name: flux/example21/macosx-x86/example
+SHA-256-Digest: 54mqOQXMdTCFa75gY7CJ/r9U8FfbPniXRW5hiDTi9WQ=
+
+Name: src/de/toem/impulse/extension/toolkit/producer/ExampleFloatDiff.ja
+ va
+SHA-256-Digest: kYGeBhD62J+t975fi8fGnIw/sOaycWPqZ6JGllpjMHA=
+
+Name: de/toem/impulse/extension/toolkit/ports/analog/ExampleAnalogAdapte
+ r$ExampleInput.class
+SHA-256-Digest: ml4XssjXcxWkB9/0d4M4+Lis7i84s9rFUCl7oIRmsvo=
+
+Name: about.html
+SHA-256-Digest: v3qNNZa+nnzu4LiVfOhu/gOT6og9aEb4mwc6bIHnkN8=
+
+Name: flux/examplesxx/example1.c
+SHA-256-Digest: 7TH8J1xVM/ovzdtS4iAZXvluH5yiVbDFZ/HNK0pbD/I=
+
+Name: flux/example05/Makefile
+SHA-256-Digest: 8c5DWY4cMHonwdxxjz4J+d2nuy5rL44jCDDO2YC05no=
+
+Name: flux/example06/main.c
+SHA-256-Digest: K/XP22MABfGbMz+Zr+sWSiFWOK2FeYMDyPUFfdvs8dg=
+
+Name: flux/example31/main.c
+SHA-256-Digest: YAM1Lbz3+1gcEpVYDWpBdxX3cDc6MPPwyLc2IfkH2CA=
+
+Name: flux/flux.h
+SHA-256-Digest: YJj2c/ZJPM6Qlsq5zfpQ8QIraChOsjGSBRA9BMM6vm8=
+
+Name: de/toem/impulse/extension/toolkit/disclosure/ExampleShortestEventD
+ isclosure.class
+SHA-256-Digest: LrvwCL7cMFnD80oP71t2l/j6z4vW4tgu1IbgngRL/xE=
+
+Name: flux/example11/Makefile
+SHA-256-Digest: SehSUY5p5UUGlMwvwdmMm+WHjEkkLvc8q2uW0gMqFn0=
+
+Name: flux/example20/main.c
+SHA-256-Digest: h950ggKXu5rHtESch4v2w8zf3ob7DGxc1/HkE5+N+/k=
+
+Name: flux/example05/example
+SHA-256-Digest: knYV/FP5m9dFt5lXPdR3ZTrgSo1789fsPOejSEUFCM8=
+
+Name: flux/flux.c
+SHA-256-Digest: LSmBcyQxtnDnIbvZoIrmmytuboeeI77yc/J3wSThdhM=
+
+Name: samples/toem.struct.example
+SHA-256-Digest: MBpp8SxlBTLH2GFxNDvbTBSPfPZo2EyY9RYsohMV5rI=
+
+Name: de/toem/impulse/extension/toolkit/ImpulseToolkitExtension.class
+SHA-256-Digest: wv8ZN8c1pUUM/7D0NHUagRInyWLpm/nfBnBqzlSJXLY=
+
+Name: de/toem/impulse/extension/toolkit/ports/highspeed/ExampleHighspeed
+ AdapterDialog.class
+SHA-256-Digest: U94xsX8+Aq+3c7Hy4T4FRbBWHgSYRshzdQ0OiiwNWdk=
+
+Name: de/toem/impulse/extension/toolkit/serializer/examples/ExampleEvent
+ Reader.class
+SHA-256-Digest: vUMINX0rfVnQplW9SG+MM9zJHxYDkLui71zdAZnsOIQ=
+
+Name: templates/reader/bin/icons/sample.gif
+SHA-256-Digest: 6jMftqI7oSaDQ6w4VCjJEtTiJvYpMr0Z1u+lWgsbkjY=
+
+Name: de/toem/impulse/extension/toolkit/ports/analog/ExampleAnalogAdapte
+ r$ExampleInput$1.class
+SHA-256-Digest: Ew1rs8Tp0yaCmR/gGSvNI7Ep+PTKmZXoCzwL6r9qbbw=
+

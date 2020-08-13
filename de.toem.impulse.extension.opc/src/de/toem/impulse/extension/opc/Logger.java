@@ -1,7 +1,5 @@
 package de.toem.impulse.extension.opc;
 
-import java.text.MessageFormat;
-
 import de.toem.eclipse.toolkits.controller.abstrac.IController;
 import de.toem.impulse.ImpulseBase;
 import de.toem.pattern.threading.Actives;
@@ -33,13 +31,11 @@ public class Logger {
 			try {
 				String formatted = message;
 				for (Object on : o) {
-					if (on == null)
-						on = "";
 					int idx = formatted.indexOf("{}");
 					if (idx >= 0)
-						formatted = formatted.replaceFirst("\\{\\}", on.toString());
+						formatted = formatted.replaceFirst("\\{\\}", String.valueOf(on));
 					else
-						formatted += " " + String.valueOf(o);
+						formatted += " " + String.valueOf(on);
 				}
 				if (logToConsole)
 				ImpulseBase.getDefault().defaultConsoleStream.println("opc: " + sev + " " + formatted);
@@ -102,6 +98,10 @@ public class Logger {
 
 	public void info(String message, Throwable o) {
 		log("info", message, o);
+	}
+
+	public boolean isTraceEnabled() {
+		return logToConsole;
 	}
 
 }

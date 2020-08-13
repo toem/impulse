@@ -12,36 +12,39 @@
 <extension
       point="de.toem.pattern.general.cell">
    <cell
-         class="de.toem.impulse.ports.jdt.watchpoint.WatchpointTracer"
-         icon16="icons/cell16/time_go.png"
+         class="de.toem.impulse.extension.jdt.watchpoint.WatchpointTracer"
+         description="%cell.description"
+         icon="icons/objects/time_go.png"
          id="port.record.jdt.watchpoint"
-         label="Watch-/Breakpoint Tracer">
+         label="%cell.label">
    </cell>
 </extension>
 <extension
       point="de.toem.pattern.general.instancer">
    <instancer
-         class="de.toem.impulse.ports.jdt.watchpoint.WatchpointTracerInstancer"
-         description="Watch-/Breakpoint Tracer"
+         class="de.toem.impulse.extension.jdt.watchpoint.WatchpointTracerInstancer"
+         description="%instancer.description"
          id="de.toem.impulse.instancer.port.record.jdt.watchpoint"
-         label="Watch-/Breakpoint Tracer">
+         group="%instancer.group"
+         label="%instancer.label">
    </instancer>
 </extension>
 <extension
-      point="de.toem.eclipse.toolkits.editor.dialog">
+      point="de.toem.eclipse.toolkits.ui.dialog">
    <dialog
          cellTypes="port.record.jdt.watchpoint"
-         class="de.toem.impulse.ports.jdt.watchpoint.WatchpointTracerDialog"
+         class="de.toem.impulse.extension.jdt.watchpoint.WatchpointTracerDialog"
          id="de.toem.impulse.dialog.port.record.jdt.watchpoint"
-         label="Watch-/Breakpoint Tracer">
+         label="%dialog.label">
    </dialog>
 </extension>
-<extension
-      point="de.toem.eclipse.toolkits.general.images">
-   <images
-         id="de.toem.impulse.ports.jdt"
-         image="icons/cup.png">
-   </images>
-</extension>
-
+   <extension
+         point="de.toem.pattern.general.group">
+      <group
+            description="%group.description"
+            icon="icons/extension.png"
+            id="de.toem.impulse.group.jdt"
+            label="%group.label">
+      </group>
+   </extension>  
 </plugin>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contexts>
+
+  <context id="birt_dialog">
+    <description>BIRT is an open source technology platform used to create data visualizations and reports that can be embedded into rich client and web applications. This extension includes Bar, Pie, Line and Radar charts. It supports the Birt script extension mechanism (see the book "Integrating and Extending BIRT").  </description>
+    <topic href="https://toem.de/index.php/resources/all-documents/162-bar-chart" label="RB01 Bar Chart" />
+    <topic href="https://toem.de/index.php/resources/all-documents/226-pie-chart" label="RB02 Pie Chart" />
+    <topic href="https://toem.de/index.php/resources/all-documents/227-line-chart" label="RB03 Line Chart" />
+    <topic href="https://toem.de/index.php/resources/all-documents/228-radar-chart" label="RB04 Radar Chart" />
+    <topic href="https://www.toem.de/index.php/products/impulse-birt" label="impulse BIRT" />
+    <topic href="https://www.toem.de/index.php/resources/documentation#impulseManual" label="MANUAL" />
+    <topic href="https://toem.de/index.php/resources/all-documents/84-13-working-with-charts" label="13 Working with Charts " /> 
+    <topic href="https://www.toem.de/index.php/resources/all-documents/88-9-preferences" label="09 Preferences" />
+  </context>     
+</contexts> 

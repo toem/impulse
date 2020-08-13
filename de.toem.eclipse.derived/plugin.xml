@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.services">
+      <serviceFactory
+            factoryClass="de.toem.eclipse.derived.menu.DerivedServiceFactory">
+         <service
+               serviceClass="de.toem.eclipse.derived.menu.IDerivedMenuService"></service>
+      </serviceFactory>
+   </extension>
+   
+   <extension
+         point="org.eclipse.ui.bindings">
+      <key
+            commandId="de.toem.actions.format"
+            contextId="org.eclipse.ui.textEditorScope"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="M1+M2+F">
+      </key>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            categoryId="de.toem.eclipse.category.js"
+            id="de.toem.actions.format"
+            name="Format">
+      </command>
+      <category
+            description="Script Editor"
+            id="de.toem.eclipse.category.js"
+            name="Script Editor">
+      </category>
+   </extension>
+
+</plugin>

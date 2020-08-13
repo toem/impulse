@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contexts>
+  <context id="xy_dialog">
+    <description>Nebula Visualization is a widgets library for data visualization in science, engineering and SCADA areas. This extension includes XY (Line), Intensity and Eye charts. It supports script extensions.  </description>
+    <topic href="https://toem.de/index.php/resources/all-documents/145-using-nebula-charts" label="RN01 XY Chart" />
+    <topic href="https://toem.de/index.php/products/impulse-nebula" label="impulse NEBULA" />
+    <topic href="https://www.toem.de/index.php/resources/documentation#impulseManual" label="MANUAL" />
+    <topic href="https://toem.de/index.php/resources/all-documents/84-13-working-with-charts" label="13 Working with Charts " /> 
+    <topic href="https://www.toem.de/index.php/resources/all-documents/88-9-preferences" label="09 Preferences" />     
+  </context>
+  <context id="intensity_dialog">
+    <description>Nebula Visualization is a widgets library for data visualization in science, engineering and SCADA areas. This extension includes XY (Line), Intensity and Eye charts. It supports script extensions.  </description>
+    <topic href="https://toem.de/index.php/resources/all-documents/230-intensity-charts" label="RN03 Intensity Chart" />
+    <topic href="https://toem.de/index.php/products/impulse-nebula" label="impulse NEBULA" />
+    <topic href="https://www.toem.de/index.php/resources/documentation#impulseManual" label="MANUAL" />
+    <topic href="https://toem.de/index.php/resources/all-documents/84-13-working-with-charts" label="13 Working with Charts " /> 
+    <topic href="https://www.toem.de/index.php/resources/all-documents/88-9-preferences" label="09 Preferences" />       
+  </context>
+  <context id="eye_dialog">
+    <description>Nebula Visualization is a widgets library for data visualization in science, engineering and SCADA areas. This extension includes XY (Line), Intensity and Eye charts. It supports script extensions.  </description>
+    <topic href="https://toem.de/index.php/resources/all-documents/229-eye-charts" label="RN02 Eye Chart" />
+    <topic href="https://toem.de/index.php/products/impulse-nebula" label="impulse NEBULA" />
+    <topic href="https://www.toem.de/index.php/resources/documentation#impulseManual" label="MANUAL" />
+    <topic href="https://toem.de/index.php/resources/all-documents/84-13-working-with-charts" label="13 Working with Charts " /> 
+    <topic href="https://www.toem.de/index.php/resources/all-documents/88-9-preferences" label="09 Preferences" />      
+  </context>
+</contexts> 

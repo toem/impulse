@@ -5,51 +5,74 @@
          point="de.toem.pattern.general.cell">
       <cell
             class="de.toem.impulse.extension.opc.ua.OpcUaAdapter"
-            icon16="icons/cell16/opc.jpg"
+            description="%cell.description"
+            icon="icons/objects/opc.jpg"
             id="port.record.opc.ua"
-            label="OPC UA">
+            helpUrl="https://toem.de/index.php/resources/all-documents/124-opc-ua-adapter"
+            label="%cell.label">
       </cell>
       <cell
             class="de.toem.impulse.extension.opc.ua.OpcUaNode"
+            description="%cell.description.0"
             id="opc.ua.node"
-            label="Opc Ua Node">
+            label="%cell.label.0">
       </cell>
    </extension>
    <extension
          point="de.toem.pattern.general.instancer">
       <instancer
             class="de.toem.impulse.extension.opc.ua.OpcUaAdapterInstancer"
-            description="Add new OPC UA Port"
+            description="%instancer.description"
             id="de.toem.impulse.instancer.port.record.opc.ua"
-            label="OPC UA">
+            group="de.toem.impulse.group.opc"
+            label="%instancer.label">
       </instancer>
    </extension>
    <extension
-         point="de.toem.eclipse.toolkits.editor.dialog">
+         point="de.toem.eclipse.toolkits.ui.dialog">
       <dialog
             cellTypes="port.record.opc.ua"
             class="de.toem.impulse.extension.opc.ua.OpcUaAdapterDialog"
             id="de.toem.impulse.dialog.port.record.opc.ua"
-            label="OPC UA">
+            label="%dialog.label">
       </dialog>
       <dialog
             cellTypes="opc.ua.node"
             class="de.toem.impulse.extension.opc.ua.OpcUaNodeDialog"
             id="de.toem.impulse.dialog.port.record.opc.ua.node"
-            label="OPC UA Node">
+            label="%dialog.label.0">
       </dialog>
      
    </extension>
    <extension
          point="de.toem.eclipse.toolkits.general.images">
       <images
-            id="opc.ua.node.variable.16"
-            image="icons/cell16/tag_blue.png">
+            id="opc.ua.node.object"
+            image="icons/objects/bricks.png">
       </images>
       <images
-            id="opc.ua.node.object.16"
-            image="icons/cell16/bricks.png">
+            id="opc.ua.node.variable"
+            image="icons/objects/tag_blue.png">
+      </images>
+      <images
+            id="opc.ua.node.method"
+            image="icons/objects/cog.png">
       </images>
    </extension>
-
+   <extension
+         point="org.eclipse.help.contexts">
+      <contexts
+            file="help/help.xml"
+            plugin="de.toem.impulse.extension.opc">
+      </contexts>
+   </extension>
+   <extension
+         point="de.toem.pattern.general.group">
+      <group
+            description="%group.description"
+            icon="icons/extension.png"
+            id="de.toem.impulse.group.opc"
+            label="%group.label">
+      </group>
+   </extension>     
 </plugin>

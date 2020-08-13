@@ -1,6 +1,6 @@
 package de.toem.impulse.extension.opc.ua;
 
-import com.digitalpetri.opcua.stack.core.types.enumerated.NodeClass;
+import org.eclipse.milo.opcua.stack.core.types.enumerated.NodeClass;
 
 import de.toem.pattern.element.Cell;
 import de.toem.pattern.element.CellAnnotation;
@@ -17,7 +17,9 @@ public class OpcUaNode extends Cell {
 	
 	public int sampleRate;
 	public int queueSize;
-
+	public static final String[] TRIGGER_OPTIONS = { "Default", "Status", "Status/Value", "Status/Value/Timestamp" };
+	public int trigger = OpcUaAdapter.TRIGGER_DEFAULT;
+	
 	public String additionalAttributes;
 	
 	
@@ -26,6 +28,8 @@ public class OpcUaNode extends Cell {
 			return ".object";
 		else if (isVariable())
 			return ".variable";
+		else if (isMethod())
+			return ".method";
 		return null;
 	}
 	public boolean isObject(){
@@ -33,5 +37,8 @@ public class OpcUaNode extends Cell {
 	}
 	public boolean isVariable(){
 		return NodeClass.Variable.toString().equals(nodeClass);
+	}
+	public boolean isMethod(){
+		return NodeClass.Method.toString().equals(nodeClass);
 	}
 }

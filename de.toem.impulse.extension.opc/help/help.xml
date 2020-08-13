@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contexts>
+  <context id="opc_dialog">
+    <description> OPC Unified Architecture (OPC UA) is an industrial M2M communication protocol for interoperability developed by the OPC Foundation and successor of the COM/DCOM based OPC protocol.
+This new plug-in allows eclipse/impulse users to connect to such servers and trace variables and events.  </description>
+
+    <topic href="https://toem.de/index.php/resources/all-documents/124-opc-ua-adapter" label="ROP1 OPC/UA Adapter" /> 
+    <topic href="https://toem.de/index.php/products/impulse-opc-ua" label="impulse OPC/UA" />
+    <topic href="https://www.toem.de/index.php/resources/documentation#impulseManual" label="MANUAL" />
+    <topic href="https://www.toem.de/index.php/resources/all-documents/87-02-signal-basics" label="02 Signal Basics" /> 
+    <topic href="https://toem.de/index.php/resources/all-documents/43-06-ports" label="06 Signal Ports " />
+    <topic href="https://www.toem.de/index.php/resources/all-documents/88-9-preferences" label="09 Preferences" />       
+  </context>
+ 
+</contexts> 

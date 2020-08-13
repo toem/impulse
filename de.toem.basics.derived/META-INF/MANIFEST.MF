@@ -1,0 +1,961 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: bCome Derived Basics
+Bundle-SymbolicName: de.toem.basics.derived;singleton:=true
+Bundle-Version: 2.2.2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: com.occultusterra.compression,kanzi,kanzi.app,kanzi.bits
+ tream,kanzi.entropy,kanzi.filter,kanzi.filter.seam,kanzi.function,kanzi
+ .function.wavelet,kanzi.io,kanzi.prediction,kanzi.quantization,kanzi.tr
+ ansform,kanzi.util,kanzi.util.color
+Require-Bundle: de.toem.basics.general;bundle-version="2.2.2"
+Bundle-Vendor: toem.de
+
+Name: kanzi/entropy/TPAQPredictor.class
+SHA-256-Digest: eNwxD6SsDbUbRrdWtEOVii8KRGLt5Y7yZriDQL8PBSs=
+
+Name: kanzi/app/BlockDecompressor.class
+SHA-256-Digest: cEPE68uwYN8nlWJBBRo/zztIVWHSGW7mPB06iSt4Rp8=
+
+Name: kanzi/entropy/ANSRangeDecoder.class
+SHA-256-Digest: c3hdsM9YM4X2n70kncUMNzU28ts53Lcw0UNaCcJJ2QE=
+
+Name: src/kanzi/util/sampling/DownSampler.java
+SHA-256-Digest: kSIy+OvYrCK+Km8gCCEHAJsgCkMz8WbntVe0igVNP0U=
+
+Name: kanzi/entropy/BinaryEntropyDecoder.class
+SHA-256-Digest: ZNWUntfQzWWo3OMJd/IicGGK64RQ9cuARSAq0J9HBMc=
+
+Name: kanzi/filter/seam/Geodesic.class
+SHA-256-Digest: H1oo/R0xwrlpM9euUIqKvtTlWIkYh2Fnkjnj41KeDDg=
+
+Name: src/kanzi/filter/BilateralFilter.java
+SHA-256-Digest: iIoy9yMdLcP+8Wr9MT8BKEAENSuZpT64icxw5MHUalA=
+
+Name: src/kanzi/entropy/AbstractDecoder.java
+SHA-256-Digest: WcBVzXyE4eZemXbPyOf6LcW1CAdppx6nS/Y18hyCGSo=
+
+Name: kanzi/entropy/AbstractDecoder.class
+SHA-256-Digest: AtMgYRNQ5ETwHCzRo1McsUJ2jZGb0E3Ti5qBkYOtDJo=
+
+Name: src/kanzi/InputBitStream.java
+SHA-256-Digest: Vjex2gwZE/1J7vVxKzz/7f/ZoA4Aykx/4gP5p8s+7zY=
+
+Name: src/kanzi/YUVFrame.java
+SHA-256-Digest: BmfRjQStR0NhtfdGfPYZoIBKm0OwuxYPiT0Wpd2GqpU=
+
+Name: about.ini
+SHA-256-Digest: 8tPu3q3rdO4FEbyY9LbYPSbxPf+cP6t4LuHII1m3ql8=
+
+Name: src/kanzi/util/sampling/EdgeDirectedUpSampler.java
+SHA-256-Digest: oxjXhnOzzUhBFuswCO9CqhBCgR/dHVEXlMX9yX8Ti8Y=
+
+Name: src/kanzi/ColorModelType.java
+SHA-256-Digest: t1DZP5XdmvmwQqg1zuH9KHsoXA1lPCZ3pWqnOaTQ8qM=
+
+Name: kanzi/entropy/HuffmanTree$FrequencyArrayComparator.class
+SHA-256-Digest: NWSJQs/pw1nGXTEKxDaR0rPTOcJ6TNRMjkgbzveeELk=
+
+Name: kanzi/function/NullFunction.class
+SHA-256-Digest: TTCHAl4p+m+Cth8gSLYLkx7aTMOdEyk3rHfr/o8vdSo=
+
+Name: kanzi/entropy/PAQPredictor$StateMap.class
+SHA-256-Digest: 7a1+mvdzlTL5FCdlOeMDVwDsn6LxI61N5tgkJysoix0=
+
+Name: kanzi/util/ImageQualityMonitor.class
+SHA-256-Digest: a8DdA4ii8QXcPinWwqL69uHpPjJuFqB8MUwIYE8VTjk=
+
+Name: src/kanzi/entropy/BinaryEntropyEncoder.java
+SHA-256-Digest: 1AWrLt1aYamJN/c825dWmpDpckzsgwlqZMtvkn7P2IY=
+
+Name: src/kanzi/prediction/LossyIntraPredictor.java
+SHA-256-Digest: xCcK32mXT24EK8GYmXZlcZ+t/j5bl4ifbrQn03O7PC0=
+
+Name: kanzi/util/sort/BucketSort.class
+SHA-256-Digest: U8GkGBvC08Pn5r9j8OLHIYXRe3SPznigzdSsf0ARWuA=
+
+Name: src/kanzi/ByteSorter.java
+SHA-256-Digest: p8qN9L/pu2Upw3IP9k54MDuMZtiH67iMCAjYQ1eL0sU=
+
+Name: src/kanzi/transform/WHT32.java
+SHA-256-Digest: h4qWRaMC+jmUbIfc+hfLssLeHk3tKJaOYfaeqo/02sM=
+
+Name: src/kanzi/entropy/NullEntropyEncoder.java
+SHA-256-Digest: zTScIp5fwZzvFOq6Y3+ibxKCRs+725Z02NnTrHU3HcY=
+
+Name: com/occultusterra/compression/FastLZ$defs.class
+SHA-256-Digest: RjXYBWXNpF46GmYxLi9YpfHNJ4nZQxKSGbXs6Hx5xUQ=
+
+Name: kanzi/function/wavelet/WaveletBandFilter$Context.class
+SHA-256-Digest: /ofdw7Ml0tpTjqttsRkG0YatvU5mDMp2/KfHpo6/oaE=
+
+Name: kanzi/bitstream/DefaultInputBitStream.class
+SHA-256-Digest: 7dDFtY3okRNJmfJJX1WF0xUfIeok3cLW+JDqTi7UnbM=
+
+Name: src/kanzi/ArrayComparator.java
+SHA-256-Digest: yUI5RhpL5zfcsRBshUWYk3Iga78f7JY+cOPM8sjNcZU=
+
+Name: kanzi/filter/BilateralFilter.class
+SHA-256-Digest: ieKvVELuzaIxcIFu/cFOE7YxQ7Jr7e89Qmgt3WlOmCk=
+
+Name: kanzi/io/NullOutputStream.class
+SHA-256-Digest: R5Op04g0opGcZu8U5SNweEt2HFSHxvZakCy47f6msTQ=
+
+Name: src/kanzi/entropy/RiceGolombEncoder.java
+SHA-256-Digest: YNbhz0wUFrmi0rr6grX+1gnK6l3+8hcj9Z2U/aNQc0o=
+
+Name: com/occultusterra/compression/FastLZ.class
+SHA-256-Digest: wSYRQtZWRxKuSPBwlUxiqiYBGrm9qwBMcMPQ/5J1k9k=
+
+Name: kanzi/IndexedByteArray.class
+SHA-256-Digest: OGs/K1JxoaNmR9bavKpAeqAeBioZl/XwLFWv683tyC0=
+
+Name: kanzi/prediction/Stats.class
+SHA-256-Digest: CFkcSwWgCgLBPm4C+okU/nCoH3Dqn+19F+5KJ8+HqX8=
+
+Name: kanzi/util/sampling/UpSampler.class
+SHA-256-Digest: +m0um7B3a0kZ1uwmwRCq531/GahqahxbX7xJGqBMu9g=
+
+Name: src/kanzi/transform/RSET.java
+SHA-256-Digest: 5v5adci5lTKHxY2SXudLi+s2IVzusQ/vzwXD/S41dJU=
+
+Name: src/kanzi/filter/seam/GeodesicSortedQueue.java
+SHA-256-Digest: cwXq5yevO/zilGNp+B2uLoKYHd/nOy96XPojWbKBM8k=
+
+Name: kanzi/transform/WHT8.class
+SHA-256-Digest: Nfxn5gsW0zLcCYKG7w+KLLLoBYt0nDCW5JeMXenA3ak=
+
+Name: kanzi/function/wavelet/WaveletBandScanner.class
+SHA-256-Digest: Ol38HKeB3zpsUcEYiuDOTJJnC5/cX16VCaYFrcnGiQs=
+
+Name: kanzi/IntFunction.class
+SHA-256-Digest: MhYIROyyWk5uhaVJiMhOXe210GC8Oz7GDTFPo6+PLkQ=
+
+Name: kanzi/io/InfoPrinter$Type.class
+SHA-256-Digest: y5LN/awsvIr0Vs/ZYvLlW0dB0UEdVaiJQMlVNlEbc14=
+
+Name: kanzi/util/sampling/EdgeDirectedUpSampler.class
+SHA-256-Digest: GC3Y6KJ8DhCOBsx9dS8gOOo6/SIu1eLdQgzDJBSWJkU=
+
+Name: kanzi/util/sort/ForkJoinParallelSort.class
+SHA-256-Digest: bSLCV1MGw1WLfQu/NDSK7ZuM/jUXNSL78lsjSBaoqFo=
+
+Name: kanzi/function/RLT.class
+SHA-256-Digest: PjQQYHPpTGCRnm+lhfLUAhXvpquL7ABlyMRZxzBY5pU=
+
+Name: kanzi/IntTransform.class
+SHA-256-Digest: Ef4mYopncRhBb4afm6bsDAmqmqD8fcES9u+StalCEK4=
+
+Name: kanzi/ByteFunction.class
+SHA-256-Digest: 2OePLaAX/uM4K1GkZsU0+nXsrTh+6Y6Wc6X/MHH0RBo=
+
+Name: kanzi/function/SnappyCodec.class
+SHA-256-Digest: mQd9qUIPC3KhVee96oKO6tDmVIMFuvPIY6QuV40QX+U=
+
+Name: kanzi/prediction/Prediction.class
+SHA-256-Digest: 92GEErdxCX38JohT0K/cP1ZPN+ts8kL5M3PfwagTKfw=
+
+Name: kanzi/filter/ParallelFilter$FilterTask.class
+SHA-256-Digest: Mh2/NpGBAm+pntlEZKwbf2UExQXceNwTuZ+EaCJ4cQU=
+
+Name: kanzi/entropy/EntropyCodecFactory.class
+SHA-256-Digest: gJ8Qp3OCw2iUXXyXAtggP1Jr6vDE2qRXlUBwcCE9F+c=
+
+Name: kanzi/app/BlockCompressor.class
+SHA-256-Digest: s5QCQgMyCMSu+KgI3pmaYQMwU3iZL3cXUyLJEfKrjNI=
+
+Name: kanzi/IntSorter.class
+SHA-256-Digest: Rt5qgikfPHEO/huRGQAegKVAxw6i0KHr1mSc4PTsO30=
+
+Name: kanzi/io/CompressedOutputStream$EncodingTask.class
+SHA-256-Digest: j8QtdnMxWVG3E3DVdV0JbBU2SmNk9NvbEhg4lyNi6Rk=
+
+Name: kanzi/bitstream/DebugOutputBitStream.class
+SHA-256-Digest: GM3NnIbj7OccUr88qQKEy/ceGDg25MOABQVqB1FUlYM=
+
+Name: kanzi/transform/DWT_Haar.class
+SHA-256-Digest: 3qKE5nEhKaLhCWgflaTAA1YIITM6q1FnasNDW0LhcW0=
+
+Name: src/kanzi/filter/SobelFilter.java
+SHA-256-Digest: llR4/KFTAwkkx/og+rKmmS9olYc0N8jOTASAfRmK0NY=
+
+Name: kanzi/util/color/YCbCrColorModelConverter.class
+SHA-256-Digest: rUFvmhT8aSiNwKAcHSQF7jB7Gm8QF9aXDeGignfmkrE=
+
+Name: kanzi/IntFilter.class
+SHA-256-Digest: P4LlwLeur7RdQvmzJvK29+QR1QpnfL1gpfaVKjw4wgk=
+
+Name: kanzi/transform/WHT32.class
+SHA-256-Digest: mrDNz1S0E+dhHn2rIuTjrPO41WhhBJ4BL53I382tr60=
+
+Name: src/com/occultusterra/compression/FastLZ.java
+SHA-256-Digest: yaE0rE3fl6gLbKuHE00XaHoxIJr3A6DY3QutApPz0r8=
+
+Name: src/kanzi/util/SA_IS.java
+SHA-256-Digest: nseTu2XULoI9fywnNdoRPQtxlRln8kHTIay6KkrWd+Q=
+
+Name: src/kanzi/prediction/Stats.java
+SHA-256-Digest: s+gDAKqLo9BZEwkvQoo4yjfVkvVgMT2phu87ghD28no=
+
+Name: src/kanzi/util/color/ReversibleYUVColorModelConverter.java
+SHA-256-Digest: IKmLKDjr7FsedROt18VWbKCsgpAGjHyAhKzsnArXkwA=
+
+Name: kanzi/filter/JNA_VideoEffect.class
+SHA-256-Digest: XQkSdlt9F7nmGokqrhbkjUEC8Z8QAwliGaYw9VDfN1A=
+
+Name: kanzi/io/BlockListener.class
+SHA-256-Digest: d26TELBv8N9gcbckxwgBSeERa4Zk8ye/IxKRvkm3tng=
+
+Name: src/kanzi/entropy/HuffmanDecoder.java
+SHA-256-Digest: 8uP0mz2V6CBI2Ep64SiSJ6tUYNpx+i2KFZoAuNhrBjw=
+
+Name: kanzi/entropy/RiceGolombEncoder.class
+SHA-256-Digest: zGEg3TicGckjJ1C8HFod77fcMoEK36x9NtymnOyrd7w=
+
+Name: about_files/apache2.txt
+SHA-256-Digest: z8d0m5b2O9McPEK1xHG/dWgUBT6EfBDz6wA0F7xSPTA=
+
+Name: src/kanzi/filter/GaussianFilter.java
+SHA-256-Digest: LBR8U6WsvaFUAHzWkLXY+wL15n3Oa/KNdShI1Sa3B9Q=
+
+Name: src/kanzi/util/sampling/DecimateDownSampler.java
+SHA-256-Digest: fZ7hFheI7/kfJSrMf0trZOslakwuFph+7Qr/DdpnzOg=
+
+Name: src/kanzi/util/ImageQualityMonitor.java
+SHA-256-Digest: VVbNJ4nJO+QuSQL0IAI3y+dNvh3h6HGrkbQlHbTbtN4=
+
+Name: kanzi/util/DivSufSort.class
+SHA-256-Digest: PNJIvLBbZZD0xOPl3060Pkwo9sUsa3tCrqksKjXTF4c=
+
+Name: src/kanzi/prediction/Prediction.java
+SHA-256-Digest: LMy2mPR7RPO3luJTHWIsY8ZygoRve4M2ljO+Oc+bRAc=
+
+Name: kanzi/entropy/HuffmanEncoder.class
+SHA-256-Digest: zPloH8iPO4lcMLTvdyamjXJU1Reuc20HkHQk381GvvI=
+
+Name: kanzi/filter/LightingEffect.class
+SHA-256-Digest: WKfbm1JeBs3nPUAtAvbeSIM6M2KZQooavnh8fwUeuz8=
+
+Name: kanzi/prediction/LossyIntraPredictor$Mode.class
+SHA-256-Digest: 9SW3n+yIvz5Wp60vCt0zafzOJvbrqhKPly8AIaovkG8=
+
+Name: kanzi/util/ImageQualityMonitor$Context.class
+SHA-256-Digest: nOXNuGFYm4mkWi5QfdLWK3hE1QRz3Dse21G0OIUVbAY=
+
+Name: kanzi/bitstream/DefaultOutputBitStream.class
+SHA-256-Digest: O0XRhsxY0/QrVA+C5oyVZ9+mbo3SmILs7rwPDxjj4sI=
+
+Name: src/kanzi/entropy/PAQPredictor.java
+SHA-256-Digest: p5WAi3gYyGCD+ex4ZP2aUni9ceftTUE+nz1KraA2FUE=
+
+Name: src/kanzi/io/CompressedInputStream.java
+SHA-256-Digest: 4hgqEagQM03wuHiVlZV99kM3QEMiqOzLgmoBGW4WcYw=
+
+Name: src/kanzi/quantization/IntraTables.java
+SHA-256-Digest: wJ2apkYm6ba5ERmZCSwqgvicEw42m3pxQj1Ik99YtOE=
+
+Name: kanzi/util/sampling/BilinearDownSampler.class
+SHA-256-Digest: kanYSezmRk1DKMk41RIfQZ2SE/roiHitit9zzgBqdwo=
+
+Name: src/kanzi/util/color/RGBColorModelConverter.java
+SHA-256-Digest: Wa6WdkK3iKKWPiCwEkpuT4SPWq2BqaTiUVW27YUUct0=
+
+Name: src/kanzi/transform/MTFT.java
+SHA-256-Digest: SqVyDOEQ507NagfQseY+ADESiE1U8bwdeb1bkS5EJgs=
+
+Name: src/kanzi/entropy/RiceGolombDecoder.java
+SHA-256-Digest: GeroltLIUFMWm++sI6cBSV8OaGSc0HT+m2bYgXGyC44=
+
+Name: src/kanzi/util/sampling/BilinearUpSampler.java
+SHA-256-Digest: 6zsgpcizgSLnm+Mihb4KsYsNDTZkkE1q2UHX8M8/tlk=
+
+Name: src/kanzi/util/sort/RadixSort.java
+SHA-256-Digest: fYG+M29HAhhsRmg8A/RpEgh0ukPdlhDRCmcsYjAEAVQ=
+
+Name: src/kanzi/Sizeable.java
+SHA-256-Digest: nFENGFizxOk9kx1J3YYHcQql6VQZbKxsCFNr4s4JLO4=
+
+Name: kanzi/ColorModelType.class
+SHA-256-Digest: kCjmIGEnnboB7ITce5jH9820Ky+AJBkJm7UD8e+5PhM=
+
+Name: kanzi/io/CompressedOutputStream$Status.class
+SHA-256-Digest: LcqkkTllKccAw2OTqWT56D6a1kl0acC2c2nTXeQZj48=
+
+Name: kanzi/util/IntBTree$2.class
+SHA-256-Digest: SJbBWxkRAOybBZ/mnsPKyORK/2C3v833zqrWbd0p57Q=
+
+Name: kanzi/util/sort/QuickSort.class
+SHA-256-Digest: q3tV9lwb4oSCNzU8GwkzJkvYvIodHTTawCOmB37d9Xc=
+
+Name: kanzi/filter/ContrastFilter.class
+SHA-256-Digest: qOQuYuHrf1bPrXebmCI1ddix6l9sCQpPPHueQZ1MgPA=
+
+Name: src/kanzi/transform/DCT32.java
+SHA-256-Digest: iNhdwQD2vP58NarknLTso9RmEehZAIfiqgTWR832064=
+
+Name: src/kanzi/util/sampling/DWTUpSampler.java
+SHA-256-Digest: YK9Uxqvr3UFnRBz0DushdOPaMueDCZoS8X0WI4Vo5v0=
+
+Name: kanzi/entropy/HuffmanTree.class
+SHA-256-Digest: 3Hz0HFPvER2JmBFaPzroRm9mBggihYg8fCjxvmD1Tbo=
+
+Name: kanzi/util/DivSufSort$Stack.class
+SHA-256-Digest: 5fj+97HFVk8mBOPcgctWDYhkofjFiccG7r2Zn2oYo5A=
+
+Name: kanzi/util/color/ColorModelConverter.class
+SHA-256-Digest: wJVwWjvMvuVOdNM1cFFSO/NjL0tFxBwjGJkvkjUE1MM=
+
+Name: src/kanzi/util/sort/FlashSort.java
+SHA-256-Digest: Xnc8a3PwG006mRjMrqPlz1S+/xV5XEaSOOWYljNkv1w=
+
+Name: kanzi/transform/SBRT.class
+SHA-256-Digest: 34lmZP0REVMGtC4reTkZ+hn9pR0JFkoJTrQE9pmB4nY=
+
+Name: src/kanzi/transform/BWTS.java
+SHA-256-Digest: TREn2Ncnu0M5JjmCGPNw/5qL8XVYtgavePGiSFvnVcQ=
+
+Name: kanzi/entropy/TPAQPredictor$Mixer.class
+SHA-256-Digest: NNfksbT/0y5dWMCUBdThPT0MPotMbV29RQHgNlzXBIY=
+
+Name: src/kanzi/entropy/BinaryEntropyDecoder.java
+SHA-256-Digest: h4QzAfM20GfTXVXMF28gjaDHQnHuz59PtHvvYnm20CM=
+
+Name: kanzi/util/sort/BitonicSort.class
+SHA-256-Digest: Vp3RGrv+dDgBhI5aV0avpQRDFbRC34ix60yRZ7Ns1i8=
+
+Name: src/kanzi/function/NullFunction.java
+SHA-256-Digest: fpvswaFNeQ+gLQiDCYRB4DRpaBP12IdPxtmvDBLO8vI=
+
+Name: kanzi/util/IntBTree.class
+SHA-256-Digest: EnTJqABXyAMxzuab5bkeiw7y4mONn0qa1s9OHf9ZTv8=
+
+Name: kanzi/filter/ParallelFilter.class
+SHA-256-Digest: BGCvj80B0smH1FFSRxNbBqMXqqSHggPxjVUMUOhYTd8=
+
+Name: kanzi/util/sort/RadixSort$Node.class
+SHA-256-Digest: L4JUQPi72cFe7x0xZsgn1E8KaIKWfmAMN/CWwKVA/Ds=
+
+Name: src/kanzi/util/sort/BitonicSort.java
+SHA-256-Digest: xnD2znnr0c/6e4xY9dnSrvRRHl0lyhzxc6hNj5NDpK8=
+
+Name: kanzi/filter/GaussianFilter.class
+SHA-256-Digest: +XANY2ciKBEo6+KwdOsgfGn4fJ4QllQndefFTOThz58=
+
+Name: kanzi/function/wavelet/WaveletCSFFilter$CSF.class
+SHA-256-Digest: fawyNbLH9f3Oafqlw3WK9JTcgIHZIPlue0RhXhYigvI=
+
+Name: src/kanzi/transform/WHT4.java
+SHA-256-Digest: 3kOTE+mylmMQgNpf195xcIiirZag3XOtVHlwecHTx2c=
+
+Name: kanzi/io/BlockEvent.class
+SHA-256-Digest: DniP99BRfPgDJrPtyf0ho7FmQFIdiEC4PxS7aI9aFg8=
+
+Name: src/kanzi/entropy/HuffmanTree.java
+SHA-256-Digest: LLFQ/nTTHAYjAm88zglIVJ/dGpbe6t/D2VDPQmIavsU=
+
+Name: src/kanzi/function/ZRLT.java
+SHA-256-Digest: di6SHLLxyuokB+DJnYtah9UzZh8FWynNoM5hGl2VGkE=
+
+Name: kanzi/util/HilbertCurveGenerator$Context.class
+SHA-256-Digest: nde9pOqnMUbTJw9iN7sfTFcclHoL1AlW88DyY7QVi2I=
+
+Name: kanzi/quantization/IntraTables.class
+SHA-256-Digest: ORJufy0VK18udPpmqSrqv78/HE1L9iRKRyRtWj6NsO4=
+
+Name: src/kanzi/entropy/HuffmanEncoder.java
+SHA-256-Digest: EZYUATe+Ofa0hjUiHTni4q5kZRYB7VSL1Di4EEe+iKU=
+
+Name: kanzi/filter/seam/GeodesicSortedQueue.class
+SHA-256-Digest: wfGm56JTLc+2rTw+ErEXZfBpOw98GJt+79SCqXRXq1U=
+
+Name: src/kanzi/util/MurMurHash3.java
+SHA-256-Digest: C8rpPrnVORItByzoIHcyim1lkifkXnPwySGarsEpjUU=
+
+Name: src/kanzi/util/sort/DefaultArrayComparator.java
+SHA-256-Digest: 5YZR7UKYiOU8tyRr71bTgPQraz9RJty5p/w7GGqFrro=
+
+Name: src/kanzi/ByteTransform.java
+SHA-256-Digest: Hqg/KYfHfkDLraEOdNYU3GXq3E55uFNOsd7+qbPrSH8=
+
+Name: src/kanzi/io/BlockListener.java
+SHA-256-Digest: YZzxYF4wceI7YiPs0YfGP7Au4sdIYBrH8o5rXHi78fY=
+
+Name: src/kanzi/OutputBitStream.java
+SHA-256-Digest: xSnRAftZ4LZrPce8+7JrJj6jTtFkmA+3eGF8ux3K7rk=
+
+Name: src/kanzi/function/BWTBlockCodec.java
+SHA-256-Digest: ZtDIaBw2UPWTmqCGncTFLAdQGB82Tb5oD3zhkxUAC8Y=
+
+Name: src/kanzi/filter/seam/Geodesic.java
+SHA-256-Digest: 0cyP/mDYeGqjr2D7/qUDq5kViYU6VXFAB9J416mu5zo=
+
+Name: kanzi/util/sampling/DownSampler.class
+SHA-256-Digest: +srFg3/Z0PdvKS4URnOa5CgDAOU6VB0bc1R78SKgFT0=
+
+Name: src/kanzi/transform/DCT4.java
+SHA-256-Digest: Xk8r/c46NqwnKhMLK1rmovzwkgO/1Gk10ih6Wz3QwY0=
+
+Name: src/kanzi/transform/SBRT.java
+SHA-256-Digest: 6OM50eslUmSj5AJz1dguVNk6NbXAUKy1J6EHa+OhQmM=
+
+Name: kanzi/util/color/YCoCgColorModelConverter.class
+SHA-256-Digest: M05iPVJaGng6a183Ozjg/9vSmuG/bg1VS5NWEBqnkcU=
+
+Name: src/kanzi/app/BlockDecompressor.java
+SHA-256-Digest: MnKv49UIxvdS7U05WWIDjo13ENBURViaGxr868p367c=
+
+Name: src/kanzi/entropy/ExpGolombDecoder.java
+SHA-256-Digest: 18KH+Muqql2SSH+v8K4/gphOFWtc3xdZvtCAGTaFbwo=
+
+Name: kanzi/function/FunctionFactory.class
+SHA-256-Digest: hdSC5EW6N+xNeQ7C/J7brN6iYauqzOkAO3Tj7ha7UKY=
+
+Name: src/kanzi/function/RLT.java
+SHA-256-Digest: ALbsrpeZClTPN5aIKpu6rqqP6jmXK2MyI+zp92ZexiU=
+
+Name: kanzi/entropy/NullEntropyEncoder.class
+SHA-256-Digest: QOZZWwQuUnwFtyJ88NX5+HYTZJhgy+hnFGSJZCfzTOU=
+
+Name: src/kanzi/app/BlockCompressor.java
+SHA-256-Digest: CCZbU9bJHEEaNghFjJZm9140ZuMky3EHaspv4zIUJHA=
+
+Name: kanzi/io/CompressedInputStream$Status.class
+SHA-256-Digest: oSCEZ0mZjxvQsnZoFJiuaxBX5/x+b1Yv6ChxnbfwUSY=
+
+Name: kanzi/util/IntBTree$Callback.class
+SHA-256-Digest: 1uq3n1dvklmKlz1274Fwi6BbVxPOqUGV44DVl+6hcYU=
+
+Name: src/kanzi/function/FunctionFactory.java
+SHA-256-Digest: Ta4X///ikhqNdsBZ0pm+wIxYBsPQelr0w1uRn9LRk3Q=
+
+Name: src/kanzi/util/color/YSbSrColorModelConverter.java
+SHA-256-Digest: dfaregYMp3s9DStSB5NecqFtcO4E6T2KG88lhSF1inA=
+
+Name: src/kanzi/entropy/CMPredictor.java
+SHA-256-Digest: TP+OBv7GpyB0oDscrpteG1qDkoXjiQx2aTUNecWXI/U=
+
+Name: src/kanzi/entropy/ExpGolombEncoder.java
+SHA-256-Digest: CIX1KbOnJ5BJ7W88RJa8sPI5glwTPdsgV2useVG9BdU=
+
+Name: src/kanzi/bitstream/DebugOutputBitStream.java
+SHA-256-Digest: QdMT7UJ/6sXQyKFEFCA/TbTmTUKC3oxYVCC6lkzE8lE=
+
+Name: kanzi/io/InfoPrinter.class
+SHA-256-Digest: G146zZhGOyE/pBw5ciYAIUnOw6mJCnfpbCMP5X+ubyw=
+
+Name: src/kanzi/util/IntBTree.java
+SHA-256-Digest: EnnYPnVfQJiwceqRSxsRGpzQpDtEoCnCifh3wQGLJk0=
+
+Name: kanzi/ArrayComparator.class
+SHA-256-Digest: T4/k4L8ffKEY6hixZQX7jNMjMvQbt7wCobYwgtuASYo=
+
+Name: kanzi/transform/BWTS.class
+SHA-256-Digest: lh7ieX2jQeBZuOPJBOVoXxtaUBUQ0OpTBl6C/RuwRSk=
+
+Name: src/kanzi/filter/ParallelFilter.java
+SHA-256-Digest: H2ErpRkJr9cylS8ZwsTAhUe/rtgi9aTCXNu5ZJwJTuk=
+
+Name: kanzi/io/Error.class
+SHA-256-Digest: 2P5p/jrC5VKEu7GYi02mZR3+Spm3dl4+d+XyU3eopNk=
+
+Name: kanzi/YUVFrame.class
+SHA-256-Digest: RMzb6UZb8resTNiWyI5gnlTEimkXFYozHrckPFERvQE=
+
+Name: kanzi/filter/BlurFilter.class
+SHA-256-Digest: ToGlHIY/BRVR9R8dcKCBddLhuQC/my0zHt8ItoSqv+k=
+
+Name: kanzi/io/BlockEvent$Type.class
+SHA-256-Digest: w9cA2NS7SwmOEACGkPvp6B8bglP3zVauoirlTvzQRqk=
+
+Name: kanzi/transform/DCT32.class
+SHA-256-Digest: nM3ODiBeEX7kY2Sz9jtv8SuIZejfJ9pvYmghviwEfaQ=
+
+Name: kanzi/transform/DWT_CDF_9_7.class
+SHA-256-Digest: eVfrtwdeeXTOAwAgOUCWEyglhUBuyppjaZDE5QLeBUQ=
+
+Name: kanzi/filter/SobelFilter.class
+SHA-256-Digest: 7AQ9BgVGzLO067sPgsJSadO7NXCCtD1XA0CZlL/R6ok=
+
+Name: src/kanzi/entropy/EntropyUtils.java
+SHA-256-Digest: F+W8m7BGISZ+gYvsG6JgBksRQFfLw4aN8vfSNIOZAPs=
+
+Name: kanzi/entropy/Predictor.class
+SHA-256-Digest: aRgX5CgrKdbZ0YbiChqlwd4dEYfIAf4+n0m6g6CVwOE=
+
+Name: kanzi/util/sort/ForkJoinParallelSort$SortTask.class
+SHA-256-Digest: Uq+hA1PHIymMuaxF1kS9Fd20842qSdqxtPhAI9hEbF0=
+
+Name: kanzi/EntropyDecoder.class
+SHA-256-Digest: ztjrKRn2RHA5hjOc6Dm6/NMvgQ4Zg6ckKaNmXOU4JUE=
+
+Name: src/kanzi/filter/RainDropEffect.java
+SHA-256-Digest: QiqP55kP7OrLw8z8XZeKxNzwJSamPdzohZNX5YrLHss=
+
+Name: kanzi/filter/RainDropEffect.class
+SHA-256-Digest: 10wwh5ETR7/tcffNs/RUI+F/IzlR+zH1Cc/4Z+xATgI=
+
+Name: src/kanzi/io/Error.java
+SHA-256-Digest: tmEBfFobvQexiAXzCocuyMR+X5oGAGun0nx7ZbAIlKU=
+
+Name: src/kanzi/IndexedIntArray.java
+SHA-256-Digest: FXYaEevYKVUrNV5aasNksqN6kP6rVodyc/m+53RCDGA=
+
+Name: src/kanzi/BitStreamException.java
+SHA-256-Digest: bi23VU383gm/3HEa2gnikboNkC3saqBdIXIw6ypmwWk=
+
+Name: src/kanzi/util/sort/InsertionSort.java
+SHA-256-Digest: 2zS+/wHoBo9gIGKuX2sMXzpSSu/ZeR1MLyn87wbHLPA=
+
+Name: kanzi/entropy/HuffmanTree$CodeLengthArrayComparator.class
+SHA-256-Digest: JyL/Em0MbeeajIkjienJ0hHgsigUzwi+pGzaus2+mhI=
+
+Name: kanzi/entropy/AbstractEncoder.class
+SHA-256-Digest: oPWYpPV7+nZK4I5glQVbIfyTIRboGusKmzFXZU5GxfY=
+
+Name: kanzi/util/sort/RadixSort$LinkedQueue.class
+SHA-256-Digest: KKZeZ3u8Z3K7Orb6vilwVREcV/1TioicyeBWDSaQ9ik=
+
+Name: src/kanzi/transform/WHT16.java
+SHA-256-Digest: TqBcHsMfq3YKZzqQFa0GZH/4B2SJwH5HJoHmIFEbyU8=
+
+Name: kanzi/IndexedIntArray.class
+SHA-256-Digest: DRpSCT3KIYUa4NfK13EeNIvwG6y2fdjv74eUm6OxyYU=
+
+Name: kanzi/util/sampling/DWTUpSampler.class
+SHA-256-Digest: 2BbrwMClag4/niZAHnX4BBqZrv0OA/vTW5fWytDiAZQ=
+
+Name: src/kanzi/function/wavelet/WaveletBandScanner.java
+SHA-256-Digest: iH+9MUaoJxWVZ8T3xFFP6s+yc7e8jiI4mWv7lc7IiZk=
+
+Name: kanzi/util/HilbertCurveGenerator$Direction.class
+SHA-256-Digest: 2DgvfiURUVddgatb96efHMXqP019YyEwhQ1gFpXrYJY=
+
+Name: src/kanzi/IndexedByteArray.java
+SHA-256-Digest: CAQkGYVi1E9U0TWo74TkmvoM0tJvFdpvFj1mw6QBLfg=
+
+Name: kanzi/OutputBitStream.class
+SHA-256-Digest: wzHRgclMZeZR3iyAEZREX1xR8vMKkSq+LmGcJXbnTX8=
+
+Name: kanzi/entropy/BinaryEntropyEncoder.class
+SHA-256-Digest: p32j8KiY8OMQ6Ahu/LUgYR6BjfqCCvPQulXCqz4dm8Q=
+
+Name: kanzi/function/BWTBlockCodec.class
+SHA-256-Digest: o4a1IofOGK6oYrmMZZlmL/z7ixoXVNBu4Os/ve/nUq0=
+
+Name: src/kanzi/util/DivSufSort.java
+SHA-256-Digest: MtJpLlAgCEJ+g51bHPZBbHhYkpUN1JnqXeemlYENa88=
+
+Name: kanzi/util/color/RGBColorModelConverter.class
+SHA-256-Digest: KYkx/gD4a8BdTCbCpboXNe0v1WX8dqpMRZcge8tKk5A=
+
+Name: kanzi/util/DivSufSort$TRBudget.class
+SHA-256-Digest: SvRETDTP8FFD84aouPacFVjVJutWCt4IeLgq9eqPk5k=
+
+Name: kanzi/util/sort/RadixSort.class
+SHA-256-Digest: l76o9aGFfMbXClS5ObDzpgPtdBXS6E+g0ObfhcXMTVw=
+
+Name: kanzi/entropy/PAQPredictor$AdaptiveProbMap.class
+SHA-256-Digest: iKVCYXkf0npTEM9nkJEFw3HGmzqTnGHF+YH8Jdcipl0=
+
+Name: kanzi/util/sampling/BilinearUpSampler.class
+SHA-256-Digest: dQ8FRHw+V6EPvVbBFfwjOntiYif2FAg5eMPD+SFRRMA=
+
+Name: kanzi/transform/WHT4.class
+SHA-256-Digest: ATkdg27Fm/SAx//Emst2Ew9J4fvAQMBg7sGyX4WNZ3w=
+
+Name: src/kanzi/util/LyndonWords.java
+SHA-256-Digest: Al5DmRFca8+fnI2Tm+8wDh95XZTAozDVoBNSylGp9hg=
+
+Name: src/kanzi/function/wavelet/WaveletBandFilter.java
+SHA-256-Digest: s/ROdj/ARDFKk6NSS6lKdueokCEB5peH8+ZtWBCE11U=
+
+Name: kanzi/function/LZ4Codec.class
+SHA-256-Digest: lZMkNaGiNkRgeTMxgt/r0A0F6Ig9ptO5xYRSwojTlVI=
+
+Name: kanzi/transform/MTFT.class
+SHA-256-Digest: p0gHRqIXFzeuOZHDiIwty4zqlvFZ4Krj9tHzzF2O0oU=
+
+Name: src/kanzi/util/sampling/BicubicUpSampler.java
+SHA-256-Digest: 6yUTyVezZrKB+FQfG4T0n6MKhGK5FyTDOhMR7WIq03w=
+
+Name: src/kanzi/bitstream/DefaultOutputBitStream.java
+SHA-256-Digest: mGlzWx65BfKvQjDEwhS+7QVaT11lQl/oe/GpNoyk7r0=
+
+Name: src/kanzi/util/sort/BucketSort.java
+SHA-256-Digest: LJpzDvfSAKGEbs409B8fKAntFrOYN9bjRbHqMMQsFvM=
+
+Name: kanzi/io/CompressedInputStream$DecodingTask.class
+SHA-256-Digest: 2dk9rBhxHiSInb84zDqBFBVPHKj8QP1ey5L5PsXGGF0=
+
+Name: kanzi/filter/FastBilateralFilter.class
+SHA-256-Digest: SSPZrlC6KK9RuKTzrKQLgKAsE8a6j6KW5wpee1TEe6g=
+
+Name: kanzi/transform/MTFT$Payload.class
+SHA-256-Digest: 3cEPt254PeW9EfMJhWWX7BQi0DOQdsXPWB0tcOQvxUs=
+
+Name: src/kanzi/transform/DWT_Haar.java
+SHA-256-Digest: +Vi/AoseYuCs+pJmANPjvxEUiEkB9Qy8lgrwsCsO2KY=
+
+Name: kanzi/entropy/ANSRangeEncoder.class
+SHA-256-Digest: e0R0KiKGcrtIOfJ7ItZuU2lN3TsSXwnMVmwkWqbEvkM=
+
+Name: kanzi/util/LyndonWords.class
+SHA-256-Digest: He5vK5WsJdqCiXGvzIxsl2R2HFhQJgu/vjTUpA/zDro=
+
+Name: kanzi/entropy/FPAQPredictor.class
+SHA-256-Digest: ikj56u6jS5PK52dnJFNNCVUtDMzXdmqlLcUgE9NMeVQ=
+
+Name: src/kanzi/IntSorter.java
+SHA-256-Digest: H/M4E8jkeW/rn0xhKHggtgb6o+qAdPxGcO0bMgwMe4I=
+
+Name: kanzi/transform/RSET.class
+SHA-256-Digest: K8e/2yPc2GjzejqSo9s7UyKM1X2MNVW0EyAJ+TIch+E=
+
+Name: kanzi/util/HilbertCurveGenerator.class
+SHA-256-Digest: AJZmqsUE9OGYQgqWPf9ARYkNHPzhbLEboze/ja2ruSY=
+
+Name: kanzi/entropy/PAQPredictor.class
+SHA-256-Digest: mSGNQvtL+ZaTFQJN54CGO2ehk4XvSVNrtp5aaHQOhjM=
+
+Name: src/kanzi/transform/DWT_CDF_9_7.java
+SHA-256-Digest: l1QehAkyEHLtOY20FKXGp7erTRvDVQJbzDyppVsGRiQ=
+
+Name: src/kanzi/bitstream/DefaultInputBitStream.java
+SHA-256-Digest: y3YpG3Nl0Ta8wUxd5fAMejbPyt5g7gBCVEqF6aHGhwo=
+
+Name: kanzi/util/QuadTreeGenerator.class
+SHA-256-Digest: Yo2Qpwed3HSlGEdFOwtEXrrVAt0YMemeu9pCuC93Dg0=
+
+Name: kanzi/transform/DCT4.class
+SHA-256-Digest: rcKtaDEqi4jZ85KvATENua2FLG1GBOVc8g8rtpCXP9k=
+
+Name: about_files/epl.txt
+SHA-256-Digest: AtQbxPQidIqxdsEwqPI6VXNLvv45eQYyLYXy/UPH9zo=
+
+Name: kanzi/util/sort/FlashSort.class
+SHA-256-Digest: 9amxhdgLjTHwoSqdubPgmCn9/em4ERbm7tplM/hBLcE=
+
+Name: src/kanzi/EntropyEncoder.java
+SHA-256-Digest: 1jPi414CWx0r154y6YI8j+vxi0DQlZRmxlx960sYb/Y=
+
+Name: kanzi/util/sort/MergeSort.class
+SHA-256-Digest: P19Apn4HlV7Ax/mIxhWcv3C6ktXHBejoz8cYtx2wano=
+
+Name: src/kanzi/util/Timing.java
+SHA-256-Digest: LvaIioXIE3MUFbEhlu4YjR58nWslcOnk+F2eVpwniQw=
+
+Name: kanzi/util/IntBTree$1.class
+SHA-256-Digest: PF79AWg5ZQ47V6eVi9miaeYRGJN5Hj0FCm8iRqqW6NE=
+
+Name: src/kanzi/filter/LightingEffect.java
+SHA-256-Digest: vshKG8DI44tqAXB+VWM/OMHP8wlg+O6WYv+XAptfdP0=
+
+Name: src/kanzi/io/InfoPrinter.java
+SHA-256-Digest: hiFh4K5518SOtm79LE5aP8sS1l2ZffXYBwOrzZL93zw=
+
+Name: kanzi/util/color/XYZColorModelConverter.class
+SHA-256-Digest: Z/VByD+YWnZJc7Agku/r6x8i8x7ym+1FTq/xrRk/sd8=
+
+Name: kanzi/util/sampling/DWTDownSampler.class
+SHA-256-Digest: fFsNGfseogxJPKynapaL53F01MK7a/7bz34K/Utr8Kc=
+
+Name: src/kanzi/IntFunction.java
+SHA-256-Digest: a3nmDinI1Xpe7Mfln6PSugDJGmA8DUCqBk368c5lwao=
+
+Name: src/kanzi/util/sort/ForkJoinParallelSort.java
+SHA-256-Digest: gBon88vk3btIBtC3LhkTyh50xO/8ZC2+8jPBJNFIF68=
+
+Name: kanzi/function/ZRLT.class
+SHA-256-Digest: 3r9xUi7OZ62vXv4GhaQmHQILDU8Zzyg21K8qRIiXJ68=
+
+Name: src/kanzi/Global.java
+SHA-256-Digest: pY2NVx3mAZJ5FogmuULsCD2xQLeMYj9t4kOfyaWM9ss=
+
+Name: src/kanzi/entropy/Predictor.java
+SHA-256-Digest: yq6Rbm9tlsTTrWQbU7l0tjUYu1JTms4kPN3o+/12OtY=
+
+Name: src/kanzi/io/NullOutputStream.java
+SHA-256-Digest: GqCjA3VfVI2+eOog7oNiZ2nbwtCWiao0Fet0qt+M2ak=
+
+Name: kanzi/entropy/NullEntropyDecoder.class
+SHA-256-Digest: WaW9A5z3nhZLLmOZOD+F4822sz3pTEkZwRgdkhm88lg=
+
+Name: src/kanzi/filter/seam/ContextResizer.java
+SHA-256-Digest: tEdrAqdb2VS5stK5PnJgXzSLOZBVvuyILWRVA/NPSe8=
+
+Name: kanzi/Global.class
+SHA-256-Digest: bO/P/rXoUTBI29vlV5yWMgLm6EOJUvAm/8WpsmxOj+A=
+
+Name: src/kanzi/entropy/TPAQPredictor.java
+SHA-256-Digest: UOni7v9ksw897O/aRISqHpCFtw5kM3flRsPSWVXsgfs=
+
+Name: kanzi/entropy/EntropyUtils$FreqSortData.class
+SHA-256-Digest: +SGgrFxAXYBoGBiE4y43QMmnMITnpD1lPJClwXbvTvw=
+
+Name: src/kanzi/util/color/ColorModelConverter.java
+SHA-256-Digest: 4mtdC3k0+3YTAu252pQfHvOXPt5VEpTUcB7y4X8JQyg=
+
+Name: kanzi/util/sort/InsertionSort.class
+SHA-256-Digest: 8MjA81trfU6nLBNKRBvVZnATyAULiJ6GC3ajnCMKhw4=
+
+Name: kanzi/util/IntBTree$IntBTNode.class
+SHA-256-Digest: Zseu/7DrmWzNCw91Z81NQ2AAlCT04FpfSeQgoyw/WtM=
+
+Name: kanzi/EntropyEncoder.class
+SHA-256-Digest: KW4U6KaXYP08IEMdkF01afIRtb8LIOsORhwOjhzT/oQ=
+
+Name: src/kanzi/util/sort/QuickSort.java
+SHA-256-Digest: AwybNrJFfVw7WNo4Nz0wtI8a32H/fDJyi0hteGZMjSc=
+
+Name: kanzi/transform/BWT.class
+SHA-256-Digest: sq8kR7+6BXHCqikeQzdH8ZLp6xP+XTEQK0e/gizdJdQ=
+
+Name: kanzi/io/CompressedOutputStream.class
+SHA-256-Digest: 2+mKs75SFI7OSbRVCUhDQbPfNSUNvpaaKOtaCJWUyf4=
+
+Name: kanzi/util/sampling/DecimateDownSampler.class
+SHA-256-Digest: +fIt6bBSWdIhX5ZmraoWpMv8GNaXFY/+hU7bmVwboA8=
+
+Name: src/kanzi/filter/FastBilateralFilter.java
+SHA-256-Digest: TrzL9qokg6ub6yIm9e6K8o5IJUWzrm4fAdTNxLSJjOI=
+
+Name: src/kanzi/filter/JNI_VideoEffect.java
+SHA-256-Digest: +xAK67wnfHu0U/VZdxMEdndfaw+NnfPX4YA7/Do73vc=
+
+Name: kanzi/filter/seam/ContextResizer.class
+SHA-256-Digest: ENcpyR6H6inCI+1ERUGNCvCUjMmZWMT6L6bkM6Ilwyg=
+
+Name: kanzi/transform/WHT16.class
+SHA-256-Digest: xp0+cJHEAjsPZD9Bb0qPBH/KrotWHg6CzWXY5ffGpgQ=
+
+Name: src/kanzi/io/IOException.java
+SHA-256-Digest: c0xiMKcQtFe/ASX0It0MbOhSxwJlTeOSxmNjQumQyWg=
+
+Name: kanzi/util/DivSufSort$StackElement.class
+SHA-256-Digest: 6gmVfkSHT8+vOgoNu5CSbVtgjA4Rf4BSxdRXZgZT1Ws=
+
+Name: kanzi/util/color/ReversibleYUVColorModelConverter.class
+SHA-256-Digest: kZfGnpLNUa6j9pev8yN1/AzypSn7gKfkNZ2fGaOUkWE=
+
+Name: src/kanzi/util/sort/HeapSort.java
+SHA-256-Digest: HY+RvFXZ4DWzZIKYKsM4iGM76YFufl/oyyl69hUb/2U=
+
+Name: src/kanzi/transform/DCT16.java
+SHA-256-Digest: P3jrN1iKojzSG0ZUwNiRCMybkIx06LrSHGyRLid707A=
+
+Name: kanzi/function/wavelet/WaveletCSFFilter.class
+SHA-256-Digest: kaav+aUOCjGOyB46YnJlMApwRtHXjjSTzRR2lD98kW4=
+
+Name: src/kanzi/io/BlockEvent.java
+SHA-256-Digest: hwbOE96bit0z8eXOeV/5vb+48tY5N4jJCdR93bjvZ8M=
+
+Name: src/kanzi/entropy/AbstractEncoder.java
+SHA-256-Digest: IWXNqvoW0z87c8PSh4aXMEUcP09Ms31uC7IMgWecffw=
+
+Name: src/kanzi/entropy/NullEntropyDecoder.java
+SHA-256-Digest: X8MSyTjYCRzE0Ky2l39xwqAvCmiDvio08/DWOGpZZo8=
+
+Name: src/kanzi/function/LZ4Codec.java
+SHA-256-Digest: 91hNd4/6TRAS38oHS6iyIyiwFXlRAP55y3hrRtY5XI8=
+
+Name: src/kanzi/util/HilbertCurveGenerator.java
+SHA-256-Digest: txWR3ajWmynM4N8P2I4VPSVQudIRkB7i8fdmUtuoZTI=
+
+Name: kanzi/BitStreamException.class
+SHA-256-Digest: vlrj49fdgmVlt45kzvSNr1ygYZ3wXYfBDc35tL/9EzU=
+
+Name: src/kanzi/io/CompressedOutputStream.java
+SHA-256-Digest: E4SL6ZNduJuANnCx4DSH7NIve86T5e/4rW6BFIcBxB4=
+
+Name: src/kanzi/IntTransform.java
+SHA-256-Digest: v3dASOH4t2WvlrWaNnVu1L8zZTaeCeC0bvBblrhEFTU=
+
+Name: kanzi/util/color/YSbSrColorModelConverter.class
+SHA-256-Digest: 1KQMXfSUkCRI2oZP7itjRaF27+ezjq/fnZwxEjZCvfo=
+
+Name: kanzi/entropy/ExpGolombEncoder.class
+SHA-256-Digest: deYY1F/Op5R57JmnOMPWQ8YmSXaMxE+jVTeeIrREXZk=
+
+Name: src/kanzi/util/XXHash.java
+SHA-256-Digest: +HlSZ/tv9YXRxWq49gt79mWiehJ/WnePYVm8a5Gf5+8=
+
+Name: src/kanzi/util/color/YCbCrColorModelConverter.java
+SHA-256-Digest: IcTXZYeadpzwJPsUFQ9qBsPH0RkkkAqzT1Y5N9+GHTY=
+
+Name: kanzi/entropy/RangeEncoder.class
+SHA-256-Digest: EcNSIVWBObGtL+3HlHY23vs57xZki5iBD7Am1wzYdU8=
+
+Name: src/kanzi/EntropyDecoder.java
+SHA-256-Digest: fWcEzoCD5zHbqRClDiZJqd8+W6CLOA5SVQVo5YTndIA=
+
+Name: kanzi/entropy/ExpGolombDecoder.class
+SHA-256-Digest: dZvz/aV64X+mnQ7X+JaYK5W12hDA+W1rJaGsaV/vp3Q=
+
+Name: kanzi/ByteTransform.class
+SHA-256-Digest: FU37qApcKyw/RGpprdg+dDa5Ljhnf0XVZTfDHdI/x5Q=
+
+Name: kanzi/io/InfoPrinter$BlockInfo.class
+SHA-256-Digest: PleUqMaZWVYrnwtwXH/kX5UydmA+eAVTQSpy0VVTkyw=
+
+Name: kanzi/io/IOException.class
+SHA-256-Digest: EAsWSW42NqROIHSA0C9lpb46tRh0ngf7jkTxw9IlsY8=
+
+Name: kanzi/entropy/RangeDecoder.class
+SHA-256-Digest: HSBEA2s6qQLtEoVAtmS7GY/P6KxsYhyAoBtXTcginC8=
+
+Name: kanzi/InputBitStream.class
+SHA-256-Digest: WXgq98uTp6QmQacr/b4HiW8gNr9XTjSQwnf5fvagOls=
+
+Name: kanzi/prediction/LossyIntraPredictor.class
+SHA-256-Digest: jurrxvVfp2digBkeIiAly4f4gaLfdA9JJqHx3S+6gu4=
+
+Name: src/kanzi/util/sampling/DWTDownSampler.java
+SHA-256-Digest: P+6SeW+z3EHhPpT79GZUBo26bNkgMKlEhgs0T07D8Uc=
+
+Name: kanzi/util/MurMurHash3.class
+SHA-256-Digest: r9eRYfW6DOXS4E4lsn0m2Co95aOfd2dpmzLaD/Fdt6c=
+
+Name: src/kanzi/transform/BWT.java
+SHA-256-Digest: RobbQpGHOr6PSkOACEzQTvFAhmx3uBn4Kv/3dUAtB2k=
+
+Name: src/kanzi/util/sampling/UpSampler.java
+SHA-256-Digest: auMbRV41SbOXiiABiMlO0YuYWF1xSCDUx7XtLu2I/9I=
+
+Name: kanzi/Sizeable.class
+SHA-256-Digest: rsxYzH4RxG1ISrS+m9wIePtbNINxjvsUFo9Zco/YBuM=
+
+Name: kanzi/function/wavelet/WaveletBandFilter.class
+SHA-256-Digest: FX4+IgcRXeyNCPSYl5LgDcfpvS7M4QY9nESlTNa2TtA=
+
+Name: kanzi/io/CompressedInputStream.class
+SHA-256-Digest: WgplAsMtHRPYuj2RcC5YfoV1e2jcOTHurayuoL+TwWk=
+
+Name: kanzi/util/SA_IS.class
+SHA-256-Digest: MbM2pxbcGwE56Qz+HFFvFkaO7ZSdFBnqMt0ZwIm8z0Y=
+
+Name: src/kanzi/util/sampling/BilinearDownSampler.java
+SHA-256-Digest: geQH0Gq5wCyqpyA94trLhOwToAO2qxvo/hxNpTTgoCI=
+
+Name: src/kanzi/entropy/RangeDecoder.java
+SHA-256-Digest: g/z2GoFVBN/hHKfE6W1n2LBs+wV6bOUto1iyw4x6fBU=
+
+Name: src/kanzi/entropy/ANSRangeDecoder.java
+SHA-256-Digest: uq8/sA5u6BWQJt4AdVcODFueZ8muIuvctJgyogi2qaI=
+
+Name: kanzi/transform/DCT8.class
+SHA-256-Digest: d6SzOFLw6z6NoW8Kx3OtFuJ++0cQ5Gia0rxCUBw22zY=
+
+Name: kanzi/util/XXHash.class
+SHA-256-Digest: uCziRnPpK636b9oJKdo1DYPayq9U4eVWLwpkFF2TFug=
+
+Name: kanzi/prediction/LossyIntraPredictor$SearchBlockContext.class
+SHA-256-Digest: kqG3GDxq4sW5SuOrfICoAdBvpCaS5Lwvq/3v4f35vWE=
+
+Name: kanzi/util/sort/HeapSort.class
+SHA-256-Digest: dNZMcI6Ha0frUDteTG+MyRnESjTgWV35CMcTJpTAwz0=
+
+Name: kanzi/entropy/RiceGolombDecoder.class
+SHA-256-Digest: zXrDW3iKJot3G5WxWf6xshHv2tdi8j2dmQUvAuXdBPs=
+
+Name: kanzi/transform/DCT16.class
+SHA-256-Digest: J2RlM47Qv09InJYXdGCkRiku/POuw29pTZ1pOY6tTsc=
+
+Name: src/kanzi/filter/ContrastFilter.java
+SHA-256-Digest: DQiTse8Q/xqgQ6EF1Ni2R58ZD1XtoKU+CjTdYjBJq0A=
+
+Name: src/kanzi/util/color/YCoCgColorModelConverter.java
+SHA-256-Digest: 2bhvNBDujbfux0Dmk5NwLPNAOK5nqQiVrl7CsgdvFx0=
+
+Name: src/kanzi/filter/BlurFilter.java
+SHA-256-Digest: 4S7sfzIzxEAzsZf/4f+0k2sTFXSwGIjkVFx+ku3s6wk=
+
+Name: kanzi/filter/JNI_VideoEffect.class
+SHA-256-Digest: v6s5CTMEC6n6kM9s1Zy9/DYRyl0akyhyWKwUcyTP7ZQ=
+
+Name: src/kanzi/function/SnappyCodec.java
+SHA-256-Digest: CCQ2h4xvu1W52AppBVO89uEE59YvaBLSAXqWy5b2Vug=
+
+Name: kanzi/util/BlockAnalyzer.class
+SHA-256-Digest: xREuDEKfRNtzn7Xmr6c68oyNc9XoYTFuO1GoYfxz5J0=
+
+Name: kanzi/entropy/CMPredictor.class
+SHA-256-Digest: VmUWABp0sivSIwvQFNT+U+MLDtb4B1mlkQtrGWKL8Ow=
+
+Name: src/kanzi/entropy/RangeEncoder.java
+SHA-256-Digest: v85SYmjw1xTiJ5TJ2DaBjEBR8+QOFTdtDmrrhXT97T0=
+
+Name: src/kanzi/entropy/EntropyCodecFactory.java
+SHA-256-Digest: 00n591Thc1OOzzuReCVp9K6eevTqKkj42+Yr6/mYpoY=
+
+Name: kanzi/filter/seam/GeodesicSortedQueue$Node.class
+SHA-256-Digest: hdujcNMppX0/bamBDd53RKyDW0cGmxXndqSTt4AeqEc=
+
+Name: kanzi/util/sort/DefaultArrayComparator.class
+SHA-256-Digest: h+cCNmmAKcmk4eYmzePo9ZZK/SraE6vjl0iqC4aWLjk=
+
+Name: kanzi/bitstream/DebugInputBitStream.class
+SHA-256-Digest: t7Ej0nC9odbyLQm1T6fB7t/UaCRr5r8fGqkDgbEUPmg=
+
+Name: src/kanzi/entropy/FPAQPredictor.java
+SHA-256-Digest: QEJNnBo5od2Xm+tnP96MkdYQj0/YvysOoTnizX2DpF4=
+
+Name: src/kanzi/bitstream/DebugInputBitStream.java
+SHA-256-Digest: F9StBVjFg3yH+rAQwSCWaYERnzuJAoMv1l49chjDRrU=
+
+Name: src/kanzi/filter/JNA_VideoEffect.java
+SHA-256-Digest: TSHuwhwpCzbYe3UF8ZRpscVNin9TUY5u1EE2Ew1tRCM=
+
+Name: kanzi/entropy/HuffmanDecoder.class
+SHA-256-Digest: 2zRLAD98DsfwYfNG1qxVWmvjCw5QRpT5bQ5ioRQU9lE=
+
+Name: kanzi/util/Timing.class
+SHA-256-Digest: Cw9XfWhnLLnOaCxl7yPxRq53Nlpj9Bn5PRjRuRd53ns=
+
+Name: about.html
+SHA-256-Digest: 7q9N3xlfrYRzpNoedtxhi5WwOc4LIGz+4fYiNyg4Eg4=
+
+Name: kanzi/util/sampling/BicubicUpSampler.class
+SHA-256-Digest: iPf6Flu6Sn7ce48h5ZQBkj0jF4FgULOkENTdRRmzGKg=
+
+Name: src/kanzi/util/BlockAnalyzer.java
+SHA-256-Digest: 1OMgjrSMA+lUhk2Br31Su5ZgIu5SrwLKqZWA04iCNO4=
+
+Name: src/kanzi/IntFilter.java
+SHA-256-Digest: E//AyugnnBIJdoRHGoV10Mh5zy4CpLwBKyAWBxRNRL0=
+
+Name: src/kanzi/transform/DCT8.java
+SHA-256-Digest: 5Alf79eRGHql3esE5usjWyLnIpwn1jlK2SKxoCF8xwY=
+
+Name: kanzi/entropy/TPAQPredictor$AdaptiveProbMap.class
+SHA-256-Digest: 7iUHBo9QZW7+FiKFF9xP4ScL2Q46egmfdhCeog4i+bQ=
+
+Name: src/kanzi/util/QuadTreeGenerator.java
+SHA-256-Digest: LjJuUAKIclhJKkUaa4wAlkfuzqOluTtU//uCi3RB4iI=
+
+Name: src/kanzi/util/sort/MergeSort.java
+SHA-256-Digest: 0fREaNBOEjN/KrZCOvHQILVXSxVgtYDYOz4wUGE05Tk=
+
+Name: src/kanzi/ByteFunction.java
+SHA-256-Digest: 8eyVg9Z7U1c+ol7zAS/kEIjOcd8xUMLvJwVXZCzgopI=
+
+Name: src/kanzi/transform/WHT8.java
+SHA-256-Digest: AgeyTPVcvDHSeD7zmviy1YUgALoazAEce04uOlxmTTY=
+
+Name: src/kanzi/entropy/ANSRangeEncoder.java
+SHA-256-Digest: NnsahRNxsJ6EV2ri1O42uzkRAjGO5hjtFInc/WOx/Vw=
+
+Name: kanzi/entropy/EntropyUtils.class
+SHA-256-Digest: dNpcfyf6SCunTr3Jije41on2PsibQcIGJFwQNxZyvIY=
+
+Name: kanzi/util/QuadTreeGenerator$Node.class
+SHA-256-Digest: 0+7QESmQ36gB4JYXhSuYF4arZJBn4Nhpai3FGwKNOD4=
+
+Name: src/kanzi/util/color/XYZColorModelConverter.java
+SHA-256-Digest: /SLLbVyhLXZVK0l/l4O8JPRm9pgp3j0sS0wgZm5lulw=
+
+Name: kanzi/ByteSorter.class
+SHA-256-Digest: 8L4KgzRuHqwzSHATdrJS9HQVL+lVUXbjKLoP/aOYFC0=
+
+Name: src/kanzi/function/wavelet/WaveletCSFFilter.java
+SHA-256-Digest: gjdjhZEwC4OPq9GXhonBFuLNx9YDbPzt2fy5iAhT108=
+

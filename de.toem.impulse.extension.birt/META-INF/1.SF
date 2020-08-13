@@ -1,0 +1,217 @@
+Signature-Version: 1.0
+Created-By: 11.0.8 (Ubuntu)
+SHA-256-Digest-Manifest: VKT6Lcsx6KJUiZXloVnd5318whyMWjB/0kb9WVGvDFc=
+SHA-256-Digest-Manifest-Main-Attributes: PlCcvxnQhAUYnhczCHyBO4S1ei3NBZj
+ q6YCHTWb9lao=
+
+Name: plugin.xml
+SHA-256-Digest: xtlZlsfMAUNcAWUFisiihFS0eAHOVM67AOhSHydvywI=
+
+Name: src/de/toem/impulse/extension/birt/pie/PieChart.java
+SHA-256-Digest: DN8htBR2yzBKeGJayb56Fm8j/zbBWWl0yos0dvKXVWc=
+
+Name: src/de/toem/impulse/extension/birt/ImpulseBirtExtension.java
+SHA-256-Digest: HHaNXqJKKmTgHbj8jY0CU8c0gmnl95gjRnOlpmUlBg8=
+
+Name: src/de/toem/impulse/extension/birt/StyleProcessor.java
+SHA-256-Digest: iaMQxxHnLIxVk/qSaSMq5H1xLpWGkHOijsThiE0V+ck=
+
+Name: de/toem/impulse/extension/birt/AbstractBirtChartCell$1$1.class
+SHA-256-Digest: UpIDTiDC+ruqx+vc61Cf3+kSZ5j05dD3+OBJ0s5yyYg=
+
+Name: icons/objects/chart_bar.png
+SHA-256-Digest: JhqcUAKTvUpScVn5Q4i2tCkJFfH4QtMdOmXzOr3Sheo=
+
+Name: de/toem/impulse/extension/birt/AbstractBirtChartInstancer.class
+SHA-256-Digest: wxKt8Kvod75KNoEHrQUnJCwYu2fXoCfKeacMDYbAMZc=
+
+Name: de/toem/impulse/extension/birt/BirtChartDialog$1$4.class
+SHA-256-Digest: FQhXJxUqQIeYomFhqBHg/OerlqIAE3bgJRjYbg/gzlc=
+
+Name: icons/objects/chart_curve.png
+SHA-256-Digest: lO7Dw8ViI/v6fnZMfyPU1j/lmwRPwEFlZv7XfKp62Q4=
+
+Name: de/toem/impulse/extension/birt/BirtChartDialog$1$1.class
+SHA-256-Digest: CGbix2LfEVy5ApbC2TNLKFnaXqBzZC5PyXrVBzowylw=
+
+Name: src/de/toem/impulse/extension/birt/line/LineChart.java
+SHA-256-Digest: qL7WsZ3sIwKCurjZ9zuAMc5jnHo8du28GKFYNb9HFLM=
+
+Name: i18n/i18n.properties
+SHA-256-Digest: 0zh3gZZcJCwKDeIK/1DJZaBKOSSj5ivRI0ziJXG30lw=
+
+Name: org/eclipse/birt/chart/examples/radar/ui/series/RadarCategoryLabel
+ Sheet.class
+SHA-256-Digest: BjSRxYqStXcIol6/7VP0dsL/xazF0qz2payyUhjN8fo=
+
+Name: icons/objects/chart_line.png
+SHA-256-Digest: MEsSUASxEbBmoLrzLmUO2EQS39DIW7S2y/EeWlFP9qE=
+
+Name: de/toem/impulse/extension/birt/AbstractBirtChartCell$1.class
+SHA-256-Digest: u1zKqruIkjrgv0nzhGZceRXcWY0T0l4U52+JMKNSH+E=
+
+Name: org/eclipse/birt/chart/examples/radar/ui/type/RadarChart.class
+SHA-256-Digest: +jYsFV8zLPK2bVr7+EUtu7XUKnZ2sMRzN8cHei2Al84=
+
+Name: de/toem/impulse/extension/birt/BirtChartDialog$1.class
+SHA-256-Digest: 2h0BbpugISRJtw/ONYtu81vG8NRyKrFM90D6YlTIKN0=
+
+Name: de/toem/impulse/extension/birt/StyleProcessor.class
+SHA-256-Digest: 0k1qDigikgyc8TJVQfKKllZaDY+7H/iIlzdxeVCoMYI=
+
+Name: org/eclipse/birt/chart/examples/radar/ui/series/RadarSeriesAttribu
+ teComposite.class
+SHA-256-Digest: fzc+kxgVheLeC61fmv4H86QvVFhABfEa7H048htnYHA=
+
+Name: de/toem/impulse/extension/birt/BirtChartDialog$1$5.class
+SHA-256-Digest: bwziqxNUal9kxNpdLousTxwFI83fickPcN5o13XBrDA=
+
+Name: help/help.xml
+SHA-256-Digest: ipLJwUUaTsZoBoO6ZHmB+o5VxfuE2InwVmjCVhVB0K8=
+
+Name: de/toem/impulse/extension/birt/AbstractBirtChartCell.class
+SHA-256-Digest: PhP0HxoyZ1p6ljP3y8nUSz5Y0M0t+j9iE9A7csfMcIc=
+
+Name: de/toem/impulse/extension/birt/pie/PieChart.class
+SHA-256-Digest: W0lrprSz3WH+9MTxYhkN/ZhnmNf/a2VuYS/Sqjw1ZK8=
+
+Name: de/toem/impulse/extension/birt/pie/PieChartInstancer.class
+SHA-256-Digest: L4QyKkQ5vONmO++siW4qfje09R50vYF19khE3sDJDk8=
+
+Name: src/org/eclipse/birt/chart/examples/radar/ui/series/RadarLineSheet
+ .java
+SHA-256-Digest: 3UDWRnbi2dGDgOGgQjHhlUp4LhW2snPcKOU4rmlkGjg=
+
+Name: src/org/eclipse/birt/chart/examples/radar/ui/series/RadarSeriesAtt
+ ributeComposite.java
+SHA-256-Digest: 2MDfQ2N/lXO28kTpw064ZoVAr7cRweNxOeR9BPNvy4U=
+
+Name: src/de/toem/impulse/extension/birt/bar/BarChart.java
+SHA-256-Digest: NPk208QxDAxxkU+pPSfZ11o/d63idm6hF2dSIael29Y=
+
+Name: de/toem/impulse/extension/birt/BirtChartDialog$1$2.class
+SHA-256-Digest: Hx23h+CeR3LM7po4ME7RtOn23o7jpxyVLMu1T9g/aqc=
+
+Name: src/de/toem/impulse/extension/birt/radar/RadarChartInstancer.java
+SHA-256-Digest: 7BNS7jE0efjX12rp95nKgkSVDvP+tD3q9bVQof/6DAE=
+
+Name: de/toem/impulse/extension/birt/BirtChartDialog.class
+SHA-256-Digest: Ry/Np/b8YFt2vjYE2+FSvn6WZ5UsOSgUUGC6PL2uZ/Q=
+
+Name: org/eclipse/birt/chart/examples/radar/ui/series/RadarSeriesUIProvi
+ der.class
+SHA-256-Digest: lgIpQZdkOq+LJ0nzh0qIt+3eKn5q+cHTQezF6ah1Teo=
+
+Name: src/de/toem/impulse/extension/birt/pie/PieChartInstancer.java
+SHA-256-Digest: 4J+mgZ6N4EH+jAuC4oe2Av4NE8t3snGxYbsJQjdzDUM=
+
+Name: src/de/toem/impulse/extension/birt/bar/BarChartInstancer.java
+SHA-256-Digest: iIGoWmocGdqzaqDSLJUnJJQB3ww1MQ9+kFMMVvcssZw=
+
+Name: de/toem/impulse/extension/birt/radar/RadarChart.class
+SHA-256-Digest: mJkKSR0hW11j8wwpgAEuG6R4QlQdnU313asgP36arBY=
+
+Name: org/eclipse/birt/chart/examples/radar/ui/series/RadarLineSheet.cla
+ ss
+SHA-256-Digest: 7u5ZWPIDVTfDTh4GkNIXexf4xsOS6GaudXauWYXUsKQ=
+
+Name: de/toem/impulse/extension/birt/radar/RadarChartInstancer.class
+SHA-256-Digest: aY73m7Bl1NvGzXiZTq+c+ERlKhlVEhcPn1IN/LtZqcs=
+
+Name: icons/extension.png
+SHA-256-Digest: BW8CvmEqICTrPqDtlTkl9vmhufkE8sDNgg84OGQJOFU=
+
+Name: src/de/toem/impulse/extension/birt/i18n/I18n.java
+SHA-256-Digest: LVVD0HPvDkPXMCvcX/fw2x78elUS0d56Dgh2gYIwt78=
+
+Name: icons/objects/radar.png
+SHA-256-Digest: nT4LG2g+sXOElyPoy+aStlUi4OekCONrPYJnIkd8g5c=
+
+Name: de/toem/impulse/extension/birt/BirtChartDialog$1$6.class
+SHA-256-Digest: DmZ8tQe5xvQFQGrR2Dwu/7CBubIHjtRkNiv1J3wLKSI=
+
+Name: src/de/toem/impulse/extension/birt/radar/RadarChart.java
+SHA-256-Digest: ew05bbU2SxaXfE87e+2OZzrXK1gp9mRLA5hABVZuwWk=
+
+Name: de/toem/impulse/extension/birt/AbstractBirtChartCell$2.class
+SHA-256-Digest: HLycXsl2mXrk+ghTCJXgLXNy+RSWhCfP+lNDqPgkAfM=
+
+Name: src/de/toem/impulse/extension/birt/AbstractBirtChartInstancer.java
+SHA-256-Digest: gRinqcxmJxjX1myakky9Dz3ehXcu3FmLSJ9OMWfi9CU=
+
+Name: src/org/eclipse/birt/chart/examples/radar/ui/series/RadarSeriesUIP
+ rovider.java
+SHA-256-Digest: qz5T9vDMKIZD1O1MVWCz5njN3FoLrNDUyfrdWuFlg08=
+
+Name: about_files/epl.txt
+SHA-256-Digest: 65XQQzcwg0iPWxlUqkcnNFLs8/lNs8NQQPfQpl0+Szk=
+
+Name: de/toem/impulse/extension/birt/script.js
+SHA-256-Digest: D3rdl8/xDNI4N58T3hwPuR3IQ8JVhQRZ2JHNF/LysKY=
+
+Name: de/toem/impulse/extension/birt/ImpulseBirtExtension$1.class
+SHA-256-Digest: iCo7Ef3cp6UUD6X5SNIyaILc784zyKfVawh4Gj9HITo=
+
+Name: org/eclipse/birt/chart/examples/radar/ui/series/RadarWebLabelSheet
+ .class
+SHA-256-Digest: EXtmvuw2b0QiW+sjtkIuE3DOxIlcFIMtiF5B8/j7tZQ=
+
+Name: src/de/toem/impulse/extension/birt/AbstractBirtChartCell.java
+SHA-256-Digest: 2K0imLAPii/1/yvWZg3dpZ1VX7kJNhfyx07YVPn/eho=
+
+Name: src/org/eclipse/birt/chart/examples/radar/ui/type/RadarChart.java
+SHA-256-Digest: c+mMLDRbUiuQwHrMWVcTgwbP4h/6RWVAfCp4ejnkJ4o=
+
+Name: de/toem/impulse/extension/birt/BirtChartDialog$1$3.class
+SHA-256-Digest: JkSG/MuzLpS13r0/p30ViHlRcf+27S5IE8XZVgXaLvY=
+
+Name: src/org/eclipse/birt/chart/examples/radar/ui/series/RadarWebLabelS
+ heet.java
+SHA-256-Digest: LW/OztL4tNBtYcRkidTYE0168j0NV2GN3ljDof9xV/A=
+
+Name: about.html
+SHA-256-Digest: SgdnuoyH7vJrEmj17McR5MdlhOyn8OnO82lm8aI2hQM=
+
+Name: src/de/toem/impulse/extension/birt/i18n/i18n.properties
+SHA-256-Digest: eB5Sa17L7eEn1xkVLsLX4htySe7qHkgWDDdlieQwKIg=
+
+Name: src/de/toem/impulse/extension/birt/script.js
+SHA-256-Digest: d1cfynxyWyNiJ8U5TAQUlDAHZ3+cZcIGmW9eb9DiyQU=
+
+Name: de/toem/impulse/extension/birt/bar/BarChart.class
+SHA-256-Digest: K08J3TV/FLZ7RQEaeiOZgGth7P8hWNY6C5YAaVbAulA=
+
+Name: de/toem/impulse/extension/birt/bar/BarChartInstancer.class
+SHA-256-Digest: dUkmj2A2zH0dGXMW4moCXwYW3gSwiQhyiQzjs/K55VM=
+
+Name: de/toem/impulse/extension/birt/ImpulseBirtExtension.class
+SHA-256-Digest: XzTrN6Zb8x2S6eySJB29pAR/51jH9/mi+jxhXL3NAq0=
+
+Name: de/toem/impulse/extension/birt/i18n/I18n.class
+SHA-256-Digest: Izn1jev+YJ2FIm/vWMMTlLFRPBmPAY0OCtAIucTtIv0=
+
+Name: src/de/toem/impulse/extension/birt/line/LineChartInstancer.java
+SHA-256-Digest: zU2nn0yc1TQTI3Q/2XSgunHsykAVN52GBOuRGzLxUCE=
+
+Name: icons/objects/chart_pie.png
+SHA-256-Digest: LJTiP3PgfsJK/PB5YLYdYx5Pf+gGL6zJJIEB2K/MyF4=
+
+Name: de/toem/impulse/extension/birt/line/LineChartInstancer.class
+SHA-256-Digest: 7N+5kcc1RNfT08RQ8h9RY0kx4zZ2UesSZoVKg5GczDI=
+
+Name: src/org/eclipse/birt/chart/examples/radar/ui/series/RadarCategoryL
+ abelSheet.java
+SHA-256-Digest: ps8sPb9kLeghefodkjqBTy89K/HyATqzLeuZHV1OkzM=
+
+Name: src/de/toem/impulse/extension/birt/BirtChartDialog.java
+SHA-256-Digest: OoFWRwy2mNPVeTU+h6Ykt+7Pxqx20zm7V2nBZM1MHfk=
+
+Name: de/toem/impulse/extension/birt/line/LineChart.class
+SHA-256-Digest: iVQclEd8UWae9Jpfrl88xXA/vTQDNW2jJpw6Wg+cV4k=
+
+Name: de/toem/impulse/extension/birt/BirtChartDialog$1$7.class
+SHA-256-Digest: aqh1M3QY/EEWsBGhUVFZnrPJSnPwXd7bh+XGF2/+Or8=
+
+Name: de/toem/impulse/extension/birt/i18n/i18n.properties
+SHA-256-Digest: TzP0GhXibfGqCBQzf3Q+tPApC5wYF5+4zfeQ1pEjfcM=
+

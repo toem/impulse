@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="lib" path="log4j-1.2.17.jar"/>
-	<classpathentry kind="lib" path="jsr305-3.0.1.jar"/>
-	<classpathentry kind="lib" path="protonpack-1.8.jar"/>
-	<classpathentry kind="lib" path="netty-all-4.0.36.Final.jar"/>
-	<classpathentry kind="lib" path="guava-19.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="jar/gson-2.8.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="jar/netty-codec-http-4.1.34.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="jar/bcpkix-jdk15on-1.61.jar"/>
+	<classpathentry exported="true" kind="lib" path="jar/bcprov-jdk15on-1.61.jar"/>
+	<classpathentry exported="true" kind="lib" path="jar/bsh-2.0b4.jar"/>
+	<classpathentry exported="true" kind="lib" path="jar/FastInfoset-1.2.16.jar"/>
+	<classpathentry exported="true" kind="lib" path="jar/guava-26.0-jre.jar"/>
+	<classpathentry exported="true" kind="lib" path="jar/istack-commons-runtime-3.0.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="jar/jakarta.activation-1.2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="jar/jakarta.activation-api-1.2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="jar/jakarta.xml.bind-api-2.3.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="jar/jaxb-runtime-2.3.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="jar/jcommander-1.48.jar"/>
+	<classpathentry exported="true" kind="lib" path="jar/jsr305-3.0.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="jar/netty-buffer-4.1.34.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="jar/netty-codec-4.1.34.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="jar/netty-common-4.1.34.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="jar/netty-handler-4.1.34.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="jar/netty-resolver-4.1.34.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="jar/netty-transport-4.1.34.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="jar/stax-ex-1.8.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="jar/testng-6.9.10.jar"/>
+	<classpathentry exported="true" kind="lib" path="jar/txw2-2.3.2.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="jool-0.9.11.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

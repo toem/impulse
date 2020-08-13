@@ -1,0 +1,273 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: impulse YAKINDU Extension
+Bundle-SymbolicName: de.toem.impulse.extension.yakindu;singleton:=true
+Bundle-Version: 2.2.2
+Bundle-Activator: de.toem.impulse.extension.yakindu.ImpulseYakinduExtens
+ ion
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.swt,org.eclipse.jfa
+ ce,org.eclipse.draw2d,org.eclipse.ui.workbench,org.eclipse.ui.console,o
+ rg.eclipse.ui,org.yakindu.base.expressions,org.yakindu.base.expressions
+ .edit,org.yakindu.base.expressions.interpreter,org.yakindu.base.express
+ ions.ui,org.yakindu.base.gmf.runtime,org.yakindu.base.types,org.yakindu
+ .base.types.edit,org.yakindu.base.xtext.utils.gmf,org.yakindu.base.xtex
+ t.utils.jface,org.yakindu.sct.branding,org.yakindu.sct.commons,org.yaki
+ ndu.sct.compare,org.yakindu.sct.doc.user,org.yakindu.sct.domain,org.yak
+ indu.sct.domain.generic,org.yakindu.sct.domain.generic.editor,org.yakin
+ du.sct.domain.generic.generator,org.yakindu.sct.domain.generic.resource
+ ,org.yakindu.sct.domain.generic.simulation,org.yakindu.sct.examples.wiz
+ ard,org.yakindu.sct.generator.builder,org.yakindu.sct.generator.core,or
+ g.yakindu.sct.generator.genmodel,org.yakindu.sct.generator.genmodel.ui,
+ org.yakindu.sct.generator.runner,org.yakindu.sct.model.resource,org.yak
+ indu.sct.model.sexec,org.yakindu.sct.model.sexec.edit,org.yakindu.sct.m
+ odel.sgen,org.yakindu.sct.model.sgen.edit,org.yakindu.sct.model.sgraph,
+ org.yakindu.sct.model.sgraph.edit,org.yakindu.sct.model.sgraph.ui,org.y
+ akindu.sct.model.sruntime,org.yakindu.sct.model.stext,org.yakindu.sct.m
+ odel.stext.edit,org.yakindu.sct.model.stext.lib,org.yakindu.sct.model.s
+ text.ui,org.yakindu.sct.refactoring,org.yakindu.sct.simulation.core,org
+ .yakindu.sct.simulation.core.sexec,org.yakindu.sct.simulation.ui,org.ya
+ kindu.sct.simulation.ui.sexec,org.yakindu.sct.ui,org.yakindu.sct.ui.edi
+ tor,org.yakindu.sct.ui.intro,org.yakindu.sct.ui.navigator,org.eclipse.g
+ mf.runtime.diagram.ui.render,de.toem.basics.general;bundle-version="[2.
+ 2.2,2.2.2]",de.toem.pattern.general;bundle-version="[2.2.2,2.2.2]",de.t
+ oem.eclipse.toolkits.general;bundle-version="[2.2.2,2.2.2]",de.toem.ecl
+ ipse.toolkits.ui;bundle-version="[2.2.2,2.2.2]",de.toem.eclipse.derived
+ ;bundle-version="[2.2.2,2.2.2]",de.toem.impulse.base;bundle-version="[2
+ .2.2,2.2.2]",de.toem.impulse.ui;bundle-version="[2.2.2,2.2.2]"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: toem.de
+Bundle-Localization: i18n/i18n
+
+Name: plugin.xml
+SHA-256-Digest: ROwV9SFpBphxIuN3c7ZpnIycKNucElQdYWBO8jysDAk=
+
+Name: de/toem/impulse/extension/yakindu/producer/OperationExecutor.class
+SHA-256-Digest: HAr+Cv7XE1AIeJn/qzd/lpVRGokR/7tikGhC6fGv6Ww=
+
+Name: de/toem/impulse/extension/yakindu/chart/StateChartDialog$2$3.class
+SHA-256-Digest: cZmeESamOzUEvUQolSmyn8/cxH1zGVngseyT2O0nfZc=
+
+Name: de/toem/impulse/extension/yakindu/producer/StateChartProducer.clas
+ s
+SHA-256-Digest: /LMXe7qw0z0Y3uf18tG/8wqSsfIUaSYfIkwLED8pjIk=
+
+Name: src/de/toem/impulse/extension/yakindu/ImpulseYakinduExtension.java
+SHA-256-Digest: GmnBIlAGKWII4Oa/6Mddcy6II57wDrwJmoH1+IvQxdc=
+
+Name: de/toem/impulse/extension/yakindu/chart/StateChartDialog$2$6.class
+SHA-256-Digest: Pc/Yth4Yre0pLyA8HWt2wD0yTnsHUhNjtB/9520Q+og=
+
+Name: src/de/toem/impulse/extension/yakindu/producer/Engine.java
+SHA-256-Digest: wNU7/ClLvS2z94I4XptpK7Twlpl33w/eVwfenAyUDGA=
+
+Name: i18n/i18n.properties
+SHA-256-Digest: UuOH4ESYh+0ELvnTn339Ie79Byqxr4k4GwmQEZL1z3s=
+
+Name: de/toem/impulse/extension/yakindu/chart/StateChart$2$1.class
+SHA-256-Digest: 1RPoBY6F3rUOSfrLfRatW18F5RnkfM0gBAvzmIkgBhA=
+
+Name: de/toem/impulse/extension/yakindu/i18n/I18n.class
+SHA-256-Digest: ffV+ZtFjYX2S+fhaCla1o92kWxVeuJl7H157475dcm8=
+
+Name: icons/objects/yakindu.png
+SHA-256-Digest: TsV864mO1n+j8G/1yaii1lgd2mOCHfLi8xdqAQCqenE=
+
+Name: build.properties
+SHA-256-Digest: ZyVNCaLQLUlp3opklCo4gKSwEmX9+waV1oNGavXb1as=
+
+Name: de/toem/impulse/extension/yakindu/producer/Engine.class
+SHA-256-Digest: S1WPNNmbUIAMlW1wStTjQBTXV4fUyYrQyiPSNJwTn1s=
+
+Name: de/toem/impulse/extension/yakindu/chart/StateChartInstancer.class
+SHA-256-Digest: mwwBw5XRP4rfLfaLMVxiF4HWgcQHIgia6dGumH4WQhk=
+
+Name: de/toem/impulse/extension/yakindu/yet/YetReader.class
+SHA-256-Digest: jE9y5jL1UvWATfrz9ZVrstVVOV++ILJYdfb4zmUYBOE=
+
+Name: de/toem/impulse/extension/yakindu/producer/StateChartProducer$2.cl
+ ass
+SHA-256-Digest: bgBl/JIGUyh5AScyS8gPWF62EaV0nDv5YUXYxYBPC1M=
+
+Name: de/toem/impulse/extension/yakindu/chart/StateChartDiagram.class
+SHA-256-Digest: 9Nltu8/diuM7VPLgmXwvtg97Bpx8egpTHLamwrS00l4=
+
+Name: src/de/toem/impulse/extension/yakindu/i18n/I18n.java
+SHA-256-Digest: JHil2ilvbdFIfqmnZui+jJ+sQV5Qes+FVdCfp25TrDA=
+
+Name: de/toem/impulse/extension/yakindu/chart/paint.js
+SHA-256-Digest: uN/2qZffMu4DktqL+nn4OZ7dAIAXIB08owDWgxLJCVo=
+
+Name: src/de/toem/impulse/extension/yakindu/producer/OperationExecutor.j
+ ava
+SHA-256-Digest: V2243/PxkvuftWWD5+lGewttjD4dcUhBaRSLe1pZU8k=
+
+Name: de/toem/impulse/extension/yakindu/StateChartLoader.class
+SHA-256-Digest: Q0EXaeGRh5d0q7jSxPjHRAr2y0W3UKdFJQCGgLLBXp8=
+
+Name: de/toem/impulse/extension/yakindu/chart/StateChartDialog$2$7.class
+SHA-256-Digest: q4jq9zhEDgFNSfjBO7QobKSOvEBJYPNH+ZXitJqPycM=
+
+Name: de/toem/impulse/extension/yakindu/chart/StateChart$DiagramImageGen
+ erator$1.class
+SHA-256-Digest: l+gyBku4EkvKm0Ktc0AJnUjMa2ckNTGpHdT3oYXGJA4=
+
+Name: de/toem/impulse/extension/yakindu/chart/StateChartDialog.class
+SHA-256-Digest: cpxz//MMq+yX/HNQ+U9oW/Gip7mUpnEDBwdLqZD5Ud8=
+
+Name: de/toem/impulse/extension/yakindu/chart/StateChart$DiagramImageGen
+ erator.class
+SHA-256-Digest: lgFVOhKIk0IxHZZxfG7igieSZtncnir7MupVk+zicnM=
+
+Name: de/toem/impulse/extension/yakindu/chart/StateChart$3.class
+SHA-256-Digest: qnNHlsFSM0mi3ERr3f2GVkXrw6uqxt9pci4eFlCinyI=
+
+Name: de/toem/impulse/extension/yakindu/chart/StateChartDialog$2$4.class
+SHA-256-Digest: eJL5cNnOkg96xDRo3ILMHNPiGQEEeFK/ggE5oky0m+0=
+
+Name: de/toem/impulse/extension/yakindu/producer/StateChartProducer$3.cl
+ ass
+SHA-256-Digest: i12V4ulPjOUAlBx1qBTD03tczsWWuXZvxHkOeHAfhLA=
+
+Name: src/de/toem/impulse/extension/yakindu/chart/StateChartDiagram.java
+SHA-256-Digest: 7mXrHh16HS58PJUR3PvKSI9IewTwd28mh2BWZ8j2aaI=
+
+Name: de/toem/impulse/extension/yakindu/producer/Scheduler.class
+SHA-256-Digest: tRsqzCF1NGq59UVC5jDdILVrf5LTxLtz6ZRiIBN5QoU=
+
+Name: src/de/toem/impulse/extension/yakindu/i18n/i18n.properties
+SHA-256-Digest: WInbmUUScjN0UBsiW7fPBXMlGCM+avDP6PvbHaljMMI=
+
+Name: src/de/toem/impulse/extension/yakindu/chart/StateChartInstancer.ja
+ va
+SHA-256-Digest: xiOnCWYA2D/9oymgAHQOCR/YmJmTeeZqVXG5YTZ51ls=
+
+Name: icons/extension.png
+SHA-256-Digest: T26zIU3JTLnT6GZEVB0mF+v+d1RWzmPsDuwXPvshcQQ=
+
+Name: de/toem/impulse/extension/yakindu/chart/StateChart.class
+SHA-256-Digest: pFIFHxKsL3Ah/Wg4lnBLrXJzyhK8CF1qzWLkgq3Tv+4=
+
+Name: de/toem/impulse/extension/yakindu/chart/StateChart$1.class
+SHA-256-Digest: 3Jv9vrxgx2Cspm1OFql3iWc77W3PZyyX8Zn8A8ULZlc=
+
+Name: de/toem/impulse/extension/yakindu/chart/StateChartDialog$2.class
+SHA-256-Digest: lJC82uGKVRDKOExPBNSFhITq7q2YXb2LZyvs91YJKW8=
+
+Name: de/toem/impulse/extension/yakindu/chart/StateChartDialog$2$1.class
+SHA-256-Digest: VScHaIB2pyaIVP3jbWXtvyXzn5DnB42BDwApKz3Byw4=
+
+Name: de/toem/impulse/extension/yakindu/chart/StateChartDialog$2$10.clas
+ s
+SHA-256-Digest: yK079dUMWOeuY6XYtNSYg0OtiptbbJAuhARn1EvgP4g=
+
+Name: de/toem/impulse/extension/yakindu/yet/YetReader$Module.class
+SHA-256-Digest: awK/mv/yDWnOG9asnNID7aeGjsEUix9Qb5i+ostroKw=
+
+Name: de/toem/impulse/extension/yakindu/chart/StateChart$1$1.class
+SHA-256-Digest: zoHc7gsj0GcUSBORQgt2Wdnn8vynTGpAU2KSddLUVos=
+
+Name: about_files/epl.txt
+SHA-256-Digest: AtQbxPQidIqxdsEwqPI6VXNLvv45eQYyLYXy/UPH9zo=
+
+Name: src/de/toem/impulse/extension/yakindu/chart/StateChartDialog.java
+SHA-256-Digest: QEvEB1uqfmef3VYczKsan7U0HSMUxFMqtHiQLz9ipj8=
+
+Name: src/de/toem/impulse/extension/yakindu/StateChartLoader.java
+SHA-256-Digest: uybLpPmHoRJ1ii+dwydH33GzpSofRbSKAqnRo3Bx3lI=
+
+Name: de/toem/impulse/extension/yakindu/ImpulseYakinduExtension.class
+SHA-256-Digest: t3mfpK6EAtHito1qZbgoEOSErFselPW6pPe7aj0J/nk=
+
+Name: icons/extension@2x.png
+SHA-256-Digest: Ef6H1rM4ul+sdmoFlFSrm5z/JNqjg0j7IpV5zAKDp5A=
+
+Name: de/toem/impulse/extension/yakindu/chart/StateChartDialog$2$5.class
+SHA-256-Digest: f9ei+G6Gs2W6cHqWQizScnZLC0GYFhOsfivJD10Lrrs=
+
+Name: de/toem/impulse/extension/yakindu/chart/StateChartState.class
+SHA-256-Digest: yGYGddltInZBwPkrFmpTVi6ZfDQi7O+3xwGI1g3DtHA=
+
+Name: src/de/toem/impulse/extension/yakindu/chart/paint.js
+SHA-256-Digest: uN/2qZffMu4DktqL+nn4OZ7dAIAXIB08owDWgxLJCVo=
+
+Name: icons/objects/yakindu@2x.png
+SHA-256-Digest: 6r5N2oorEDxfUj1kgL42jCKrOuo4AgDfs/vPBKH8g78=
+
+Name: src/de/toem/impulse/extension/yakindu/producer/ProducerModule.java
+SHA-256-Digest: VALjIrdqQ6gx55JgdJlZ2Pnl2yftizG2lglqyfnxvRQ=
+
+Name: de/toem/impulse/extension/yakindu/chart/StateChartDialog$2$8.class
+SHA-256-Digest: fuY7Na4FxkXEn9WB1tw1Y2yJso85VMHmdhHdGVh+wGM=
+
+Name: src/de/toem/impulse/extension/yakindu/producer/Scheduler.java
+SHA-256-Digest: wpawmRtZZPgakhnG/4YWabfqNODqYsQn3vvQ35LR1ow=
+
+Name: de/toem/impulse/extension/yakindu/chart/PainterGraphics.class
+SHA-256-Digest: 6EiVSbBdUCwe5LalMQ7nSYdn9WPSsTBgmLQipu3hZNE=
+
+Name: de/toem/impulse/extension/yakindu/i18n/i18n.properties
+SHA-256-Digest: WInbmUUScjN0UBsiW7fPBXMlGCM+avDP6PvbHaljMMI=
+
+Name: about.html
+SHA-256-Digest: NYnGLAx1zmiHqItIjnwnVtqya3dYOOpMryB/MgO8eaE=
+
+Name: inital.walML
+SHA-256-Digest: BYwyXqHUVEadc7CJJqVKBJ6Z7xm9m+T1oaokq0aHXxU=
+
+Name: src/de/toem/impulse/extension/yakindu/chart/StateChartState.java
+SHA-256-Digest: KN6uRzPEKpdmGZ79RvDKk+4G83hW7XPDV+/SEY8+oTQ=
+
+Name: de/toem/impulse/extension/yakindu/chart/StateChartDialog$2$9.class
+SHA-256-Digest: P18mfam9nUNDudrwG6pMNYnF1DFxkG+rgo6XzXe45tA=
+
+Name: src/de/toem/impulse/extension/yakindu/yet/YetReader.java
+SHA-256-Digest: 8/fzLXfgN5/RlRC4AAPWkuR6UKk098HOjyDhPr2MyMY=
+
+Name: src/de/toem/impulse/extension/yakindu/producer/StateChartProducer.
+ java
+SHA-256-Digest: fdvCbyujNA8LMnDCuBDUzNKtwbicNBrFaRyMKupZlrI=
+
+Name: de/toem/impulse/extension/yakindu/chart/StateChart$2.class
+SHA-256-Digest: 33QPZFBr5NT+2ovUODtzezUikEmZL2+MzSxxpIS/0Z0=
+
+Name: de/toem/impulse/extension/yakindu/chart/StateChartDialog$1.class
+SHA-256-Digest: P9vVVXc+dHz/yx8jhWVRvZtLsaGItahEA5tNhKXbYaI=
+
+Name: src/de/toem/impulse/extension/yakindu/chart/PainterGraphics.java
+SHA-256-Digest: 23nSaRW5rwKVQ3UnudJ/oG2kemwlRKzPnlpQGs76FfE=
+
+Name: de/toem/impulse/extension/yakindu/chart/StateChartDialog$2$2.class
+SHA-256-Digest: buP92Dt3/bjjAY7+uvWf6Lajq/thVEn4jzFo7qa6OoI=
+
+Name: src/de/toem/impulse/extension/yakindu/chart/StateChart.java
+SHA-256-Digest: iLx7PTPAyJW6H5120jcoKLaywW+hpQQ2B93Sne5oNEA=
+
+Name: de/toem/impulse/extension/yakindu/producer/StateChartProducer$Stat
+ eChartInput.class
+SHA-256-Digest: JvzvLuyMNTgsnUkIwqxRlsKO98pu20K/7YysTEyWxMQ=
+
+Name: icons/sample.gif
+SHA-256-Digest: 6jMftqI7oSaDQ6w4VCjJEtTiJvYpMr0Z1u+lWgsbkjY=
+
+Name: de/toem/impulse/extension/yakindu/chart/PainterGraphics$Settings.c
+ lass
+SHA-256-Digest: TUakIFeq5P0C+yiDOpwRuBWVg181hle4OW+muG9TkUc=
+
+Name: de/toem/impulse/extension/yakindu/chart/StateChart$2$1$1.class
+SHA-256-Digest: dHw+CyL63jLVqX/RNDd2raVbcgkxAjX9KrNgEJolPAA=
+
+Name: de/toem/impulse/extension/yakindu/chart/StateChartDialog$1$1.class
+SHA-256-Digest: C6mSFMKZ3m1TBU4XgTa624HnepGWgxLkXEbiQyX7UVY=
+
+Name: de/toem/impulse/extension/yakindu/producer/StateChartProducer$1.cl
+ ass
+SHA-256-Digest: hS3mKp7G3XjdGZ6ss66jFbSp+gzmsTRoNnmIKu7u53I=
+
+Name: de/toem/impulse/extension/yakindu/producer/ProducerModule.class
+SHA-256-Digest: pjltWVHW6a7K7bDQB8Z7Q7VzFlOgXTW3vGMmvQ1AMDg=
+
+Name: de/toem/impulse/extension/yakindu/producer/StateChartProducer$Stat
+ eChartOutput.class
+SHA-256-Digest: gVPjM5n4jkSqY9NKB3lxBO58FDBCKNcoDhfwAESagIk=
+

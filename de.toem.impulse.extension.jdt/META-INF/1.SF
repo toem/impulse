@@ -1,0 +1,101 @@
+Signature-Version: 1.0
+Created-By: 11.0.8 (Ubuntu)
+SHA-256-Digest-Manifest: KadroMVnz3in9ejMfEXDP3H+WDYxGCMZDeriZOC1bvI=
+SHA-256-Digest-Manifest-Main-Attributes: pDsueAo+IQ40Dd9Svf+umNgn/D06qW+
+ titcbzQHW5pk=
+
+Name: de/toem/impulse/extension/jdt/watchpoint/WatchpointTracer.class
+SHA-256-Digest: 5CvOlN2f2aTfkSS4zt4nIvaXt0ejrZ6Q4HOQ4xpTeOE=
+
+Name: plugin.xml
+SHA-256-Digest: 7s+OhwCjLlhsZsrZYJ6EsJuYvL7aSirPsgCyvwabp3E=
+
+Name: de/toem/impulse/extension/jdt/i18n/i18n.properties
+SHA-256-Digest: DR7glLeaCcD1sDHo+UiLJQrpns0vcQldalgQxa22H5w=
+
+Name: icons/extension.png
+SHA-256-Digest: DHiUZWXiGfZcvE8v2L7vPa/kDrALNE0gKM+v7mgFkHY=
+
+Name: src/de/toem/impulse/extension/jdt/i18n/I18n.java
+SHA-256-Digest: GYq0/rHpiD8F8D1A9fmOlQ1SKaiFsRIqKHYc5V0CaoE=
+
+Name: src/de/toem/impulse/extension/jdt/i18n/i18n.properties
+SHA-256-Digest: REj5wUhuTujNLl9wQpJpQye+t6wmyVx/NMLN6Q7odx0=
+
+Name: de/toem/impulse/extension/jdt/ImpulseJdtExtension.class
+SHA-256-Digest: yhGZ7iYbb/NAT1TahU7S57M6SE4NO9jNwVFfEKLSZj8=
+
+Name: src/de/toem/impulse/extension/jdt/ImpulseJdtExtension.java
+SHA-256-Digest: SJwODz1Wcil39a6PIqNPuExEu/GcTf/oH/JiOo/9A34=
+
+Name: i18n/i18n.properties
+SHA-256-Digest: Ls0Mr1JAASNxigEW5ykvNAfipDnpM7xpDySsYMGUF+c=
+
+Name: about_files/epl.txt
+SHA-256-Digest: 65XQQzcwg0iPWxlUqkcnNFLs8/lNs8NQQPfQpl0+Szk=
+
+Name: src/de/toem/impulse/extension/jdt/watchpoint/WatchpointTracer.java
+SHA-256-Digest: 2ijByp2sLPBcefnOuxcNFyH3x02xhHcaW49ColFDQfA=
+
+Name: build.properties
+SHA-256-Digest: sk9eJVtQL6zTNuJnewzBDJ6lmGksCQBlWkD08cZp1Po=
+
+Name: de/toem/impulse/extension/jdt/JavaBreakpointNotifier$1.class
+SHA-256-Digest: L6+R92RSWm7v9MoUtet8wWa/N6KcfifE5XZBZnPNaXE=
+
+Name: icons/extension@2x.png
+SHA-256-Digest: SxeZYJCDIwaeMfPw9Wlq+0Ib2WJCBQS/K7Y+uvG47Lk=
+
+Name: src/de/toem/impulse/extension/jdt/watchpoint/WatchpointTracerInsta
+ ncer.java
+SHA-256-Digest: vxCgShkP1IxRZPqorgeSxglLpAQykjlpeQLdSsqcf+k=
+
+Name: de/toem/impulse/extension/jdt/watchpoint/WatchpointTracerDialog$1.
+ class
+SHA-256-Digest: CthJTxe7dvMybVriSMmDrvDnDuxq/7ipmZcl09e6Vek=
+
+Name: src/de/toem/impulse/extension/jdt/JavaBreakpointNotifier.java
+SHA-256-Digest: xydJfCG3f8zBGE1Q+ALunTwuIC05iEj/dT8DZI1UqzA=
+
+Name: de/toem/impulse/extension/jdt/watchpoint/WatchpointTracer$Tracer.c
+ lass
+SHA-256-Digest: 0RdsUNKJ4/QGVCy+j3u/FXfjUuwIs+RJO1x5CMMJkco=
+
+Name: de/toem/impulse/extension/jdt/i18n/I18n.class
+SHA-256-Digest: jbjvrlkoWDOd9Ld0tHsO1gI9ocJi5rHT/ENd4pNG5Zw=
+
+Name: de/toem/impulse/extension/jdt/IBreakpointListener.class
+SHA-256-Digest: +yJKu4ML0bhVXpeMtlfXqIcxLg9G9T1mEsuZ2M06kfg=
+
+Name: about.html
+SHA-256-Digest: esZ1QfURZqnSVsgdX2KSlopTGOR3p42uDHE3qLFn294=
+
+Name: de/toem/impulse/extension/jdt/JavaBreakpointNotifier.class
+SHA-256-Digest: wiFnEan7pyjyFFBvJcUzjbiolO1sjHC/SbxwC1VJg4I=
+
+Name: src/de/toem/impulse/extension/jdt/watchpoint/WatchpointTracerDialo
+ g.java
+SHA-256-Digest: TCtuEXS79+OCMiGPjDgePogqsl3wGwVMkLE4MvFcry4=
+
+Name: de/toem/impulse/extension/jdt/watchpoint/WatchpointTracerDialog$1$
+ 1.class
+SHA-256-Digest: vPDY/gUltlqyMn3kPK07kODrfd7COqBidgPmG4WwsNw=
+
+Name: src/de/toem/impulse/extension/jdt/IBreakpointListener.java
+SHA-256-Digest: 04zIVETJiU4wCPhLG6Zmok5mepWsgchdHlNDoBAUwwc=
+
+Name: de/toem/impulse/extension/jdt/watchpoint/WatchpointTracerInstancer
+ .class
+SHA-256-Digest: 7sA51o33R/3h0eIhKiGgDNna14AWwVvrrux1zpKkF3E=
+
+Name: icons/objects/time_go.png
+SHA-256-Digest: u5y0nDKBs5MamZSTAvWKFoLrSza4nn2ZftSDxiJ2fUk=
+
+Name: de/toem/impulse/extension/jdt/watchpoint/WatchpointTracerDialog.cl
+ ass
+SHA-256-Digest: ThjPcDyqevyIXLGQ5QlOY5WJiUGu243GcmBf+Q+OgCc=
+
+Name: de/toem/impulse/extension/jdt/watchpoint/WatchpointTracer$Tracer$T
+ arget.class
+SHA-256-Digest: zlV02cOSMK99MBe/1wtYLgU4D9eess8C1dm6jYkkiAI=
+

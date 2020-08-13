@@ -1,5 +1,5 @@
 //  ------------------------------------------------------------------
-//  Copyright (C) 2012-2014  Thomas Haber 
+//  Copyright (c) 2012-2019 Thomas Haber 
 //  http://toem.de
 //  ------------------------------------------------------------------
 package de.toem.impulse.extension.opc.ua;
@@ -14,16 +14,12 @@ import java.util.ArrayList;
 import java.util.Enumeration;
 import java.util.List;
 
-import org.eclipse.jface.dialogs.Dialog;
-import org.eclipse.jface.dialogs.IDialogConstants;
-import org.eclipse.swt.SWT;
-import org.eclipse.swt.events.ModifyEvent;
-import org.eclipse.swt.widgets.Button;
+import org.eclipse.milo.opcua.sdk.client.OpcUaClient;
 import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Control;
 import org.eclipse.swt.widgets.FileDialog;
 
-import com.digitalpetri.opcua.sdk.client.OpcUaClient;
+import org.eclipse.milo.opcua.sdk.client.OpcUaClient;
 
 import de.toem.basics.core.Utils;
 import de.toem.eclipse.toolkits.controller.abstrac.IController;
@@ -36,51 +32,49 @@ import de.toem.eclipse.toolkits.controller.base.RadioSetController;
 import de.toem.eclipse.toolkits.controller.base.TabFolderController;
 import de.toem.eclipse.toolkits.controller.base.TextController;
 import de.toem.eclipse.toolkits.controller.cells.CellTreeController;
-import de.toem.eclipse.toolkits.dialog.AbstractDialog;
-import de.toem.eclipse.toolkits.dialog.ControlProviderDialog;
+import de.toem.eclipse.toolkits.dialog.ControlProviderElementDialog;
 import de.toem.eclipse.toolkits.provider.control.NameDescriptionEnableProvider;
 import de.toem.eclipse.toolkits.tlk.AbstractControlProvider;
 import de.toem.eclipse.toolkits.tlk.DialogToolkit;
-import de.toem.eclipse.toolkits.tlk.IEditorParent;
+import de.toem.eclipse.toolkits.tlk.ITlkEditor;
 import de.toem.eclipse.toolkits.tlk.TLK;
 import de.toem.eclipse.toolkits.util.EclipseUtils;
 import de.toem.impulse.cells.ports.AbstractPortAdapterBaseCell;
 import de.toem.impulse.cells.ports.IRecordPort;
 import de.toem.impulse.cells.ports.MultiPipePort;
-import de.toem.impulse.extension.opc.Logger;
 import de.toem.impulse.extension.opc.LoggerFactory;
+import de.toem.impulse.extension.opc.ImpulseOpcExtension;
+import de.toem.impulse.scripting.ScriptControls;
 import de.toem.pattern.controls.IControlProvider;
 import de.toem.pattern.element.ElementHierarchyModifier;
+import de.toem.pattern.element.ElementModifierEvent;
 import de.toem.pattern.element.Elements;
 import de.toem.pattern.element.ICell;
 import de.toem.pattern.element.IElement;
 import de.toem.pattern.element.IElementModifier;
 import de.toem.pattern.general.scan.TextScanResult;
 import de.toem.pattern.messages.Messages;
-import de.toem.pattern.threading.Actives;
-import de.toem.pattern.threading.IExecutable;
-import de.toem.pattern.threading.IProgress;
 import de.toem.toolkits.text.MultilineText;
 
-public class OpcUaAdapterDialog extends ControlProviderDialog {
+public class OpcUaAdapterDialog extends ControlProviderElementDialog {
 
-    public OpcUaAdapterDialog(IEditorParent parent, IController controller) {
+    public OpcUaAdapterDialog(ITlkEditor parent, IController controller) {
         super(parent, controller, getControls());
     }
 
-    public OpcUaAdapterDialog(IEditorParent parent, IElement parentElement, ICell newCell) {
+    public OpcUaAdapterDialog(ITlkEditor parent, IElement parentElement, ICell newCell) {
         super(parent, parentElement, newCell, getControls());
     }
 
-    public OpcUaAdapterDialog(IEditorParent parent, IElement element) {
+    public OpcUaAdapterDialog(ITlkEditor parent, IElement element) {
         super(parent, element, getControls());
     }
 
-    public OpcUaAdapterDialog(IEditorParent parent, List<IElement> elements) {
+    public OpcUaAdapterDialog(ITlkEditor parent, List<IElement> elements) {
         super(parent, elements, getControls());
     }
 
-    public OpcUaAdapterDialog(IEditorParent parent) {
+    public OpcUaAdapterDialog(ITlkEditor parent) {
         super(parent, getControls());
     }
 
@@ -91,7 +85,7 @@ public class OpcUaAdapterDialog extends ControlProviderDialog {
     protected void createConcreteControl(Composite container) {
         IControlProvider provider = getControls();
         provider.setLayout(COLS, COLS);
-        tlk.addControls(container, provider);
+        tlk().addControls(container, provider);
     }
 
     public static IControlProvider getControls() {
@@ -104,54 +98,61 @@ public class OpcUaAdapterDialog extends ControlProviderDialog {
             IController certInfo;
 
             @Override
+            public String getHelpContext() {
+                return ImpulseOpcExtension.PLUGIN_ID + "." + "opc_dialog";
+            }
+            
+            @Override
             public boolean fillThis() {
                 try {
 
-                    Composite tabFolder = tlk().addTabFolder(container(), new TabFolderController(editor(), "opc.adapter.dialog.tab"), cols(), SWT.NULL, null);
+                    Object tabFolder = tlk().addTabFolder(container(), new TabFolderController(editor(), "opc.adapter.dialog.tab"), cols(), TLK.NULL, null);
 
                     // general tab
-                    Composite general = tlk().addComposite(tabFolder, null, cols(), null, SWT.NULL, "General", null);
+                    Object general = tlk().addComposite(tabFolder, null, cols(), null, TLK.NULL, "General", null);
 
                     ComboEditController server = (ComboEditController) tlk().addCombo(general,
                             new ComboEditController(editor(), OpcUaAdapter.class.getField("server"), true)
                                     .setHintIdentifier("de.toem.impulse.extension.opc.serverHistory").setHintDomain(IElement.DOCUMENT),
-                            tlk().ld(cols() - 1, SWT.FILL, TLK.IGNORE_CONTROL), DialogToolkit.LABEL | SWT.BORDER, "Endpoint:");
+                            tlk().ld(cols() - 1, TLK.FILL, TLK.IGNORE_CONTROL), DialogToolkit.LABEL | TLK.BORDER, "Endpoint:");
 
                     tlk().addButtonSet(general, new RadioSetController(editor(), OpcUaAdapter.class.getField("identification")) {
                         @Override
                         protected void doUpdateExternal() {
-                            tlk().showControl(user, this.getValueAsInt() == OpcUaAdapter.IDENT_PASSWORD);
-                            tlk().showControl(password, this.getValueAsInt() == OpcUaAdapter.IDENT_PASSWORD);
+                            tlk().showControl(this.getValueAsInt() == OpcUaAdapter.IDENT_PASSWORD, user);
+                            tlk().showControl(this.getValueAsInt() == OpcUaAdapter.IDENT_PASSWORD, password);
                         }
-                    }, 2, cols(), SWT.RADIO | TLK.LABEL, "Identification:", OpcUaAdapter.IDENT_OPTIONS, null);
+                    }, 2, cols(), TLK.RADIO | TLK.LABEL, "Identification:", OpcUaAdapter.IDENT_OPTIONS, null);
                     user = tlk().addText(general, new TextController(editor(), OpcUaAdapter.class.getField("user")), cols() - 1,
-                            DialogToolkit.LABEL | SWT.BORDER, "User/Passwd:");
-                    password = tlk().addText(general, new PasswordController(editor(), OpcUaAdapter.class.getField("password")), 1, SWT.BORDER | SWT.PASSWORD,
+                            DialogToolkit.LABEL | TLK.BORDER, "User/Passwd:");
+                    password = tlk().addText(general, new PasswordController(editor(), OpcUaAdapter.class.getField("password")), 1, TLK.BORDER | TLK.PASSWORD,
                             null);
                     tlk().addButtonSet(general, new RadioSetController(editor(), OpcUaAdapter.class.getField("securityMode")) {
                         @Override
                         protected void doUpdateExternal() {
-                            tlk().showControl(securityPolicy, this.getValueAsInt() != OpcUaAdapter.SECURITY_NONE);
+                            tlk().showControl(this.getValueAsInt() != OpcUaAdapter.SECURITY_NONE, securityPolicy);
                         }
-                    }, 3, cols(), SWT.RADIO | TLK.LABEL, "Security mode:", OpcUaAdapter.SECURITY_OPTIONS, null);
+                    }, 3, cols(), TLK.RADIO | TLK.LABEL, "Security mode:", OpcUaAdapter.SECURITY_OPTIONS, null);
                     securityPolicy = tlk().addButtonSet(general, new RadioSetController(editor(), OpcUaAdapter.class.getField("securityPolicy")), 4, cols(),
-                            SWT.RADIO | TLK.LABEL, "Security policy:", OpcUaAdapter.POLICY_OPTIONS, null);
+                            TLK.RADIO | TLK.LABEL, "Security policy:", OpcUaAdapter.POLICY_OPTIONS, null);
 
                     tlk().addText(general, new TextController(editor(), OpcUaAdapter.class.getField("publishRate")),
-                            tlk().ld(cols() - 1, SWT.FILL, TLK.IGNORE_CONTROL), DialogToolkit.LABEL | SWT.BORDER, "Publishing rate[ms]:");
-                    tlk().addButton(general, new CheckController(editor(), OpcUaAdapter.class.getField("logToConsole")),
-                            tlk().ld(cols(), SWT.RIGHT, SWT.DEFAULT), SWT.CHECK, "Log to impulse console", null);
-                    tlk().addNothing(general, tlk().ld(cols(), TLK.GRAB, SWT.DEFAULT));
+                            tlk().ld(cols() - 1, TLK.FILL, TLK.IGNORE_CONTROL), DialogToolkit.LABEL | TLK.BORDER, "Publishing rate[ms]:");
+                    tlk().addButtonSet(general, new RadioSetController(editor(), OpcUaAdapter.class.getField("trigger")), 4, cols(),
+                            TLK.RADIO | TLK.LABEL, "Default Trigger:", OpcUaAdapter.TRIGGER_OPTIONS, null);
+                    tlk().addButtonSet(general, new RadioSetController(editor(), OpcUaAdapter.class.getField("domainBase")), 4, cols(),
+                            TLK.RADIO | TLK.LABEL, "Domain Base:", OpcUaAdapter.DOMAIN_OPTIONS, null);
+                    tlk().addNothing(general, tlk().ld(cols(), TLK.GRAB, TLK.DEFAULT));
 
                     // details tab
-                    Composite details = tlk().addComposite(tabFolder, null, cols(), null, SWT.NULL, "Details", null);
+                    Object details = tlk().addComposite(tabFolder, null, cols(), null, TLK.NULL, "Application Details", null);
 
                     tlk().addText(details, new TextController(editor(), OpcUaAdapter.class.getField("applicationName")),
-                            tlk().ld(cols() - 1, SWT.FILL, TLK.IGNORE_CONTROL), DialogToolkit.LABEL | SWT.BORDER, "Application name:");
+                            tlk().ld(cols() - 1, TLK.FILL, TLK.IGNORE_CONTROL), DialogToolkit.LABEL | TLK.BORDER, "Application name:");
                     tlk().addText(details, new TextController(editor(), OpcUaAdapter.class.getField("applicationUri")),
-                            tlk().ld(cols() - 1, SWT.FILL, TLK.IGNORE_CONTROL), DialogToolkit.LABEL | SWT.BORDER, "Application Uri:");
-                    tlk().addText(details, new TextController(editor(), OpcUaAdapter.class.getField("productUri")), tlk().ld(cols() - 1, SWT.FILL, TLK.IGNORE_CONTROL),
-                            DialogToolkit.LABEL | SWT.BORDER, "Product Uri:");
+                            tlk().ld(cols() - 1, TLK.FILL, TLK.IGNORE_CONTROL), DialogToolkit.LABEL | TLK.BORDER, "Application Uri:");
+                    tlk().addText(details, new TextController(editor(), OpcUaAdapter.class.getField("productUri")), tlk().ld(cols() - 1, TLK.FILL, TLK.IGNORE_CONTROL),
+                            DialogToolkit.LABEL | TLK.BORDER, "Product Uri:");
                     tlk().addText(details, new TextController(editor(), OpcUaAdapter.class.getField("sessionTimeout")) {
 
                         @Override
@@ -161,7 +162,7 @@ public class OpcUaAdapterDialog extends ControlProviderDialog {
                             return TextScanResult.SCAN_ERROR;
                         }
 
-                    }, tlk().ld(cols() - 1, SWT.FILL, TLK.IGNORE_CONTROL), DialogToolkit.LABEL | SWT.BORDER, "Session timeout[ms]:");
+                    }, tlk().ld(cols() - 1, TLK.FILL, TLK.IGNORE_CONTROL), DialogToolkit.LABEL | TLK.BORDER, "Session timeout[ms]:");
                     tlk().addText(details, new TextController(editor(), OpcUaAdapter.class.getField("requestTimeout")) {
 
                         @Override
@@ -171,7 +172,7 @@ public class OpcUaAdapterDialog extends ControlProviderDialog {
                             return TextScanResult.SCAN_ERROR;
                         }
 
-                    }, tlk().ld(cols() - 1, SWT.FILL, TLK.IGNORE_CONTROL), DialogToolkit.LABEL | SWT.BORDER, "Request timeout[ms]:");
+                    }, tlk().ld(cols() - 1, TLK.FILL, TLK.IGNORE_CONTROL), DialogToolkit.LABEL | TLK.BORDER, "Request timeout[ms]:");
                     tlk().addText(details, new TextController(editor(), OpcUaAdapter.class.getField("maxResponseMessageSize")) {
 
                         @Override
@@ -193,14 +194,14 @@ public class OpcUaAdapterDialog extends ControlProviderDialog {
                                 return "";
                             return value;
                         }
-                    }, tlk().ld(cols() - 1, SWT.FILL, TLK.IGNORE_CONTROL), DialogToolkit.LABEL | SWT.BORDER, "Max response size:");
-                    tlk().addNothing(details, tlk().ld(cols(), TLK.GRAB, SWT.DEFAULT));
+                    }, tlk().ld(cols() - 1, TLK.FILL, TLK.IGNORE_CONTROL), DialogToolkit.LABEL | TLK.BORDER, "Max response size:");
+                    tlk().addNothing(details, tlk().ld(cols(), TLK.GRAB, TLK.DEFAULT));
 
                     // cert tab
-                    Composite cert = tlk().addComposite(tabFolder, null, cols(), null, SWT.NULL, "Certificate", null);
+                    Object cert = tlk().addComposite(tabFolder, null, cols(), null, TLK.NULL, "Security Certificate", null);
                     final TextController file = (TextController) tlk().addText(cert,
-                            new TextController(editor(), OpcUaAdapter.class.getField("certificateFile")), tlk().ld(cols() - 2, SWT.FILL, TLK.IGNORE_CONTROL),
-                            SWT.BORDER | TLK.LABEL, "Certificate file [pfx]:");
+                            new TextController(editor(), OpcUaAdapter.class.getField("certificateFile")), tlk().ld(cols() - 2, TLK.FILL, TLK.IGNORE_CONTROL),
+                            TLK.BORDER | TLK.LABEL, "Certificate file [pfx]:");
                     tlk().addButton(cert, new ButtonController(editor(), null) {
 
                         @Override
@@ -232,9 +233,9 @@ public class OpcUaAdapterDialog extends ControlProviderDialog {
                             }
                             super.execute(id, data);
                         }
-                    }, 1, SWT.NULL, "...", null);
+                    }, 1, TLK.NULL, "...", null);
                     IController certPassword = tlk().addText(cert, new PasswordController(editor(), OpcUaAdapter.class.getField("certPassword")),
-                            tlk().ld(cols() - 1, SWT.FILL, TLK.IGNORE_CONTROL), SWT.BORDER | TLK.LABEL | SWT.PASSWORD, "Password:");
+                            tlk().ld(cols() - 1, TLK.FILL, TLK.IGNORE_CONTROL), TLK.BORDER | TLK.LABEL | TLK.PASSWORD, "Password:");
                     tlk().addCombo(cert, new ComboSelectController(editor(), OpcUaAdapter.class.getField("certAlias")) {
                         public void populate() {
                             super.populate();
@@ -286,16 +287,21 @@ public class OpcUaAdapterDialog extends ControlProviderDialog {
                             }
                             certInfo.setValue(null);
                         }
-                    }.setNullItem(""), tlk().ld(cols() - 1, SWT.FILL, TLK.IGNORE_CONTROL), SWT.BORDER | TLK.LABEL | SWT.READ_ONLY, "Alias:");
+                    }.setNullItem(""), tlk().ld(cols() - 1, TLK.FILL, TLK.IGNORE_CONTROL), TLK.BORDER | TLK.LABEL | TLK.READ_ONLY, "Alias:");
 
-                    certInfo = tlk().addText(cert, new TextController(editor(), null), tlk().ld(cols() - 1, SWT.FILL, TLK.IGNORE_CONTROL, SWT.FILL, 60),
-                            TLK.LABEL | SWT.READ_ONLY | SWT.V_SCROLL | SWT.H_SCROLL | SWT.MULTI, "Certificate:");
+                    certInfo = tlk().addText(cert, new TextController(editor(), null), tlk().ld(cols() - 1, TLK.FILL, TLK.IGNORE_CONTROL, TLK.FILL, 60),
+                            TLK.LABEL | TLK.READ_ONLY | TLK.V_SCROLL | TLK.H_SCROLL | TLK.MULTI, "Certificate:");
 
                     tlk().addNothing(cert, 1);
-                    tlk().addNothing(cert, tlk().ld(1, TLK.GRAB, SWT.DEFAULT));
+                    tlk().addNothing(cert, tlk().ld(1, TLK.GRAB, TLK.DEFAULT));
+
+                    // content tab folder
+                    tabFolder = tlk().addTabFolder(container(), new TabFolderController(editor(), "opc.adapter.dialog.tab2"), cols(), TLK.NULL, null);
+
 
                     // nodes tree
-                    tree = (CellTreeController) tlk().addTree(container(), new CellTreeController(editor(), null) {
+                    Object nodes = tlk().addComposite(tabFolder, null, cols(), null, TLK.NULL, "Nodes", null);
+                    tree = (CellTreeController) tlk().addTree(nodes, new CellTreeController(editor(), null) {
 
                         @Override
                         protected void doUpdateHints() {
@@ -303,8 +309,8 @@ public class OpcUaAdapterDialog extends ControlProviderDialog {
                             showEnabled();
                         }
 
-                    }.setCheckField("enabled"), tlk().ld(cols() - 1, SWT.FILL, 450, SWT.FILL, 300), SWT.MULTI | SWT.CHECK, null, null);
-                    Composite buttons = tlk().addComposite(container(), null, 1, 1, SWT.NULL, null, null);
+                    }.initCheckSource("enabled"), tlk().ld(cols() - 1, TLK.FILL, 450, TLK.FILL, 300), TLK.MULTI | TLK.CHECK, null, null);
+                    Object buttons = tlk().addComposite(nodes, null, 1, 1, TLK.NULL, null, null);
                     tlk().addButton(buttons, new ButtonController(editor(), null) {
 
                         @Override
@@ -312,7 +318,7 @@ public class OpcUaAdapterDialog extends ControlProviderDialog {
                             if (checkConnection(this))
                                 server.addCurrentTextToHistory();
                         }
-                    }, tlk().ld(1, SWT.FILL, SWT.DEFAULT, SWT.FILL, 65), SWT.PUSH, "Test connection", null);
+                    }, tlk().ld(1, TLK.FILL, TLK.DEFAULT, TLK.FILL, 65), TLK.PUSH, "Test connection", null);
                     tlk().addButton(buttons, new ButtonController(editor(), null) {
 
                         @Override
@@ -320,7 +326,7 @@ public class OpcUaAdapterDialog extends ControlProviderDialog {
                             if (syncNodes(this, false))
                                 server.addCurrentTextToHistory();
                         }
-                    }, tlk().ld(1, SWT.FILL, SWT.DEFAULT, SWT.FILL, 65), SWT.PUSH, "Synchronize nodes (server)", null);
+                    }, tlk().ld(1, TLK.FILL, TLK.DEFAULT, TLK.FILL, 65), TLK.PUSH, "Synchronize nodes (server)", null);
                     tlk().addButton(buttons, new ButtonController(editor(), null) {
 
                         @Override
@@ -328,7 +334,7 @@ public class OpcUaAdapterDialog extends ControlProviderDialog {
                             if (syncNodes(this, true))
                                 server.addCurrentTextToHistory();
                         }
-                    }, tlk().ld(1, true, false), SWT.PUSH, "Load nodes (clean)", null);
+                    }, tlk().ld(1, true, false), TLK.PUSH, "Load nodes (clean)", null);
 
                     tlk().addButton(buttons, new ButtonController(editor(), null) {
 
@@ -336,14 +342,14 @@ public class OpcUaAdapterDialog extends ControlProviderDialog {
                         public void execute(String id, Object data) {
                             showEnabled();
                         }
-                    }, tlk().ld(1, true, false), SWT.PUSH, "Show monitored nodes", null);
+                    }, tlk().ld(1, true, false), TLK.PUSH, "Show monitored nodes", null);
                     tlk().addButton(buttons, new ButtonController(editor(), null) {
 
                         @Override
                         public void execute(String id, Object data) {
                             tree.uncheckAll();
                         }
-                    }, tlk().ld(1, true, false), SWT.PUSH, "Disable all nodes", null);
+                    }, tlk().ld(1, true, false), TLK.PUSH, "Disable all nodes", null);
 
                     tlk().addButton(container(), new CheckController(editor(), AbstractPortAdapterBaseCell.class.getField("insertAsRoot")) {
 
@@ -351,7 +357,16 @@ public class OpcUaAdapterDialog extends ControlProviderDialog {
                         public boolean enabled() {
                             return !(getCell() instanceof IRecordPort && ((IRecordPort) getCell()).isPort());
                         }
-                    }, tlk().ld(cols(), SWT.RIGHT, SWT.DEFAULT), SWT.CHECK, "Insert at Root", null);
+                    }, tlk().ld(cols(), TLK.RIGHT, TLK.DEFAULT), TLK.CHECK, "Insert at Root", null);
+
+                    // script
+                    Object script = tlk().addComposite(tabFolder, null, cols(), null, TLK.NULL, "Script", null);
+    				tlk().addButton(script, new CheckController(editor(), clazz().getField("enableStimulation")) , cols(), TLK.CHECK, "Enable Script", null);
+    				ScriptControls.fillScriptControls(tlk(), script, editor(), clazz().getField("stimulationScript"), tlk().ld(cols(), TLK.GRAB, TLK.IGNORE_CONTROL, TLK.GRAB, TLK.IGNORE_CONTROL));
+    				
+                    tlk().addButton(container(), new CheckController(editor(), OpcUaAdapter.class.getField("logToConsole")),
+                            tlk().ld(cols(), TLK.RIGHT, TLK.DEFAULT), TLK.CHECK, "Log/Trace to impulse console", null);
+
                 } catch (SecurityException e) {
                 } catch (NoSuchFieldException e) {
                 }
@@ -368,7 +383,7 @@ public class OpcUaAdapterDialog extends ControlProviderDialog {
                         Messages.openInformation("Connection Test", "Connection successful");
                         return true;
                     } catch (Throwable e) {
-                        LoggerFactory.getLogger(null).error("Connection failed", e);
+                        LoggerFactory.getLogger().error("Connection failed", e);
                         Messages.openError("Connection Test", "Connection failed:" + e.getLocalizedMessage());
                     } finally {
                         if (client != null)
@@ -404,7 +419,7 @@ public class OpcUaAdapterDialog extends ControlProviderDialog {
                         Messages.openInformation("Synchronisation", "Synchronisation successful.");
 
                     } catch (Throwable e) {
-                        LoggerFactory.getLogger(null).error("Synchronisation", e);
+                        LoggerFactory.getLogger().error("Synchronisation", e);
                         Messages.openError("Synchronisation", "Synchronisation failed:" + e.getLocalizedMessage());
                     } finally {
                         if (client != null)
@@ -425,7 +440,7 @@ public class OpcUaAdapterDialog extends ControlProviderDialog {
                 tree.makeVisible(list);
             }
 
-        }.add(new NameDescriptionEnableProvider());
+        }.insertBefore(new NameDescriptionEnableProvider());
         provider.setCellClass(OpcUaAdapter.class);
         return provider;
     }
