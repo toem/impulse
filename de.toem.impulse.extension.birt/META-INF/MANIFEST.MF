@@ -2,16 +2,16 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: impulse BIRT Extension
 Bundle-SymbolicName: de.toem.impulse.extension.birt;singleton:=true
-Bundle-Version: 2.2.2
+Bundle-Version: 2.2.3
 Bundle-Activator: de.toem.impulse.extension.birt.ImpulseBirtExtension
 Require-Bundle: org.eclipse.core.runtime,org.eclipse.swt,org.eclipse.jfa
  ce,org.eclipse.birt.chart.ui,org.eclipse.birt.chart.ui.extension,org.ec
  lipse.birt.chart.examples.core,org.eclipse.birt.chart.engine.extension,
  org.eclipse.birt.chart.device.extension,com.ibm.icu,de.toem.basics.gene
- ral;bundle-version="[2.2.2,2.2.2]",de.toem.eclipse.toolkits.general;bun
- dle-version="[2.2.2,2.2.2]",de.toem.eclipse.toolkits.ui;bundle-version=
- "[2.2.2,2.2.2]",de.toem.pattern.general;bundle-version="[2.2.2,2.2.2]",
- de.toem.impulse.base;bundle-version="[2.2.2,2.2.2]"
+ ral;bundle-version="[2.2.3,2.2.3]",de.toem.eclipse.toolkits.general;bun
+ dle-version="[2.2.3,2.2.3]",de.toem.eclipse.toolkits.ui;bundle-version=
+ "[2.2.3,2.2.3]",de.toem.pattern.general;bundle-version="[2.2.3,2.2.3]",
+ de.toem.impulse.base;bundle-version="[2.2.3,2.2.3]"
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-Localization: i18n/i18n

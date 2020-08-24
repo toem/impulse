@@ -2,16 +2,16 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: impulse Jdt Extension
 Bundle-SymbolicName: de.toem.impulse.extension.jdt;singleton:=true
-Bundle-Version: 2.2.2
+Bundle-Version: 2.2.3
 Bundle-Activator: de.toem.impulse.extension.jdt.ImpulseJdtExtension
 Bundle-Vendor: toem.de
 Require-Bundle: org.eclipse.core.runtime,org.eclipse.ui,org.eclipse.swt,
  org.eclipse.jface,org.eclipse.debug.core,org.eclipse.jdt.core,org.eclip
- se.jdt.debug,de.toem.basics.general;bundle-version="[2.2.2,2.2.2]",de.t
- oem.eclipse.toolkits.general;bundle-version="[2.2.2,2.2.2]",de.toem.ecl
- ipse.toolkits.ui;bundle-version="[2.2.2,2.2.2]",de.toem.pattern.general
- ;bundle-version="[2.2.2,2.2.2]",de.toem.impulse.base;bundle-version="[2
- .2.2,2.2.2]"
+ se.jdt.debug,de.toem.basics.general;bundle-version="[2.2.3,2.2.3]",de.t
+ oem.eclipse.toolkits.general;bundle-version="[2.2.3,2.2.3]",de.toem.ecl
+ ipse.toolkits.ui;bundle-version="[2.2.3,2.2.3]",de.toem.pattern.general
+ ;bundle-version="[2.2.3,2.2.3]",de.toem.impulse.base;bundle-version="[2
+ .2.3,2.2.3]"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Bundle-ActivationPolicy: lazy
 Bundle-Localization: i18n/i18n
@@ -26,7 +26,7 @@ Name: de/toem/impulse/extension/jdt/i18n/i18n.properties
 SHA-256-Digest: WInbmUUScjN0UBsiW7fPBXMlGCM+avDP6PvbHaljMMI=
 
 Name: icons/extension.png
-SHA-256-Digest: WLf4YQ2BuviSNIVDPve5pWhdHZGr5d8K5Pww59jch4k=
+SHA-256-Digest: +JGxHmcGozScNLDY0gWxbD0el7+Y4wxhzvGyP+FG4d0=
 
 Name: src/de/toem/impulse/extension/jdt/i18n/I18n.java
 SHA-256-Digest: 5ZQh857JbsWzON9sGqjUhnPOBIGxRnbhByiZGYfikvM=
@@ -56,7 +56,7 @@ Name: de/toem/impulse/extension/jdt/JavaBreakpointNotifier$1.class
 SHA-256-Digest: ZDJFa/Sm2wgyyf5qI2g0iBtLRbjUHXE3y6AQAWu2YYg=
 
 Name: icons/extension@2x.png
-SHA-256-Digest: VluOSL6hOcjq/BEWJpgeYI1u4zlfHDOGXf4zpjXEm7o=
+SHA-256-Digest: NC5pP8GXjO/3Ov7DnFpaOv9MOxMy5/voZO14rLA2lME=
 
 Name: src/de/toem/impulse/extension/jdt/watchpoint/WatchpointTracerInsta
  ncer.java

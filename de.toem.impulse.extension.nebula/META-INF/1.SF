@@ -1,8 +1,8 @@
 Signature-Version: 1.0
 Created-By: 11.0.8 (Ubuntu)
-SHA-256-Digest-Manifest: KWUNn8dOj/EMQK4BryAmTUoAtikDeOrOl9SyN0Uz1oY=
-SHA-256-Digest-Manifest-Main-Attributes: Fvr5ylLrjS91Jx4fR2RSyr/CY7kYoZ+
- x/MF/by6qjGM=
+SHA-256-Digest-Manifest: xH4pawQHxnrrz1ZQTrhFerIC4xeZr8kTVB/xworcIYQ=
+SHA-256-Digest-Manifest-Main-Attributes: qyydd9KuwClaB6LOOShVeekFgHnc6AH
+ LnSAuG9em7LA=
 
 Name: org/eclipse/nebula/visualization/internal/widgets/introspection/In
  trospectable.class
@@ -1988,7 +1988,7 @@ Name: org/eclipse/nebula/visualization/widgets/figureparts/RoundScaleTic
 SHA-256-Digest: mmUS+6u1xnWCnHArlVgyxFtRuPhFkU2gBeQIINhMiJw=
 
 Name: icons/extension.png
-SHA-256-Digest: jBYZHVOPKM8oFbfluJVVHlpa07IbnJQN0xsvoEMvbc0=
+SHA-256-Digest: tmgkoq6suBURSF3S2jE9BEAzyGdG5on/2FIlwsiCDtQ=
 
 Name: org/eclipse/nebula/visualization/widgets/figureparts/ROIFigure$Res
  izeHandler$3.class
@@ -2017,7 +2017,7 @@ Name: src/org/eclipse/nebula/visualization/widgets/figures/IntensityGrap
 SHA-256-Digest: oiam5/tQbHQimL5W27MFb5Upt93NclftHsjTgdQj2Ek=
 
 Name: icons/extension@2x.png
-SHA-256-Digest: Ti+QjKKljMdA89ZLAGnW05vC38p+q7WhXvDxg9iT4oE=
+SHA-256-Digest: R8tHRlfqONYSfIsbVkkSOb71sY8qOEOo3ooj9Ed0PF8=
 
 Name: org/eclipse/nebula/visualization/widgets/figures/ProgressBarFigure
  $Thumb.class

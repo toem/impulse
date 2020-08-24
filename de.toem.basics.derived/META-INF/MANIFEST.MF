@@ -2,13 +2,13 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: bCome Derived Basics
 Bundle-SymbolicName: de.toem.basics.derived;singleton:=true
-Bundle-Version: 2.2.2
+Bundle-Version: 2.2.3
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Export-Package: com.occultusterra.compression,kanzi,kanzi.app,kanzi.bits
  tream,kanzi.entropy,kanzi.filter,kanzi.filter.seam,kanzi.function,kanzi
  .function.wavelet,kanzi.io,kanzi.prediction,kanzi.quantization,kanzi.tr
  ansform,kanzi.util,kanzi.util.color
-Require-Bundle: de.toem.basics.general;bundle-version="2.2.2"
+Require-Bundle: de.toem.basics.general;bundle-version="2.2.3"
 Bundle-Vendor: toem.de
 
 Name: kanzi/entropy/TPAQPredictor.class

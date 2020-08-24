@@ -2,15 +2,15 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: impulse OPC Extension
 Bundle-SymbolicName: de.toem.impulse.extension.opc;singleton:=true
-Bundle-Version: 2.2.2
+Bundle-Version: 2.2.3
 Bundle-Activator: de.toem.impulse.extension.opc.ImpulseOpcExtension
 Bundle-Vendor: toem.de
 Require-Bundle: org.eclipse.core.runtime,org.eclipse.swt,org.eclipse.jfa
- ce,org.eclipse.ui.console,de.toem.basics.general;bundle-version="[2.2.2
- ,2.2.2]",de.toem.pattern.general;bundle-version="[2.2.2,2.2.2]",de.toem
- .eclipse.toolkits.general;bundle-version="[2.2.2,2.2.2]",de.toem.eclips
- e.toolkits.ui;bundle-version="[2.2.2,2.2.2]",de.toem.impulse.base;bundl
- e-version="[2.2.2,2.2.2]"
+ ce,org.eclipse.ui.console,de.toem.basics.general;bundle-version="[2.2.3
+ ,2.2.3]",de.toem.pattern.general;bundle-version="[2.2.3,2.2.3]",de.toem
+ .eclipse.toolkits.general;bundle-version="[2.2.3,2.2.3]",de.toem.eclips
+ e.toolkits.ui;bundle-version="[2.2.3,2.2.3]",de.toem.impulse.base;bundl
+ e-version="[2.2.3,2.2.3]"
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: .,jar/bcpkix-jdk15on-1.61.jar,jar/bcprov-jdk15on-1.61.
  jar,jar/bsh-2.0b4.jar,jar/FastInfoset-1.2.16.jar,jar/guava-26.0-jre.jar
@@ -471,7 +471,7 @@ Name: org/eclipse/milo/opcua/stack/core/types/structured/AddNodesRequest
 SHA-256-Digest: aHARIAfmQjrJVnznRcmr2xjRSRQ9zfPnkPwtj6ZfUxE=
 
 Name: jar/jakarta.activation-1.2.1.jar
-SHA-256-Digest: nQlS7QnE8NxF/uemxLFhu6Xhr2QzFjrjSnIqwpnd0rY=
+SHA-256-Digest: cYNpfIbeR8nLibpcC5vKCOZXvq17L79jFMiRJwToEfc=
 
 Name: src/com/digitalpetri/strictmachine/dsl/ActionToBuilder.java
 SHA-256-Digest: HkpCLof8PxU/lIAIltelEf+OWUSNCPRXxwJ0H77Pd2I=
@@ -895,7 +895,7 @@ Name: src/org/eclipse/milo/opcua/sdk/client/model/nodes/objects/AuditUpd
 SHA-256-Digest: 77T/4qXhboqjkxPhaw9rr1U3tB+1unWtRJw9j40Kqno=
 
 Name: jar/jaxb-runtime-2.3.2.jar
-SHA-256-Digest: pj6HpijLepmKeKi6mTZ3NoAlrEJ/xSUz8tbX1wlz8J4=
+SHA-256-Digest: cKuvzWojJePsnEEeldeDe1E6ZfFL9uWOTWXU8b2ZDYc=
 
 Name: src/org/eclipse/milo/opcua/stack/core/types/structured/ContentFilt
  erResult.java
@@ -993,7 +993,7 @@ Name: src/org/eclipse/milo/opcua/sdk/client/model/types/variables/Server
 SHA-256-Digest: blW96hbt8gG0MeuPjgLQfJexsko1P0CtOioEGObc9LI=
 
 Name: jar/bcprov-jdk15on-1.61.jar
-SHA-256-Digest: aZLXMu9DXdhwA6lp+93gn+vJ0kZ/XEmzT1+KBHGkrss=
+SHA-256-Digest: w5g2hx6O9nMOfDKibai+KQwyR5kjDZ5DClwusfTw+4k=
 
 Name: src/org/eclipse/milo/opcua/sdk/client/model/nodes/objects/AuditPro
  gramTransitionEventNode.java
@@ -1454,7 +1454,7 @@ Name: org/eclipse/milo/opcua/stack/core/types/structured/ActivateSession
 SHA-256-Digest: 5ccU+JrmF+792ImXuHMljPfg1H47cZsQuWegtpiaV+k=
 
 Name: jar/stax-ex-1.8.1.jar
-SHA-256-Digest: JTF2al77gQ5xPU2aG8NodmZNa1XV4gAe9t6K7knKeCQ=
+SHA-256-Digest: y33ff7mazYC4IC2oKeYO2uqqbbTvzRMzAOy+7ksON20=
 
 Name: src/org/eclipse/milo/opcua/sdk/client/model/types/objects/NonExclu
  siveLevelAlarmType.java
@@ -1665,7 +1665,7 @@ Name: org/eclipse/milo/opcua/sdk/client/model/types/objects/AuditActivat
 SHA-256-Digest: sC98waMcrQJ6RU0l/wA0wl7k2DIexlNK3RbGCCyEtiY=
 
 Name: jar/guava-26.0-jre.jar
-SHA-256-Digest: 3MByZmNgZvrYlNJGOyJeuubKU1o0Sxuh5TJotU/ANnY=
+SHA-256-Digest: Leag8WSHEt6ObEtuONkqYUs3uPTIy+ZuOm0dFWi3zpQ=
 
 Name: src/org/eclipse/milo/opcua/sdk/client/model/types/objects/AuditUrl
  MismatchEventType.java
@@ -2166,7 +2166,7 @@ Name: org/eclipse/milo/opcua/stack/core/types/builtin/NodeId.class
 SHA-256-Digest: kX3YufAL2Da7YRIqfckDThybH4kl/O/Qi0BHX4Co83s=
 
 Name: jar/bsh-2.0b4.jar
-SHA-256-Digest: mqonwFd+bWMjJ5pO9yHt9957SMNWETE2AJDtwlDPOmw=
+SHA-256-Digest: PFHJfRzJ14nNroEkeIlcbEXdUQ8iBj/k9F/Nm+iE8Mw=
 
 Name: src/org/eclipse/milo/opcua/sdk/client/model/nodes/variables/Transi
  tionVariableNode.java
@@ -2250,7 +2250,7 @@ Name: src/org/eclipse/milo/opcua/stack/core/BuiltinDataType.java
 SHA-256-Digest: pgm86+rP2J1nkdn25HtinZzzdv5qgobd2iRDo5lJ4Yg=
 
 Name: jar/txw2-2.3.2.jar
-SHA-256-Digest: eI6rGq/2FAhN7ZoiIkH9JJOlHksX5kWDYwCzw+xWsDE=
+SHA-256-Digest: uaRaHxuiv6zwa3/gjBraBTa5xrN8SiDa3Xo8pFC75BU=
 
 Name: org/eclipse/milo/opcua/stack/core/types/structured/InstanceNode.cl
  ass
@@ -2582,7 +2582,7 @@ Name: src/org/eclipse/milo/opcua/sdk/client/model/types/objects/ServerRe
 SHA-256-Digest: wi6OhgpqOfwRsVhL7iplUUZmejeUMteojOCRbggkoSM=
 
 Name: jar/istack-commons-runtime-3.0.8.jar
-SHA-256-Digest: ZXlS8nIO0gQSjXdhVlwTkq2FeD1pgtCCeRw9hdUhTvA=
+SHA-256-Digest: tDn8O0DAUtXJYrfAYWl0JjqR4CPiufWvGuz2v0EeYYY=
 
 Name: com/digitalpetri/strictmachine/FsmContext.class
 SHA-256-Digest: cO9qA8kgkf1UFlRf9OZhVgA2XHi6wIqSdG22eSVdWBs=
@@ -2814,7 +2814,7 @@ Name: org/eclipse/milo/opcua/sdk/client/model/types/variables/ArrayItemT
 SHA-256-Digest: AhivYj095fuXwARsn5i/pUESCMeRDBphvWuUuFN9AVA=
 
 Name: jar/netty-transport-4.1.34.Final.jar
-SHA-256-Digest: 3vpVWam6fsfwUQONMkuFnBy7wP84BFgDSq6n0w4YC7k=
+SHA-256-Digest: qZUK7jLAqfp1Lj/Lz6EdWUc8wOEUE49bzXRviUOp2sI=
 
 Name: src/org/eclipse/milo/opcua/sdk/client/model/types/objects/AuditDel
  eteNodesEventType.java
@@ -2870,7 +2870,7 @@ Name: org/eclipse/milo/opcua/sdk/client/model/nodes/objects/AuditCreateS
 SHA-256-Digest: kS9L2f+Gipre5UPmY5upxo4A/ZXvVyY5QjOu3NccFmM=
 
 Name: jar/testng-6.9.10.jar
-SHA-256-Digest: 2aYOSuwxlSPOcf9o5/ikdurF7Ose4e8l5+8f5ptiNL4=
+SHA-256-Digest: 4YyfeVB+RvHDm58uavWs9aHmfO8nJv+bO40XAcuCEDc=
 
 Name: org/eclipse/milo/opcua/stack/core/types/structured/NodeReference.c
  lass
@@ -2928,7 +2928,7 @@ Name: src/org/eclipse/milo/opcua/sdk/client/model/nodes/objects/Exclusiv
 SHA-256-Digest: 0k7JTnuhV7coFabRObnLSl2sXmRDycNjogLaGcUunTU=
 
 Name: jar/jcommander-1.48.jar
-SHA-256-Digest: yx6s5TTAs4doWcsh0ZY36aXP9XJsbQKApEj4eDPlIBQ=
+SHA-256-Digest: Dz/R1uqAJ4Q5Z47hxzNtsfcsZVXo4zrrvWUT03+cAvs=
 
 Name: src/org/eclipse/milo/opcua/stack/core/types/structured/TransferSub
  scriptionsResponse.java
@@ -3513,7 +3513,7 @@ Name: org/eclipse/milo/opcua/sdk/core/Reference.class
 SHA-256-Digest: 4qQl24tws/dp+0YJH3sOonIZMtzLDRMlUY15hpkzhEU=
 
 Name: jar/bcpkix-jdk15on-1.61.jar
-SHA-256-Digest: P0eYlzVLDLlU0JpSB17E8asUC8/W7Ms39ry1VMjwm24=
+SHA-256-Digest: JX5nMuiIXTLi2r6slzjLI/LySY2Pah/12ynbX6wx/Dg=
 
 Name: src/org/eclipse/milo/opcua/stack/client/transport/uasc/ClientChann
  elFsm.java
@@ -3799,7 +3799,7 @@ Name: org/eclipse/milo/opcua/sdk/client/nodes/UaDataTypeNode.class
 SHA-256-Digest: hApnBrYPQinr0zie1HwD8Lsf1RUbBsyJ+16FjbEczeQ=
 
 Name: jar/jakarta.activation-api-1.2.1.jar
-SHA-256-Digest: dCY08/sIe4Bz/4JfKB2pj+7QUJ+bcVzDuTtqIKxjW68=
+SHA-256-Digest: 0dzsJ+XnDD/tGphZXcmA6RuO+oFp/LZR38//kGFt28A=
 
 Name: src/org/eclipse/milo/opcua/sdk/client/model/types/objects/NonExclu
  siveLimitAlarmType.java
@@ -3826,7 +3826,7 @@ Name: src/org/eclipse/milo/opcua/sdk/client/model/nodes/objects/Conditio
 SHA-256-Digest: Li7K7Cx5NmAQovRGCjvLnL2qvIgqFl5piKI9nW/KBV4=
 
 Name: jar/jsr305-3.0.2.jar
-SHA-256-Digest: TcdMa11B5VFevaejO81j6jv0DFjtwJEAOPpTKmOBZFQ=
+SHA-256-Digest: TY+sM1bxaD+J+s5jNQzaDSZWB+TeWb6Rrb76kRjeSKQ=
 
 Name: org/eclipse/milo/opcua/sdk/core/NumericRange.class
 SHA-256-Digest: 5Pg+Eomzn14fBssCnz2fa/PJOnWXP/ZWvux2bDUI70Q=
@@ -4001,7 +4001,7 @@ Name: org/eclipse/milo/opcua/stack/core/channel/ChunkEncoder$SymmetricEn
 SHA-256-Digest: y3/kkcncGP8+by8A4e0AfFTMtASpB0WpwXJE9zDBmHU=
 
 Name: jar/netty-resolver-4.1.34.Final.jar
-SHA-256-Digest: 7Luka+LwFGM5SgeSFBgHFmUlbqc7YsEr5NTAR8U2N7g=
+SHA-256-Digest: mP/Wof8lgyCzTQsp4gcL6cLwBFxjHrFPCRR2w4qRZqs=
 
 Name: org/eclipse/milo/opcua/stack/client/transport/websocket/OpcClientW
  ebSocketChannelInitializer.class
@@ -4022,7 +4022,7 @@ Name: de/toem/impulse/extension/opc/ua/OpcUaAdapterDialog$1$5.class
 SHA-256-Digest: jVe7+jsf7SYQTn+jL12rsLR+CuROgKPCl8ujvvpbDKI=
 
 Name: jar/netty-handler-4.1.34.Final.jar
-SHA-256-Digest: WqU/jl0XIqzRAcsBMMNa2MH1m24Ayzc0SFBDS1D43zg=
+SHA-256-Digest: eQzb/NGtOdxbjcF9Nt3HaTEnb19i5MJdfbWwfiAXguQ=
 
 Name: org/eclipse/milo/opcua/stack/core/channel/messages/AcknowledgeMess
  age.class
@@ -4393,7 +4393,7 @@ Name: org/eclipse/milo/opcua/sdk/client/api/services/SubscriptionService
 SHA-256-Digest: FOMsODV1hNNbzgtdehkYw4RPO1OfCcKPjNouy2GmmPQ=
 
 Name: jar/netty-common-4.1.34.Final.jar
-SHA-256-Digest: 1khWqJfN97S9T9W3DVlLtzWHU/nC7a2dyuu1kx4JQhU=
+SHA-256-Digest: PwE0uKezZS3HxsXu3j7cvFM62SVcDwakilHKuZW1Aj0=
 
 Name: src/org/eclipse/milo/opcua/sdk/client/model/types/objects/ServerCo
  nfigurationType.java
@@ -5156,7 +5156,7 @@ Name: src/org/eclipse/milo/opcua/sdk/client/model/TypeRegistryInitialize
 SHA-256-Digest: g3sFYguNjYV73jjTQzy19pWibYEn9uV9eKItVPLxnjI=
 
 Name: jar/FastInfoset-1.2.16.jar
-SHA-256-Digest: LaXDWFUwIXD0Z6uxH5e4+quMpC55c1P6hzeJHi5IVfg=
+SHA-256-Digest: 8eb7zP4leawxbpjC6G2u51KITLIcY3C5ff/DA/CGs6E=
 
 Name: com/digitalpetri/netty/fsm/ChannelFsm$DisconnectFuture.class
 SHA-256-Digest: x7aeTQLsyVHqmlA26nUGTvKfK8Y0uXjSDqa8ssyl4vs=
@@ -5204,7 +5204,7 @@ Name: org/eclipse/milo/opcua/stack/core/types/BuiltinDataTypeDictionary$
 SHA-256-Digest: 7oBz1odzbTUTb5yMeLnMl0DSBWZDpxvdrYaRTi8d5LQ=
 
 Name: jar/gson-2.8.2.jar
-SHA-256-Digest: J/KBpMJ+zNQPahkE2Ck9KaLHezAqOlb41btL/Z8zTUA=
+SHA-256-Digest: GG00cD9OmHJKxjF2Fk7IcnCB+k3eN85t4VrVgnvW/Go=
 
 Name: src/org/eclipse/milo/opcua/stack/core/types/structured/CallRequest
  .java
@@ -5710,14 +5710,14 @@ Name: src/org/eclipse/milo/opcua/stack/core/types/structured/CallRespons
 SHA-256-Digest: M+HsL1L8UPLibv+zDm43ArYJTVsOu2zvJzePRgHF3Bo=
 
 Name: jar/netty-buffer-4.1.34.Final.jar
-SHA-256-Digest: AUJVIAx+xpRgf5L5+Kg5RXJUZuchJbrjqyxL1e2+yfg=
+SHA-256-Digest: 3wwz82lc1HAu4FDojYgHMxzMW1Lito2oBdvJnD2DFRw=
 
 Name: src/org/eclipse/milo/opcua/stack/client/transport/tcp/OpcTcpTransp
  ort.java
 SHA-256-Digest: owknNB5HyrlfVMQdVC+LbWIJ7I4MOKoXkuN1CuL5iwU=
 
 Name: jar/jakarta.xml.bind-api-2.3.2.jar
-SHA-256-Digest: Ar2IOogoUaNxON68Il8yMijmnaPVvS4GpOoWn9TaGGA=
+SHA-256-Digest: zuy9BoR7B6K7VrLhpl6M1tBMcig8GvhBNAzgTMKOckE=
 
 Name: org/eclipse/milo/opcua/stack/core/types/structured/ModifySubscript
  ionRequest$Codec.class
@@ -5964,7 +5964,7 @@ Name: src/org/eclipse/milo/opcua/stack/core/types/structured/ObjectTypeA
 SHA-256-Digest: N/cXJNPKKal/OUkKo/tRNT67Es2vY7jm6L2LuV2d+ZY=
 
 Name: jar/netty-codec-http-4.1.34.Final.jar
-SHA-256-Digest: TI436NmueVUQmg4pqR0ICHsXCO1d5IllqGjqoFwuTSQ=
+SHA-256-Digest: 0k7iqw38PPz9GQl0+6tO0pN29rW20pb+/ZS/OwE9+pE=
 
 Name: org/eclipse/milo/opcua/stack/core/types/structured/TimeZoneDataTyp
  e.class
@@ -7137,7 +7137,7 @@ Name: org/eclipse/milo/opcua/stack/core/types/builtin/ByteString.class
 SHA-256-Digest: p9OU4nIX78uAFMQX16Qq2OL4VXWv9Qta/I0c4WTNLnU=
 
 Name: jar/netty-codec-4.1.34.Final.jar
-SHA-256-Digest: V2/jCPkGflxVJQhUGGsJCqwJK2a+E29lr9zetKaWqyg=
+SHA-256-Digest: MxUX5R8tPF57qaL/DrMWcDbhrjOk4mYS9NVJjrodw0w=
 
 Name: org/eclipse/milo/opcua/sdk/client/api/nodes/Node.class
 SHA-256-Digest: HoLWQw4DxtOtFntasHK4g6lkc7Od4OzJ4LAQQODQfVA=
@@ -7754,7 +7754,7 @@ Name: org/eclipse/milo/opcua/stack/core/types/structured/SetPublishingMo
 SHA-256-Digest: xgCxXlQbuMKdosW6sszR2QCMN/EYq0wwAzucggUNBRU=
 
 Name: icons/extension.png
-SHA-256-Digest: yVHJFXLkQVVOCi9eEqsntRNml0VX1eYCJ9WWEUcZXL0=
+SHA-256-Digest: g92PiMNrf33pSb7R/iiSBPa/KrhM+x7d39NpY2Hti7A=
 
 Name: src/org/eclipse/milo/opcua/sdk/client/methods/GetMonitoredItems.ja
  va
@@ -7791,7 +7791,7 @@ Name: icons/objects/bricks.png
 SHA-256-Digest: 5F4yw8r5MJ5d7AnK1Oxe/huESextLVNLZyPtGJV8bHc=
 
 Name: icons/extension@2x.png
-SHA-256-Digest: Amr2t29jdaCdRJQLfiKa8ACNd7lXGYN1sbmQ/7qBBCo=
+SHA-256-Digest: vCYAFD6VjpgTgKCAiw1lYVZf96tmpu/yxPhGB7LEUAE=
 
 Name: src/org/eclipse/milo/opcua/sdk/client/model/nodes/objects/RsaSha25
  6ApplicationCertificateNode.java

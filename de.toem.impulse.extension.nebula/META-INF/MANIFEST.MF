@@ -2,15 +2,15 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: impulse Nebula  Extension
 Bundle-SymbolicName: de.toem.impulse.extension.nebula;singleton:=true
-Bundle-Version: 2.2.2
+Bundle-Version: 2.2.3
 Bundle-Activator: de.toem.impulse.extension.nebula.ImpulseNebulaExtensio
  n
 Require-Bundle: org.eclipse.core.runtime,org.eclipse.swt,org.eclipse.jfa
  ce,org.eclipse.draw2d,org.eclipse.ui.workbench,org.eclipse.ui.console,d
- e.toem.basics.general;bundle-version="[2.2.2,2.2.2]",de.toem.pattern.ge
- neral;bundle-version="[2.2.2,2.2.2]",de.toem.eclipse.toolkits.general;b
- undle-version="[2.2.2,2.2.2]",de.toem.eclipse.toolkits.ui;bundle-versio
- n="[2.2.2,2.2.2]",de.toem.impulse.base;bundle-version="[2.2.2,2.2.2]"
+ e.toem.basics.general;bundle-version="[2.2.3,2.2.3]",de.toem.pattern.ge
+ neral;bundle-version="[2.2.3,2.2.3]",de.toem.eclipse.toolkits.general;b
+ undle-version="[2.2.3,2.2.3]",de.toem.eclipse.toolkits.ui;bundle-versio
+ n="[2.2.3,2.2.3]",de.toem.impulse.base;bundle-version="[2.2.3,2.2.3]"
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ClassPath: .
@@ -2002,7 +2002,7 @@ Name: org/eclipse/nebula/visualization/widgets/figureparts/RoundScaleTic
 SHA-256-Digest: zX7jCJWS9UmPQGlMFOQYu0CTAUaAhbz85IIgSiiNiq0=
 
 Name: icons/extension.png
-SHA-256-Digest: M4hwa5LoZvoZSGqmKol6/16FasYoNBMfb2adx2r4e0o=
+SHA-256-Digest: +nquAm22R8Fm4HRplII7kes7McH+KmGUxXEZLtceAMo=
 
 Name: org/eclipse/nebula/visualization/widgets/figureparts/ROIFigure$Res
  izeHandler$3.class
@@ -2031,7 +2031,7 @@ Name: src/org/eclipse/nebula/visualization/widgets/figures/IntensityGrap
 SHA-256-Digest: lv6y0gl3INzT7NosOAJrN3k8X0O/nS0yT0OHGs3chm8=
 
 Name: icons/extension@2x.png
-SHA-256-Digest: H5WifWbGHplrtMjyaPISY1ZcodMG0454YgboafDPXII=
+SHA-256-Digest: eD5WO1Z9TK4ZGVmLXwFYRYYiltNeJXsaGez3LyT748w=
 
 Name: org/eclipse/nebula/visualization/widgets/figures/ProgressBarFigure
  $Thumb.class

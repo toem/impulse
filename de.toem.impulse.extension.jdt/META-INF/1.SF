@@ -1,8 +1,8 @@
 Signature-Version: 1.0
 Created-By: 11.0.8 (Ubuntu)
-SHA-256-Digest-Manifest: KadroMVnz3in9ejMfEXDP3H+WDYxGCMZDeriZOC1bvI=
-SHA-256-Digest-Manifest-Main-Attributes: pDsueAo+IQ40Dd9Svf+umNgn/D06qW+
- titcbzQHW5pk=
+SHA-256-Digest-Manifest: CeJgPMAjnEmgmD2BwcbchDDu1sm3F2CPdnwTBuNDY7s=
+SHA-256-Digest-Manifest-Main-Attributes: M3bXUn61PLCqinvhvN5545OeHrUMBqa
+ 4h4HdqPpNGJw=
 
 Name: de/toem/impulse/extension/jdt/watchpoint/WatchpointTracer.class
 SHA-256-Digest: 5CvOlN2f2aTfkSS4zt4nIvaXt0ejrZ6Q4HOQ4xpTeOE=
@@ -14,7 +14,7 @@ Name: de/toem/impulse/extension/jdt/i18n/i18n.properties
 SHA-256-Digest: DR7glLeaCcD1sDHo+UiLJQrpns0vcQldalgQxa22H5w=
 
 Name: icons/extension.png
-SHA-256-Digest: DHiUZWXiGfZcvE8v2L7vPa/kDrALNE0gKM+v7mgFkHY=
+SHA-256-Digest: vHj7Wp1t0xX2SHkeWg876Zhae2tTlixaYk0d19qs06c=
 
 Name: src/de/toem/impulse/extension/jdt/i18n/I18n.java
 SHA-256-Digest: GYq0/rHpiD8F8D1A9fmOlQ1SKaiFsRIqKHYc5V0CaoE=
@@ -44,7 +44,7 @@ Name: de/toem/impulse/extension/jdt/JavaBreakpointNotifier$1.class
 SHA-256-Digest: L6+R92RSWm7v9MoUtet8wWa/N6KcfifE5XZBZnPNaXE=
 
 Name: icons/extension@2x.png
-SHA-256-Digest: SxeZYJCDIwaeMfPw9Wlq+0Ib2WJCBQS/K7Y+uvG47Lk=
+SHA-256-Digest: G4IIxha00igU2PJ/okYqTBheKBKd6lqt3k2uJQHQNRA=
 
 Name: src/de/toem/impulse/extension/jdt/watchpoint/WatchpointTracerInsta
  ncer.java

@@ -2,15 +2,15 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: impulse Examples Extension
 Bundle-SymbolicName: de.toem.impulse.extension.toolkit;singleton:=true
-Bundle-Version: 2.2.2
+Bundle-Version: 2.2.3
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Require-Bundle: org.eclipse.core.runtime,org.eclipse.swt,org.eclipse.jfa
  ce,org.eclipse.ui,org.eclipse.pde.ui,org.eclipse.pde.ui.templates,org.e
- clipse.core.resources,de.toem.basics.general;bundle-version="[2.2.2,2.2
- .2]",de.toem.pattern.general;bundle-version="[2.2.2,2.2.2]",de.toem.ecl
- ipse.toolkits.general;bundle-version="[2.2.2,2.2.2]",de.toem.eclipse.to
- olkits.ui;bundle-version="[2.2.2,2.2.2]",de.toem.impulse.base;bundle-ve
- rsion="[2.2.2,2.2.2]"
+ clipse.core.resources,de.toem.basics.general;bundle-version="[2.2.3,2.2
+ .3]",de.toem.pattern.general;bundle-version="[2.2.3,2.2.3]",de.toem.ecl
+ ipse.toolkits.general;bundle-version="[2.2.3,2.2.3]",de.toem.eclipse.to
+ olkits.ui;bundle-version="[2.2.3,2.2.3]",de.toem.impulse.base;bundle-ve
+ rsion="[2.2.3,2.2.3]"
 Bundle-Vendor: toem.de
 Bundle-Activator: de.toem.impulse.extension.toolkit.ImpulseToolkitExtens
  ion
@@ -68,7 +68,7 @@ Name: .settings/language.settings.xml
 SHA-256-Digest: SHQpaYMTRdTDA3gfodggTC7Y1Sw/rTllOhvTJVyGQVs=
 
 Name: flux/example22/win32-x86_64/example.exe
-SHA-256-Digest: CocViZjECvpHKt/UIfr5G7rV369F8JPhRzgGI/z4hXU=
+SHA-256-Digest: JCmb/tOyeOPfAuGBepHo1pIeMrVxdKsWe/DkptpBbc8=
 
 Name: flux/example20/macosx-x86/example
 SHA-256-Digest: UXwCBaKziBTja9LpGTBd8EKnWfNeyYNl3NGSJU6hYdg=
@@ -132,7 +132,7 @@ Name: flux/example01/Makefile
 SHA-256-Digest: VXYT/fhM4wYFrTqww3dXh4at2tO6NbadWO11Trm6DxU=
 
 Name: flux/example21/win32-x86/example.exe
-SHA-256-Digest: 57hkHJCWOQffHqoGwwbD2t2W67IjRbXiVJpwGnHSDA4=
+SHA-256-Digest: GLzTTuTn0U0Mj7WaEk4hmqLhvH6vh+r0BiTWPeRCoYU=
 
 Name: flux/example04/Makefile
 SHA-256-Digest: 8c5DWY4cMHonwdxxjz4J+d2nuy5rL44jCDDO2YC05no=
@@ -286,7 +286,7 @@ Name: flux/example07/Makefile
 SHA-256-Digest: 8c5DWY4cMHonwdxxjz4J+d2nuy5rL44jCDDO2YC05no=
 
 Name: flux/example20/win32-x86/example.exe
-SHA-256-Digest: x27bs6oyYIO+N6JtjOEgUnvX57QJ6FO4CJ0tN9aUOFs=
+SHA-256-Digest: 8DHMP0r1coqd3+4PAUSzWB6zPAXj8kV0rHaGaT8iUQo=
 
 Name: de/toem/impulse/extension/toolkit/ports/scope/ExampleScopeAdapter$
  ExampleInput$Model.class
@@ -466,7 +466,7 @@ Name: de/toem/impulse/extension/toolkit/core/CreateRecordAndOpenViewer$1
 SHA-256-Digest: cvdb0JxZcyWeyn7cnDW/OuieYUli+hjg6/Gl81CMsdU=
 
 Name: flux/example21/win32-x86_64/example.exe
-SHA-256-Digest: Lm9ppZck49UZAqiSkkjtnrkIk1XSjmmInCCgWjtxLUM=
+SHA-256-Digest: 8AUW7za2WURAd0NFEEofpNqR2kkxptZoynokHh7gDaU=
 
 Name: flux/example2x/Makefile
 SHA-256-Digest: 1rfF5No+3OmJsqmmVjmUzvR497C3JGyMArl8tUsn/iA=
@@ -476,7 +476,7 @@ Name: de/toem/impulse/extension/toolkit/ports/highspeed/ExampleHighspeed
 SHA-256-Digest: 2cWH5t/k4PZn8KCkOJnnDbwYMc633WV3umbnW17XmRc=
 
 Name: flux/example20/win32-x86_64/example.exe
-SHA-256-Digest: +8RNr9qWPonwnGfMYQWPkwX9IP2GmBkszG+8yJFLo5k=
+SHA-256-Digest: GuUOXXE2J5Pi5GmkE1ofjE+PoMW5rBRrlTwNNa6NIpA=
 
 Name: flux/lz4.c
 SHA-256-Digest: dLq9LWd9FMcHsNuxemtyCUZ1+38jiO0cInCCG4WuhrA=
@@ -621,7 +621,7 @@ Name: flux/example2y/win32-x86_64/example.exe
 SHA-256-Digest: xdS2In/B1cJMw8fqMqsTc1xRhscNOsNx1NsXgl4yKkU=
 
 Name: icons/extension.png
-SHA-256-Digest: 4EijmtsuZv8pUxtoyKDpmuEOqXKcXa1B9lGypVVqXNo=
+SHA-256-Digest: OmBBFBqYplwa1nbtN9lUwHFKEftKoH5Wixi69hom9wo=
 
 Name: flux/example20/linux-x86_64/example
 SHA-256-Digest: xQzAwRPxG7wkPWq83K4tRbP75jY7HvA2Rw4fnF1ZY3I=
@@ -635,14 +635,14 @@ Name: de/toem/impulse/extension/toolkit/serializer/examples/ExampleFloat
 SHA-256-Digest: tK+TEK7L7xKDJKJr74YdRXOUglkp89OzpuaoNmAxZ7s=
 
 Name: icons/extension@2x.png
-SHA-256-Digest: n6agEnw+iwmqLc4KmhqXXWji6ug1+oA05g83/YexiWA=
+SHA-256-Digest: xqatN02ckqa9luiu7Q8gH+sC7FxLsIF1oMGHWRwdbLU=
 
 Name: de/toem/impulse/extension/toolkit/ports/highspeed/ExampleHighspeed
  AdapterDialog$1$1.class
 SHA-256-Digest: cbjakRlmtzWfPTP6uQVACOhqc0BRbN4+L3oElIjfb2g=
 
 Name: flux/example22/win32-x86/example.exe
-SHA-256-Digest: yN1laXoSFyX4BkqvNKtd1IjiWbopEhWUAXybYuysrHs=
+SHA-256-Digest: w8T+odaCgUi8cNXL9yVbB6pXW84IzY1ed1SS9aH6ZRA=
 
 Name: de/toem/impulse/extension/toolkit/serializer/examples/flux/Example
  FluxConverterReader.class

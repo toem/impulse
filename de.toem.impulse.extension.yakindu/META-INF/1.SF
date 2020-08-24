@@ -1,8 +1,8 @@
 Signature-Version: 1.0
 Created-By: 11.0.8 (Ubuntu)
-SHA-256-Digest-Manifest: QE48RCtwP/7yelxFD9++vWMMwMIM6UBr9Zvd4nq++bM=
-SHA-256-Digest-Manifest-Main-Attributes: FE0HjI8wRv+b6eQd9CZyy4IkQp4v08b
- RTgbtGo7S3Gk=
+SHA-256-Digest-Manifest: RHDc66sjMmZH5bi8MdTk/7uv0CKrwYvarJHOPEYnBRY=
+SHA-256-Digest-Manifest-Main-Attributes: Z4kh7/vbGl2kG5WOEDGzS3TrVbMg7vo
+ ceGoahmZ8jd0=
 
 Name: plugin.xml
 SHA-256-Digest: xVZ+TQGmzvovsySVMRlfifYy2TMz2skKzGfafG3HfCg=
@@ -108,7 +108,7 @@ Name: src/de/toem/impulse/extension/yakindu/chart/StateChartInstancer.ja
 SHA-256-Digest: Hl9fHMo2XXQ+cPlEv/b+WdwoSe8N4GG+RdDc8Y+02/I=
 
 Name: icons/extension.png
-SHA-256-Digest: fqgl3msuYiyoc3JuGp5q3Va52oqsme4n0VAqsG2odeI=
+SHA-256-Digest: DovGrvJqQLcZEIYSO6wzf+xcRssq3YYWpcYiK8RAZNE=
 
 Name: de/toem/impulse/extension/yakindu/chart/StateChart.class
 SHA-256-Digest: CGJVHr8n5GVPn6AZi9+BsmyBXZzOBCJKeIyvUARlKeA=
@@ -145,7 +145,7 @@ Name: de/toem/impulse/extension/yakindu/ImpulseYakinduExtension.class
 SHA-256-Digest: ijcJ+REL2Egnt8MrxGeOAaqaXbcwGVSwoVCwhORyRN8=
 
 Name: icons/extension@2x.png
-SHA-256-Digest: tO8OUlS2EdB8iCZJ3Vvixc6J2IV138GtIAj5VviGsbY=
+SHA-256-Digest: V4s0krSJEbkPjtC89zceMTSUjGNUTmwdrKwNroR5C0Y=
 
 Name: de/toem/impulse/extension/yakindu/chart/StateChartDialog$2$5.class
 SHA-256-Digest: o+cq5TLyt7yGH/M3DcwaPKRUncvON6QuQwwrVbp3OMY=

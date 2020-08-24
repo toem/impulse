@@ -1,8 +1,8 @@
 Signature-Version: 1.0
 Created-By: 11.0.8 (Ubuntu)
-SHA-256-Digest-Manifest: CoIjPze8ZHQeWoU5X0gQpEF7/+mJ7ueVtHtoQnRKUwE=
-SHA-256-Digest-Manifest-Main-Attributes: 17zcj+FBPMbE+W93N5L8UO1fHYqnYM3
- A3Jx+oNaB1Sc=
+SHA-256-Digest-Manifest: FfGCdcn35uR96WxZnL39DxIGuBLXwutbkwYXqJWefEk=
+SHA-256-Digest-Manifest-Main-Attributes: KHE4ebYalhCtSePs+gJUmwX2cQl207h
+ IaIaq0SY+ujk=
 
 Name: plugin.xml
 SHA-256-Digest: c15Ktdf2/iz85RkucrSW/aO6oijpkifpREwO0NvDtOI=
@@ -55,7 +55,7 @@ Name: .settings/language.settings.xml
 SHA-256-Digest: QBhOh08fN2K0rkT9eGhYfVMX+dcpLEED1h/mCYc5bRo=
 
 Name: flux/example22/win32-x86_64/example.exe
-SHA-256-Digest: xPGyh972kWwoGLiP6ggLZXRBBsZS7lR5yupLrykOppA=
+SHA-256-Digest: beVUD/Xu4wH+NhK7ECTsF5aoPyaQeDNEN7XOPxK9nhs=
 
 Name: flux/example20/macosx-x86/example
 SHA-256-Digest: oId10aVvipG1PvKZa2kVQtW5Ld7EabrS3Vrmejt7N+g=
@@ -119,7 +119,7 @@ Name: flux/example01/Makefile
 SHA-256-Digest: T3z+C308jRLBhJEOhxujs1ofmJan+MmowkXNYZKx+wU=
 
 Name: flux/example21/win32-x86/example.exe
-SHA-256-Digest: mqsiL9Sm3p0iAHmqjy53hA4aR7L1GqlRG5h6A9G2Xes=
+SHA-256-Digest: daFavhufs+fde/MHUHQ0ZCovGCgXvxjGyVZyUMOUF48=
 
 Name: flux/example04/Makefile
 SHA-256-Digest: +KPv08pbkWi6VeBEqwH6z30PNWjU89ckcuKVX9zCILE=
@@ -273,7 +273,7 @@ Name: flux/example07/Makefile
 SHA-256-Digest: L/+WqYO7ExB7cZivl/YCBE1+Y83iA21EDCSj0QPosxA=
 
 Name: flux/example20/win32-x86/example.exe
-SHA-256-Digest: B5CaQ9SBt48tWrIFHgYuOxq0M3F9WYX29dz+TnGJsMA=
+SHA-256-Digest: Ld0CFdoKgq6oT3kowdn+MAInPp2T05gFIOA3SEFE1rw=
 
 Name: de/toem/impulse/extension/toolkit/ports/scope/ExampleScopeAdapter$
  ExampleInput$Model.class
@@ -453,7 +453,7 @@ Name: de/toem/impulse/extension/toolkit/core/CreateRecordAndOpenViewer$1
 SHA-256-Digest: NPDG7Xy8sNgcPO8NxIHW8Q19Vu6qB8IDKFTbYWw/q84=
 
 Name: flux/example21/win32-x86_64/example.exe
-SHA-256-Digest: 1S+x9DA/pOmLJhdgico+JjwTL5H+aqke0mTyIeb4QAc=
+SHA-256-Digest: bRXw0cI8fgyPUF8dDgdxuYwy/K6ajbqNWZ5zrvxwXK8=
 
 Name: flux/example2x/Makefile
 SHA-256-Digest: d6cjxfjdsmBukeZZDsFcl33S0AVWJPXQUoQlg1waqa8=
@@ -463,7 +463,7 @@ Name: de/toem/impulse/extension/toolkit/ports/highspeed/ExampleHighspeed
 SHA-256-Digest: gFpkl0JyF57B/0uLJCrMHjJNtyZ6KQBjMtInPAdA/mw=
 
 Name: flux/example20/win32-x86_64/example.exe
-SHA-256-Digest: 8LVz1Eq6BqwRzaGZ4aaE7v5Kwr21RHmQNYsQ82W86H0=
+SHA-256-Digest: UNOtKKmmU4TeJo5xWgioxYQIEaGSYPSmI5P57htK9XE=
 
 Name: flux/lz4.c
 SHA-256-Digest: iR/lGpdmJHYhge44cb//f8izKHPzRdycyb+LcV8noOY=
@@ -608,7 +608,7 @@ Name: flux/example2y/win32-x86_64/example.exe
 SHA-256-Digest: /wo3XEZa3c2QMePriSAE3deaRs6IFbirv1GGnB6Xeos=
 
 Name: icons/extension.png
-SHA-256-Digest: LdtgttLHA9e9gCbCCbrP8aBrXmU9yHsJO+rQtGUZNh4=
+SHA-256-Digest: tegD/WJxMuDKWyTCEScpILOWGwrwPGEWlC2Mwg5KLZs=
 
 Name: flux/example20/linux-x86_64/example
 SHA-256-Digest: 6xjUOA0HqaZIertOUajA2YaSgwbIhLHrL4gB0v9zM8I=
@@ -622,14 +622,14 @@ Name: de/toem/impulse/extension/toolkit/serializer/examples/ExampleFloat
 SHA-256-Digest: XwLE74xUWJDQjYCr0Ka/S4UdNIKETGxEynyGrOZ6nlA=
 
 Name: icons/extension@2x.png
-SHA-256-Digest: 89sF6J0GEul0EY46g97aCuz4PwrZOh499/vNrgNqkyE=
+SHA-256-Digest: IKvh5zJx4nG6s/JqXYEOiYe1dLTGqFqzYB5saEtH8/I=
 
 Name: de/toem/impulse/extension/toolkit/ports/highspeed/ExampleHighspeed
  AdapterDialog$1$1.class
 SHA-256-Digest: fo/xqIvOOplHFJwF8pwSNqBXQZVmzbCthB5BuIm7JS8=
 
 Name: flux/example22/win32-x86/example.exe
-SHA-256-Digest: TO9P15SMPIE/dpZetVrNhqDDy/WVxA4HNNfthiP/nZU=
+SHA-256-Digest: bJ/dP1vnYcYPrMzKHLJwtgAtWTQuU5qLKLqaY6Ntc7o=
 
 Name: de/toem/impulse/extension/toolkit/serializer/examples/flux/Example
  FluxConverterReader.class

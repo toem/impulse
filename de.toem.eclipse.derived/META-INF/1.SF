@@ -1,8 +1,8 @@
 Signature-Version: 1.0
 Created-By: 11.0.8 (Ubuntu)
-SHA-256-Digest-Manifest: LJsOQT+sqZ/rchueSr/LiUVJW5NJiL1/9wB4HPZRkUU=
-SHA-256-Digest-Manifest-Main-Attributes: jtJopM11ehUhjs9iooUHr+cbHWWZNMS
- dVsS6PeuExFc=
+SHA-256-Digest-Manifest: Nv2jW1MGXJ3Riwrxv1lSK3d7K6zNTXZXR+CBnBC2O5k=
+SHA-256-Digest-Manifest-Main-Attributes: u3GJljWNednIqFy8C1AhUVxvCQC1wQ0
+ x3GFA41ZD3X4=
 
 Name: src/org/eclipse/nebula/widgets/nattable/painter/cell/decorator/Lin
  eBorderDecorator.java
